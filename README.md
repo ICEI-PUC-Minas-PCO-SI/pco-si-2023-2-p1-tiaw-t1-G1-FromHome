@@ -8,19 +8,20 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A From Home representa uma solução completa para atender às necessidades domésticas, abrangendo áreas como faxina, culinária, cuidado infantil, serviços diários e muito mais. Com nossa inovadora plataforma, conectamos prestadoras de serviços a oportunidades de trabalho de maneira eficiente, enquanto proporcionamos às proprietárias uma forma conveniente e descomplicada de encontrar profissionais qualificados. 
+Nosso website foi projetado para simplificar o processo de cálculo, negociação e pagamento dos serviços, oferecendo uma experiência perfeita. Como parte do nosso modelo de negócios, uma taxa percentual será aplicada ao custo do serviço, garantindo nosso compromisso com a excelência e o crescimento contínuo.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Gustavo Medeiros Carneiro
+* João Pedro Gomes da Silva
+* João Vitor Silva Barbosa
+* Miriam Cristina Alves de Jesus
+* Wanessa Cristina Ribeiro de Paula
 
 ## Orientador
 
-* Nome completo do professor 1
+* Fabio Leandro Rodrigues Cordeiro 
 
 # Planejamento
 
