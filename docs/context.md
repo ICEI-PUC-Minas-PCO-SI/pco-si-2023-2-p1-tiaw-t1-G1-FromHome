@@ -1,6 +1,6 @@
 # Introdução
 
-Em decorrência da forma como a sociedade atual vive, muitas pessoas não possuem tempo para fazerem serviços domésticos, o que as leva a procurar por mão de obra qualificada para realizar os mesmos. No entanto, há queixas sobre como é difícil encontrar trabalhadores especializados para exercer tais serviços. Por outro lado, muitos prestadores de serviços do lar enfrentam empecilhos para acharem melhores oportunidades de trabalho.
+Em decorrência da forma como a sociedade atual vive, muitas pessoas não possuem tempo para fazerem serviços domésticos, o que as levam a procurar por mão de obra qualificada para realizar os mesmos. No entanto, há queixas sobre como é difícil encontrar trabalhadores especializados para exercer tais serviços. Por outro lado, muitos prestadores de serviços do lar enfrentam empecilhos para acharem melhores oportunidades de trabalho.
 
 Visto estes problemas, faz-se necessário o desenvolvimento de uma plataforma para intermediar o contato entre colaboradores e clientes, que irá auxiliar e promover contratações seguras, descomplicadas e rápidas. Esta plataforma será o From Home, software que disponibilizará uma ampla variedade de profissionais e de serviços na região que o usuário estiver.
 
