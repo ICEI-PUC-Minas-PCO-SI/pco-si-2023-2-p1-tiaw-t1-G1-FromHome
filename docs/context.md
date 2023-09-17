@@ -22,13 +22,28 @@ O mercado de serviços domesticos é amplo e tem uma demanda crescente. As donas
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+<h3>Proprietárias Ocupadas:</h3> 
+Mulheres e homens que têm uma agenda agitada e desejam simplificar a gestão das tarefas domésticas. Incluindo mães e Pais que trabalham em tempo integral resultando em falta de tempo
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+<h3>Famílias com Filhos:</h3>
+Famílias com crianças que precisam de assistência adicional, como cuidado infantil confiável e ajuda nas tarefas do lar. Isso pode incluir pais que trabalham fora ou casais que buscam apoio para cuidar dos filhos.
+
+
+<h3>Idosos e Pessoas com Mobilidade Limitada:</h3>
+Indivíduos idosos ou com mobilidade reduzida que precisam de assistência em tarefas, a plataforma pode ser uma opção valiosa para pessoas que desejam continuar vivendo de forma independente, mas podem precisar de ajuda extra.
+
+
+<h3>Profissionais de Tempo Parcial:</h3>
+Indivíduos que buscam uma fonte de renda extra por meio de serviços domésticos, como faxina, culinária e cuidado infantil. Isso pode incluir estudantes, freelancers ou pessoas em transição de carreira.
+
+
+<h3>Proprietárias Interessadas em Qualidade e Conveniência:</h3>
+Proprietárias que desejam encontrar profissionais qualificados para realizar tarefas domésticas de forma confiável e conveniente. Isso inclui pessoas que valorizam seu tempo e desejam uma experiência livre de estresse ao contratar serviços.
+
+
+<h3>Prestadoras de Serviços:</h3>
+Indivíduos que oferecem serviços domésticos, como faxina, culinária, cuidado infantil, entre outros. A plataforma oferece a oportunidade de se conectar a clientes em busca de suas habilidades, permitindo que ampliem sua base de clientes.
+
+
+
