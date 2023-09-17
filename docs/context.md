@@ -24,12 +24,11 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Conforme verificado no problema, tem-se por objetivo, desenvolver um software para facilitar a contratação de colaboradores do lar.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Sua pretensão é funcionar como um “meio” para que pessoas que necessitam de encontrar colaboradores para trabalhar em suas casas possam encontrá-las através dele.
+
+Ele será diferente de outras aplicações encontradas no mercado, tendo foco para contratar apenas serviços domésticos, diminuindo o tempo de procura tanto de contratantes quanto de contratados. Pretende-se que seu orçamento seja feito em até 40 minutos, e, tanto o cliente quanto o freelancer passarão por um processo de avaliação para fazerem parte do ambiente.
 
 ## Justificativa
 
