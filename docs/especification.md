@@ -15,19 +15,17 @@
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+- Maria tem 36 anos, é mãe solteira e não consegue adquirir um trabalho fixo. A sua fonte de renda basicamente vem através de auxílios do governo e de freelancer. Está em busca de algo que ajude a achar trabalho freelancer em casas de família assim conseguindo complementar sua renda.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+- Augusto tem 22 anos, é estudante universitário e tem dificuldade em localizar alguém de confiança para limpar seu apartamento. Está em busca de um aplicativo que o ajude a achar pessoas com valores em conta onde ele consiga ter referencias sobre o profissional, já que ele não tem contatos na cidade onde estuda.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+- Leticia tem 37 anos, é empresária, e tanto ela como o marido tem uma rotina de serviço muito corrida ficando pouco tempo em casa. Como ela tem uma filha pequena e nem sempre tem a disponibilidade de algum parente próximo poder ficar com sua filha ela está em busca de alguma solução pratica para pode localizar babas que possam passar o dia em sua casa, levando sua filha pra escola e limpar sua casa e ao mesmo tempo ter um preço que ela julga justo. Enumere e detalhe as personas da sua solução.
+
+- Roberta, tem 26 anos, é estudante universitária e está buscando modos de ganhar dinheiro extra para custear seus estudos e as despesas do cotidiano. A jovem, possui como hobby a jardinagem, ao qual adora se conectar com a natureza. Dessa maneira, Roberta acredita que poderia transformar suas habilidades em fonte de renda.
+  
+- Flávio tem 60 anos, sofreu um AVC(Acidente Vascular Cerebral) e encontra-se incapacitado de realizar diversas atividades do cotidiano. Seu único filho Jobson, 24 anos, estava responsável por cuidar de seu pai no período em que estava de férias do serviço. Entretanto, logo retornará à sua jornada de trabalho. Dessa maneira, o jovem encontra-se em busca de um profissional disposto e de confiança para cuidar de seu pai.
+
+
 
 ## Histórias de Usuários
 
