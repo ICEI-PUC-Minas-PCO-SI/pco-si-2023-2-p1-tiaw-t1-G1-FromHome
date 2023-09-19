@@ -1,1 +1,2 @@
-João Vitor Silva Barbosa
+**João Vitor Silva Barbosa**
+**João Pedro Gomes da Silva**
