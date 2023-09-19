@@ -7,7 +7,7 @@
 - Repositório: GIT Hub Classroom
 
 ## Linguaguens e Tecnologias
-<b> Front-end: </b>
+ Restrição  
 - HTML e CSS
 - Bootstrap
 - JQuery(editor)
