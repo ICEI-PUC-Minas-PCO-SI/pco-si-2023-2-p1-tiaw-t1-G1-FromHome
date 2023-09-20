@@ -53,8 +53,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-001| Cadastro de usuários | ALTA |  |
+|RF-002| Menu de serviços ofertados   | MÉDIA| |
+|RF-003| Geolocalização   | ALTA | |
+|RF-004| Tela de buscas   | MÉDIA | |
+|RF-005| Avaliações  | ALTA | |
+|RF-006| Formas de pagamento  | ALTA | |
+|RF-007| Geração de relatório de colaboradores | MÉDIA | |
+|RF-008| Consulta e alterações de dados pessoais de clientes  | MÉDIA | |
+|RF-009| Permitir que o usuário cadastre tarefa | ALTA |  |
+|RF-010| Permitir que o usuário contrate um serviço   | ALTA | |
+|RF-011| Permitir interação entre contratado e contratante   | MÉDIA | |
+|RF-012| Notificar ao usuário novos serviços postados  | BAIXA | |
+|RF-013| Emitir relatório de serviços prestados e notas   | MÉDIA | |
+|RF-014| Emitir relatório de ganho mensal   | MÉDIA | |
 
 
 ### Requisitos não Funcionais
