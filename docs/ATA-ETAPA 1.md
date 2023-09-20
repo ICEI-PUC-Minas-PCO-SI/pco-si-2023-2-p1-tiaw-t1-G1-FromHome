@@ -5,4 +5,4 @@
 
 **Miriam Cristina Alves de Jesus** : Fui responsável por fazer a parte de objetivos em documentação de contexto. 
 
-**Wanessa Cristina Ribeiro de Paula: **
+**Wanessa Cristina Ribeiro de Paula**:
