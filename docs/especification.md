@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-Essa secao tem como objetivo apresentar o projeto(definição do problema e ideia de solução) a partir da perspectiva do usuario. Dessa maneira, analisar o perfil e as possiveis exigencias de cada necessidade de modo individual, bem como as funcionalidades especificas que o sistema deverá ter, assim como as utilidades, caracteristicas qualidades relacionadas ao projeto, como desempenho, segurança e outros.
+Essa seção tem como objetivo apresentar o projeto(definição do problema e ideia de solução) a partir da perspectiva do usuário. Dessa maneira, analisar o perfil e as possiveis exigências de cada necessidade de modo indivídual, bem como as funcionalidades específicas que o sistema deverá ter, assim como as utilidades, características e qualidades relacionadas ao projeto, como desempenho, segurança e outros.
 
 
 É composta por:
@@ -9,7 +9,7 @@ Essa secao tem como objetivo apresentar o projeto(definição do problema e idei
 -  Requisitos funcionais e não funcionais
 -  Restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+
 
 
 
