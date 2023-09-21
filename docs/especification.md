@@ -1,5 +1,17 @@
 # Especificações do Projeto
 
+Nessa parte do Definição do problema e ideia de solução a partir da perspectiva do usuário. 
+
+É composta por:
+- diagrama de personas;
+-  Histórias de usuários;
+-  Requisitos funcionais e não funcionais
+-  Restrições do projeto.
+
+Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+
+
+
 ## Ferramentas de desenvolvimento:
 
 - IDE/Editor : VSCode
