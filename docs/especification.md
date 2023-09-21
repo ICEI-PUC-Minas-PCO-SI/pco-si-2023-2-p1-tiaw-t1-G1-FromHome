@@ -4,7 +4,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 
 
 É composta por:
-- diagrama de personas;
+-  Diagrama de personas;
 -  Histórias de usuários;
 -  Requisitos funcionais e não funcionais
 -  Restrições do projeto.
@@ -13,7 +13,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 
 
 
-## Ferramentas de desenvolvimento:
+## Ferramentas de Desenvolvimento:
 
 - IDE/Editor : VSCode
 - Versionador: GIT
