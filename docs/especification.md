@@ -4,10 +4,14 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 
 
 É composta por:
+-  Ferramentas de Desenvolvimento;
+-  Linguaguens e Tecnologias;
 -  Diagrama de personas;
 -  Histórias de usuários;
 -  Requisitos funcionais e não funcionais
 -  Restrições do projeto.
+
+
 
 
 
