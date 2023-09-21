@@ -1,6 +1,7 @@
 # Especificações do Projeto
 
-Nessa parte do Definição do problema e ideia de solução a partir da perspectiva do usuário. 
+Essa secao tem como objetivo apresentar o projeto(definição do problema e ideia de solução) a partir da perspectiva do usuario. Dessa maneira, analisar o perfil e as possiveis exigencias de cada necessidade de modo individual, bem como as funcionalidades especificas que o sistema deverá ter, assim como as utilidades, caracteristicas qualidades relacionadas ao projeto, como desempenho, segurança e outros.
+
 
 É composta por:
 - diagrama de personas;
