@@ -1,4 +1,4 @@
-**João Vitor Silva Barbosa**
+**João Vitor Silva Barbosa** : Fui responsável por indicar e escolher o Animaker para que o video pudesse ser feito e ajudei no roteiro.
 
 
 **João Pedro Gomes da Silva**
