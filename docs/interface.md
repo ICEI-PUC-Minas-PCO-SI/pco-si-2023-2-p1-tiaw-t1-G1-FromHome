@@ -32,20 +32,31 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 ### Login
  ![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/1412675d-1363-44d7-974e-7688dffd19fd)
 
-### Tela de Pesquisa
+### Tela de pesquisa
 <p>A tela de pesquisa apresenta o cabeçalho na parte superior, embaixo dele apresenta a barra de pesquisa para o usuário pesquisar o serviço que o interessa, link de busca para que ele consiga ir para a página que tenha o resultado esperado, e, um botão com o símbolo X, caso ele desista de fazer sua pesquisa. Na parte inferior terão sugestões de pesquisas relacionadas ao o que ele busca.</p>
 
 ![Tela de Pesquisa](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/7da193de-95e9-4bfc-ba2c-0b12b98ba93b)
 
-### Tela de Agendamento de serviços
+### Tela de agendamento de serviços
 <p>A tela de agendamento de serviços apresenta o cabeçalho na parte superior. Nela, o usuário poderá buscar o serviço que precisa; irá aparecer uma lista de profissionais e suas especialidades, ele poderá selecionar o profissional, data e horário para o serviço ser realizado. Poderá escrever no campo de observação alguma(as) observação que tenha, e, se quiser, terá a opção de receber um lembrete do serviço. No final, deverá clicar em finalizar, ou, poderá clicar no "X" se não quiser agendar um serviço.</p>
 
 ![Agendamento de Serviço](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/76734d74-a745-41c5-9b2a-de9898fd6ce9)
 
-### Tela de Notificações
+### Tela de notificações
 <p>A tela de notificações apresenta o cabeçalho na parte superior. A intenção é que ela funcione como um pop-up, que irá aparecer quando o usuário quiser sair de uma página antes de respondê-la completamente. Ele poderá fechá-la clicando no "X".</p>
 
 ![Notificações](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/06806e2b-b504-44ec-a625-0b91f0c68c93)
+
+### Tela de avaliar cliente
+<p>A página de avaliar a experiência que um profissional teve com determinado cliente apresenta o cabeçalho na parte superior. Na parte inferior, apresenta a foto do cliente, seu nome e descrição do serviço que ele solicitou. Embaixo há ícones de estrela para o profissional marcar conforme sua experiência, e, caso queira ele poderá fazer um comentário. Ao final ele deverá clicar em salvar.</p>
+
+![Tela de Avaliação_2](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/e4799484-950f-4553-98e5-d8ccd6612af9)
+
+### Tela de avaliar profissional
+<p>A página de avaliar a experiência que um cliente teve com determinado profissional apresenta o cabeçalho na parte superior. Na parte inferior, apresenta a foto do profissional, seu nome e descrição do serviço prestado. Embaixo há ícones de estrela para o cliente marcar conforme sua experiência, e, caso queira ele poderá fazer um comentário. Ao final ele deverá clicar em salvar</p>
+
+![Tela de Avaliação_1](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/27b989eb-dfff-4d57-84e8-29cbc3567da1)
+
 
 
 
