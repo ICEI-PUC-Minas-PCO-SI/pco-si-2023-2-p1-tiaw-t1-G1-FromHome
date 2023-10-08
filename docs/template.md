@@ -41,3 +41,5 @@ Outras seções podem ser adicionadas neste documento para apresentar padrões d
 ## User Flow
 
 ## Wireframes
+![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/17e72462-dafd-4078-a780-b18a6eff88b2)
+
