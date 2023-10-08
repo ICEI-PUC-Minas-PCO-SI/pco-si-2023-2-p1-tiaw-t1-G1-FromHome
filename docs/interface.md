@@ -42,6 +42,10 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 
 ![Agendamento de Serviço](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/76734d74-a745-41c5-9b2a-de9898fd6ce9)
 
+### Tela de Notificações
+<p>A tela de notificações apresenta o cabeçalho na parte superior. A intenção é que ela funcione como um pop-up, que irá aparecer quando o usuário quiser sair de uma página antes de respondê-la completamente. Ele poderá fechá-la clicando no "X".</p>
+
+![Notificações](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/06806e2b-b504-44ec-a625-0b91f0c68c93)
 
 
 
