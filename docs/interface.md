@@ -32,6 +32,8 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 ### Login
  ![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/1412675d-1363-44d7-974e-7688dffd19fd)
 
+###Tela de Pesquisa
+![Tela de Pesquisa](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/7da193de-95e9-4bfc-ba2c-0b12b98ba93b)
 
 
 
