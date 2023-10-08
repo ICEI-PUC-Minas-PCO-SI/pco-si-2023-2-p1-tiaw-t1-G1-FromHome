@@ -19,6 +19,10 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
 
+## User Flow
+
+## Wireframes
+
 ## Iconografia
 
 Defina os ícones que serão utilizados e suas respectivas funções.
