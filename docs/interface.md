@@ -53,9 +53,15 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 ![Tela de Avaliação_2](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/e4799484-950f-4553-98e5-d8ccd6612af9)
 
 ### Tela de avaliar profissional
-<p>A página de avaliar a experiência que um cliente teve com determinado profissional apresenta o cabeçalho na parte superior. Na parte inferior, apresenta a foto do profissional, seu nome e descrição do serviço prestado. Embaixo há ícones de estrela para o cliente marcar conforme sua experiência, e, caso queira ele poderá fazer um comentário. Ao final ele deverá clicar em salvar</p>
+<p>A página de avaliar a experiência que um cliente teve com determinado profissional apresenta o cabeçalho na parte superior. Na parte inferior, apresenta a foto do profissional, seu nome e descrição do serviço prestado. Embaixo há ícones de estrela para o cliente marcar conforme sua experiência, e, caso queira ele poderá fazer um comentário. Ao final ele deverá clicar em salvar.</p>
 
 ![Tela de Avaliação_1](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/27b989eb-dfff-4d57-84e8-29cbc3567da1)
+
+### Tela de sair
+<p>A tela de sair aparecerá quando um cliente quiser sair de uma página que ele não tenha salvado ou preenchido os dados solicitados.</p>
+
+![Tela de Sair](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/e4e6d1fd-44c0-4ba9-8ce4-ea2fd80c4c32)
+
 
 
 
