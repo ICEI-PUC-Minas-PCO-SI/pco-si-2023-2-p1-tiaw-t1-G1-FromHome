@@ -19,9 +19,7 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
 
-## User Flow
 
-## Wireframes
 
 ## Iconografia
 
@@ -38,3 +36,8 @@ Outras seções podem ser adicionadas neste documento para apresentar padrões d
 > - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
 > - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
 > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+
+
+## User Flow
+
+## Wireframes
