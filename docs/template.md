@@ -38,8 +38,6 @@ Outras seções podem ser adicionadas neste documento para apresentar padrões d
 > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
 
 
-## User Flow
 
-## Wireframes
 
 
