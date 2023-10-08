@@ -32,7 +32,8 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 ### Login
  ![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/1412675d-1363-44d7-974e-7688dffd19fd)
 
-###Tela de Pesquisa
+### Tela de Pesquisa
+<p>A tela de pesquisa apresenta o cabeçalho na parte superior, embaixo dele apresenta a barra de pesquisa para o usuário pesquisar o serviço que o interessa, link de busca para que ele consiga ir para a página que tenha o resultado esperado, e, um botão com o símbolo X, caso ele desista de fazer sua pesquisa. Na parte inferior terão sugestões de pesquisas relacionadas ao o que ele busca.</p>
 ![Tela de Pesquisa](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/7da193de-95e9-4bfc-ba2c-0b12b98ba93b)
 
 
