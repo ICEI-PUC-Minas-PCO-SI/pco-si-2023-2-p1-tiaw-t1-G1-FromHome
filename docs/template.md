@@ -23,6 +23,8 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 
 **logo do site:** Localizado na parte superior a esquerda, ao lado do nome da empresa "FromHome".
+
+
 **Navegação pelo site:**
 
 
