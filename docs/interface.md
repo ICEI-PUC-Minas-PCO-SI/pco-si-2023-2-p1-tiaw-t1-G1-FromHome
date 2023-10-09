@@ -30,8 +30,14 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 
 
 ### Login
- ![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/1412675d-1363-44d7-974e-7688dffd19fd)
+A tela de login apresenta um menu central com as seções para o usuário inserir seu e-mail ou telefone e senha. Ademais, na parte inferior desse menu há opções de login utilizando a vinculação com outras contas, como Google, Facebook 
 
+![login](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/67dd1d51-baf4-437e-b0f6-714245b0fc80)
+
+ ### Registro de Usuário
+ A tela de registro de usuário apresenta um menu central com as opções para preenchimento do usuário, como nome, e-mail, fotos e outros, além de um botão para finalizar o registro. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+
+ 
 ### Tela de pesquisa
 <p>A tela de pesquisa apresenta o cabeçalho na parte superior, embaixo dele apresenta a barra de pesquisa para o usuário pesquisar o serviço que o interessa, link de busca para que ele consiga ir para a página que tenha o resultado esperado, e, um botão com o símbolo X, caso ele desista de fazer sua pesquisa. Na parte inferior terão sugestões de pesquisas relacionadas ao o que ele busca.</p>
 
@@ -61,6 +67,7 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 <p>A tela de sair aparecerá quando um cliente quiser sair de uma página que ele não tenha salvado ou preenchido os dados solicitados.</p>
 
 ![Tela de Sair](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/e4e6d1fd-44c0-4ba9-8ce4-ea2fd80c4c32)
+
 
 
 
