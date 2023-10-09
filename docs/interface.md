@@ -31,8 +31,9 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 
 ### Login
 A tela de login apresenta um menu central com as seções para o usuário inserir seu e-mail ou telefone e senha. Ademais, na parte inferior desse menu há opções de login utilizando a vinculação com outras contas, como Google, Facebook 
+![login](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/e2af31f9-ca39-4fd2-acc3-cb9ca3e56d0e)
 
-![login](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/67dd1d51-baf4-437e-b0f6-714245b0fc80)
+
 
  ### Registro de Usuário
  A tela de registro de usuário apresenta um menu central com as opções para preenchimento do usuário, como nome, e-mail, fotos e outros, além de um botão para finalizar o registro. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
