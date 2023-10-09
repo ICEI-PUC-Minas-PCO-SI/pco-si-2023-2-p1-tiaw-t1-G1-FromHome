@@ -40,8 +40,9 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 ## Iconografia
 
 
-Ícone de ação: botão e estrelas, irão facilitar a interação do usuário com o projeto.
-Ícone de estado: “X”, irá indicar que o usuário pode fechar uma página, caso ele queira.
+**Ícone de ação:** botão e estrelas, irão facilitar a interação do usuário com o projeto.<br>
+
+**Ícone de estado:** “X”, irá indicar que o usuário pode fechar uma página, caso ele queira.
 
 
 Defina os ícones que serão utilizados e suas respectivas funções.
