@@ -59,7 +59,8 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 ### Tela de agendamento de serviços
 <p>A tela de agendamento de serviços apresenta o cabeçalho na parte superior. Nela, o usuário poderá buscar o serviço que precisa; irá aparecer uma lista de profissionais e suas especialidades, ele poderá selecionar o profissional, data e horário para o serviço ser realizado. Poderá escrever no campo de observação alguma(as) observação que tenha, e, se quiser, terá a opção de receber um lembrete do serviço. No final, deverá clicar em finalizar, ou, poderá clicar no "X" se não quiser agendar um serviço.</p>
 
-![Agendamento de Serviço](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/76734d74-a745-41c5-9b2a-de9898fd6ce9)
+![Agendamento](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/08fe30e5-09f0-4e40-9f56-e67f3273bff2)
+
 
 ### Tela de processos de pagamento
 <p>A tela de processos de pagamento apresenta o cabeçalho na parte superior. Nela, o usuário encontrará opções de pagamento que pode utilizar; caso ele queira fazer um pix,  será direcionado para a tela de pagamento via pix. Caso queira adicionar um novo cartão, basta clicar no botão adicionar novo cartão, que irá para a página de adicionar o cartão. E, caso queira utilizar um cartão já salvo, basta escolher a opção desejada que ele irá para a pagina dos cartões salvos.</p>
