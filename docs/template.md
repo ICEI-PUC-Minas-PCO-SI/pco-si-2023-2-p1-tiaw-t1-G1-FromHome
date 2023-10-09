@@ -52,9 +52,9 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 
 
-**Botão:**
+**Botão:**<br>
 
-<button class="button" role="button">Button</button><br>
+<button class="button" role="button">Button</button><br><br>
 
 /* CSS */<br>
 .button {
@@ -114,7 +114,7 @@ Explique as guias de estilo utilizadas no seu projeto.
 }
 
 **Estrela:**<br>
-<i class="bi bi-star"></i>
+<i class="bi bi-star"></i><br>
 /* CSS */<br>
 #star {
   margin: 100px;
@@ -129,7 +129,7 @@ Explique as guias de estilo utilizadas no seu projeto.
 }
 
 **Menu:**<br>
-<i class="bi bi-list"></i>
+<i class="bi bi-list"></i><br>
 
 /*CSS*/<br>
 menu{
@@ -186,8 +186,8 @@ menu{
   }
 }
 
-**Fechar(X):**
-<i class="bi bi-x"></i>
+**Fechar(X):**<br>
+<i class="bi bi-x"></i><br>
 /*CSS*/
 #close{
   position: fixed;
