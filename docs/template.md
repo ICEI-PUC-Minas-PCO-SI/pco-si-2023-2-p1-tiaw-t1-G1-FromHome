@@ -8,8 +8,9 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
-**Menu de navegação principal:** Localizado na parte superior da tela. Contém links para as principais seções do sistema, como login, e  Sobre e informações sobre a empresa.
-* Menus de ação: Aparecem em pop-up, para realizar determinadas tarefas(Realizar denuncia, solicitar suporte etc).
+**Menu de navegação principal:** Localizado na parte superior da tela. Contém links para as principais seções do sistema, como login, "Sobre" e contatos.
+
+**Menus de ação:** Aparecem em pop-up, para realizar determinadas tarefas(Realizar denuncia, solicitar suporte etc).
 
   
 **Layout: (Posição dos elementos na tela):**
