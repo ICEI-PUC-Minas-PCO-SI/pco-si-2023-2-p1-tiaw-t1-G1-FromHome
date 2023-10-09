@@ -17,7 +17,8 @@ Explique as guias de estilo utilizadas no seu projeto.
 * Menus ao centro e/ou pop-up;
 * Conteúdo principal ao centro;
 * Rodapé com informações sobre privacidade, endereço, termos e condições, redes sociais e outros;
-* Tamanho e espaçamento dos elementos: Titulo xx e paragrafo xx;
+* Tamanho dos elementos: Titulo 36px e paragrafo 17px;
+* Espaçamento dos elementos textuais: 1,5; 
 * Cores de fundo e fontes: Azul, rosa, roxo
 * Fonte: Poppins;
 * Design: Moderno.
@@ -32,7 +33,10 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+*Título de página: Poppins; Negrito; (H1; 24 a 36 px);
+*Título de Seção: Poppins; (H2, H3; 18 a 28px...);
+*Rótulos de componentes: Poppins (12 a 14px);
+*Corpo de Texto: Poppins (17px)
 
 
 
