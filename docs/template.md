@@ -46,24 +46,161 @@ Explique as guias de estilo utilizadas no seu projeto.
 ## Iconografia
 
 
-**Ícone de ação:** botão e estrelas, irão facilitar a interação do usuário com o projeto.<br>
+**Ícone de ação:** Botão, estrelas e menu(tela menor), irão facilitar a interação do usuário com o projeto.<br>
 
 **Ícone de estado:** “X”, irá indicar que o usuário pode fechar uma página, caso ele queira.
 
 
-Defina os ícones que serão utilizados e suas respectivas funções.
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
+**Botão:**
+<button class="button" role="button">Button</button>
+
+/* CSS */
+.button {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+
+**Estrela:**
+<i class="bi bi-star"></i>
+/* CSS */
+#star {
+  margin: 100px;
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #000;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+
+**Menu:**
+<i class="bi bi-list"></i>
+
+/*CSS*/
+menu{
+    display: flex;
+
+  }
+  .menu li {
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+  .menu li a{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+  }
+  #menuToggle {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+@media  (max-width: 800px){
+.menu-icon{
+    width: 50px;
+      height: inherit;
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      line-height: 90px;
+      color: white;
+      z-index: 999;
+  }
+  #menuToggle:checked ~ label i:nth-child(2) {
+    display: block;
+  }
+  #menuToggle:checked ~ label i:first-child {
+    display: none;
+  }
+  #menuToggle:not(:checked) ~ label i:first-child {
+    display: block;
+  }
+  #menuToggle:not(:checked) ~ label i:nth-child(2) {
+    display: none;
+  }
+
+  #menuToggle:checked ~ ul {
+      height: 100%;
+  }
+  .menu-icon i {
+      font-size: 1.7em;
+  }
+}
+
+**Fechar(X):**
+<i class="bi bi-x"></i>
+/*CSS*/
+#close{
+  position: fixed;
+  float: right;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 25px;
+  border-radius: 50%;
+  color: #EF5350;
+  border:2px solid #EF9A9A;
+}
 
 
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
 
 
 
