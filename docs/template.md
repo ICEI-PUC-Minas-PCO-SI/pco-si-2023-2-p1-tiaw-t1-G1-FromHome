@@ -33,10 +33,10 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 
 ## Tipografia
 
-*Título de página: Poppins; Negrito; (H1; 24 a 36 px);
-*Título de Seção: Poppins; (H2, H3; 18 a 28px...);
-*Rótulos de componentes: Poppins (12 a 14px);
-*Corpo de Texto: Poppins (17px)
+* Título de página: Poppins; Negrito; (H1; 24 a 36 px);
+* Título de Seção: Poppins; (H2, H3; 18 a 28px...);
+* Rótulos de componentes: Poppins (12 a 14px);
+* Corpo de Texto: Poppins (17px)
 
 
 
