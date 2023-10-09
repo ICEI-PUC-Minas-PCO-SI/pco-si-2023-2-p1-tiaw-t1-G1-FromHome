@@ -12,14 +12,14 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 **Layout:**
 *-Posição dos elementos na tela:*
-  1- cabeçalhos na parte superior da tela;
-  2- menus ao centro e/ou pop-up;
-  3- conteúdo principal ao centro;
-  4- rodapé com informações sobre privacidade, endereço, termos e condições, redes sociais e outros;
-  5- Tamanho e espaçamento dos elementos: Titulo xx e paragrafo xx;
-  6- Cores de fundo e fontes: Azul, rosa, roxo
-  7- Fonte: Poppins;
-  8- Design: Moderno.
+* Cabeçalhos na parte superior da tela;
+* Menus ao centro e/ou pop-up;
+* Conteúdo principal ao centro;
+* Rodapé com informações sobre privacidade, endereço, termos e condições, redes sociais e outros;
+* Tamanho e espaçamento dos elementos: Titulo xx e paragrafo xx;
+* Cores de fundo e fontes: Azul, rosa, roxo
+* Fonte: Poppins;
+* Design: Moderno.
 
 
 **logo do site:** Localizado na parte superior a esquerda, ao lado do nome da empresa "FromHome".
