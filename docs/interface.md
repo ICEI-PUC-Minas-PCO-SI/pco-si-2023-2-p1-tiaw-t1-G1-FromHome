@@ -61,10 +61,36 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 
 ![Agendamento de Serviço](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/76734d74-a745-41c5-9b2a-de9898fd6ce9)
 
-### Tela de notificações
-<p>A tela de notificações apresenta o cabeçalho na parte superior. A intenção é que ela funcione como um pop-up, que irá aparecer quando o usuário quiser sair de uma página antes de respondê-la completamente. Ele poderá fechá-la clicando no "X".</p>
+### Tela de processos de pagamento
+<p>A tela de processos de pagamento apresenta o cabeçalho na parte superior. Nela, o usuário encontrará opções de pagamento que pode utilizar; caso ele queira fazer um pix,  será direcionado para a tela de pagamento via pix. Caso queira adicionar um novo cartão, basta clicar no botão adicionar novo cartão, que irá para a página de adicionar o cartão. E, caso queira utilizar um cartão já salvo, basta escolher a opção desejada que ele irá para a pagina dos cartões salvos.</p>
 
-![Notificações](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/06806e2b-b504-44ec-a625-0b91f0c68c93)
+![Processo de Pagamento](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/c6b01b71-21e1-4842-a97b-a771b40e8013)
+
+### Tela de pagamento via pix
+<p>A tela de pix apresenta como será feito o pagamento via pix. Nela, o cabeçalho está na parte superior.O pix como título e a chave para pagamento abaixo. Após realizar o pagamento, o usuário deverá enviar o comprovante do mesmo, em seguida, deverá clicar em salvar.</p>
+
+![Tela Pix](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/124e5faa-8225-4dea-93a8-95200377d7f9)
+
+### Tela de adicionar novo cartão
+<p>A página de adicionar novo cartão apresenta um formulário que o usuário irá responder conforme solicitado, assim que terminar de preencher, deverá clicar em salvar, ou, se não quiser adicionar um novo cartão, ele pode clicar no "X" na parte superior.</p>
+
+![Tela de Adicionar novo cartão](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/7b93fe7a-ab3d-4d33-b9eb-3f88b902ded8)
+
+### Tela de selecionar cartões salvos
+<p>A tela de selecionar cartões salvos apresenta os cartões já salvos pelo usuário. Ele deve clicar no cartão que irá usar ,e, será redirecionado para a tela de pagamento via cartão desejado.</p>
+
+![Selecionar cartoes salvos](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/26f9265e-a5dd-4161-b5a4-04ecab8ca191)
+
+ 
+### Tela de pagamento via cartão de crédito
+<p>A tela de  pagamento via cartão de crédito apresenta o cabeçalho na parte superior.Nela, o icone do cartáo e o numero do cartão escolhido estarão abaixo do cabeçalho, em seguida, o usuário poderá escolher a opção de parcelamento. Após prencheer, ele deverá clicar em confirmar para prosseguir para o pagamento ou em cancelar caso nao deseje pagar com este cartão.</p>
+
+![Pagar com cartão de credito](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/507fc7c5-52d1-41c8-9324-9489c199a6a2)
+
+### Tela de pagamento via cartão de débito
+<p>A tela de  pagamento via cartão de débito apresenta o cabeçalho na parte superior.Nela, o icone do cartáo e o numero do cartão escolhido estarão abaixo do cabeçalho, em seguida, o usuário poderá clicar em confirmar para prosseguir para o pagamento ou em cancelar caso nao deseje pagar com este cartão.</p>
+
+![Processo de Pagamento-Débito](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/3d897348-6ba0-44b8-bb61-91b6f4a41836)
 
 ### Tela de avaliar cliente
 <p>A página de avaliar a experiência que um profissional teve com determinado cliente apresenta o cabeçalho na parte superior. Na parte inferior, apresenta a foto do cliente, seu nome e descrição do serviço que ele solicitou. Embaixo há ícones de estrela para o profissional marcar conforme sua experiência, e, caso queira ele poderá fazer um comentário. Ao final ele deverá clicar em salvar.</p>
@@ -81,8 +107,15 @@ O canal de denúncias apresenta um menu central com as seções para o usuário 
 
 ![formulario de denuncias](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/b8d4e109-56e5-4966-914b-1d70b5c87a52)
 
+
 ### Suporte ao Cliente
 O canal de suporte ao cliente apresenta um menu central com um desenho da empresa, ao lado informações de contato e abaixo  as seções para o usuário inserir dados de contato e descrição para entrar em contato. Ademais, na parte inferior desse menu há um botão para realizar a solicitação. Na parte superior do site, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+
+### Tela de notificações
+<p>A tela de notificações apresenta o cabeçalho na parte superior. A intenção é que ela funcione como um pop-up, que irá aparecer quando o usuário quiser sair de uma página antes de respondê-la completamente. Ele poderá fechá-la clicando no "X".</p>
+
+![Notificações](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/06806e2b-b504-44ec-a625-0b91f0c68c93)
+
 
 ### Tela de sair
 <p>A tela de sair aparecerá quando um cliente quiser sair de uma página que ele não tenha salvado ou preenchido os dados solicitados.</p>
