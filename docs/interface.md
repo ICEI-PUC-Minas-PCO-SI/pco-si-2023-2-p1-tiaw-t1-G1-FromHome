@@ -120,7 +120,30 @@ O canal de suporte ao cliente apresenta um menu central com um desenho da empres
 ![chat](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/d9a1ac7e-d6f8-4586-9775-ef36bea4a017)
 
 
+### Home 
+Página inicial do site onde mostra um carrossel e as opções de login ou sign-up.
 
+![Home](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/asdf.png)
+
+### Lista trabalho
+Lista onde se encontra os colaboradores 
+
+![Home](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/selecaoProf.png)
+
+### Painel
+Página onde o colaborador poderá acessar a página de pagamentos e serviços recentes por ele feitos
+
+![Painel](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/pg.png)
+
+## Favoritos
+trata-se de uma página que armazena os serviços e os colaboradores Favoritos do cliente;
+
+![favoritos](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/favoritos.png)
+
+### Detalhes do profissional
+Página que mostra o perfil detalhado do profissional escolhido
+
+![Detalhes do profissional](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/avaProff.png)
 
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
