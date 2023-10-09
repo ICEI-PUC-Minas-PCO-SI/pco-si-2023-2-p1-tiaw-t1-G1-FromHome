@@ -29,14 +29,26 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 
 
 
-### Login
-A tela de login apresenta um menu central com as seções para o usuário inserir seu e-mail ou telefone e senha. Ademais, na parte inferior desse menu há opções de login utilizando a vinculação com outras contas, como Google, Facebook 
-![login](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/e2af31f9-ca39-4fd2-acc3-cb9ca3e56d0e)
-
-
-
  ### Registro de Usuário
  A tela de registro de usuário apresenta um menu central com as opções para preenchimento do usuário, como nome, e-mail, fotos e outros, além de um botão para finalizar o registro. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+ 
+![Registro de usuario](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/b72cdd80-3909-4f78-89c8-89e5e9a8da81)
+
+ ### Registro de Serviço
+A tela de registro de serviço apresenta um menu central com as opções para preenchimento do usuário, como nome do serviço ofertado, e-mail, fotos e outros, além de um botão para finalizar o registro. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+
+![Registro de servico](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/4793ca3a-d8de-4aa1-a05b-bb7b09a4fba4)
+
+### Login
+A tela de login apresenta um menu central com as seções para o usuário inserir seu e-mail ou telefone e senha. Ademais, na parte inferior desse menu há opções de login utilizando a vinculação com outras contas, como Google e Facebook.Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+
+![login](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/e2af31f9-ca39-4fd2-acc3-cb9ca3e56d0e)
+
+ ### Perfil do Usuário
+ A tela de perfil do usuário apresenta a área central com um campo para inserir uma foto de capa, abaixo a foto de perfil do usuário, junto há informações pessoais. Abaixo da foto de capa e ao lado da foto/ informações sobre o usuário, um campo(opcional) para descrição de informações relevantes a gosto do usuário, bem como um campo para “destaques	“ e abaixo uma galeria de fotos na forma de uma grade. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+ 
+![perfil de usuario](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/2df8c4d7-0f97-4146-9b1c-bc62f13b6b3e)
+
 
  
 ### Tela de pesquisa
@@ -64,17 +76,24 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 
 ![Tela de Avaliação_1](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/27b989eb-dfff-4d57-84e8-29cbc3567da1)
 
+### Denúncias
+O canal de denúncias apresenta um menu central com as seções para o usuário inserir um título para a denúncia, descrição do ocorrido, anexo de evidências para a acusação, dados de contato e privacidade. Ademais, na parte inferior desse menu há um botão para realizar a denúncia .Na parte superior do site, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+
+![formulario de denuncias](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/b8d4e109-56e5-4966-914b-1d70b5c87a52)
+
+### Suporte ao Cliente
+O canal de suporte ao cliente apresenta um menu central com um desenho da empresa, ao lado informações de contato e abaixo  as seções para o usuário inserir dados de contato e descrição para entrar em contato. Ademais, na parte inferior desse menu há um botão para realizar a solicitação. Na parte superior do site, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+
 ### Tela de sair
 <p>A tela de sair aparecerá quando um cliente quiser sair de uma página que ele não tenha salvado ou preenchido os dados solicitados.</p>
 
 ![Tela de Sair](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/e4e6d1fd-44c0-4ba9-8ce4-ea2fd80c4c32)
 
 
+### Mensagens e chat
+É composto por uma menu lateral com os perfis que o usuário possui interação, ao clicar em um perfil será apresentado um menu central com as mensagens trocadas pelos usuários. A esquerda da tela ficará o receptor, enquanto a esquerda o emissor(usuário), dessa maneira, será possível visualizar o nome e a foto de perfil de cada usuário, bem como seu status. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
 
-
-
-
-
+![chat](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/d9a1ac7e-d6f8-4586-9775-ef36bea4a017)
 
 
 
