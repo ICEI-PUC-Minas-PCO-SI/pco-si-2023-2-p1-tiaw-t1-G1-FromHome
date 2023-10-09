@@ -8,6 +8,23 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
+**Menu de navegação principal:** Localizado na parte superior da tela. Contém links para as principais seções do sistema, como login, e  Sobre e informações sobre a empresa.
+
+**Layout:**
+*-Posição dos elementos na tela:*
+  1- cabeçalhos na parte superior da tela;
+  2- menus ao centro e/ou pop-up;
+  3- conteúdo principal ao centro;
+  4- rodapé com informações sobre privacidade, endereço, termos e condições, redes sociais e outros;
+  5- Tamanho e espaçamento dos elementos: Titulo xx e paragrafo xx;
+  6- Cores de fundo e fontes: Azul, rosa, roxo
+  7- Fonte: Poppins;
+  8- Design: Moderno.
+
+
+**logo do site:** Localizado na parte superior a esquerda, ao lado do nome da empresa "FromHome".
+**Navegação pelo site:**
+
 
 ## Cores
 
