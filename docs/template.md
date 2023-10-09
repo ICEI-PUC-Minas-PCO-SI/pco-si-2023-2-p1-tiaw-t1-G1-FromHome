@@ -28,9 +28,10 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
 
 | #AF05B5 | #A00BD6 | #801CEB | #5252FA | #3D0FD4 |
+![CORES](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/1d063125-9f35-4590-bfff-91fd6eb6b248)
+
 
 ## Tipografia
 
