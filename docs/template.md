@@ -53,9 +53,10 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 
 **Botão:**
-<button class="button" role="button">Button</button>
 
-/* CSS */
+<button class="button" role="button">Button</button><br>
+
+/* CSS */<br>
 .button {
   appearance: none;
   background-color: #FAFBFC;
@@ -112,9 +113,9 @@ Explique as guias de estilo utilizadas no seu projeto.
   display: none;
 }
 
-**Estrela:**
+**Estrela:**<br>
 <i class="bi bi-star"></i>
-/* CSS */
+/* CSS */<br>
 #star {
   margin: 100px;
   position: relative;
@@ -127,10 +128,10 @@ Explique as guias de estilo utilizadas no seu projeto.
   transform: rotate(35deg);
 }
 
-**Menu:**
+**Menu:**<br>
 <i class="bi bi-list"></i>
 
-/*CSS*/
+/*CSS*/<br>
 menu{
     display: flex;
 
