@@ -102,7 +102,7 @@ O canal de denúncias apresenta um menu central com as seções para o usuário 
 ### Suporte ao Cliente
 O canal de suporte ao cliente apresenta um menu central com um desenho da empresa, ao lado informações de contato e abaixo  as seções para o usuário inserir dados de contato e descrição para entrar em contato. Ademais, na parte inferior desse menu há um botão para realizar a solicitação. Na parte superior do site, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
 
-![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/bb8c1542-439d-4aa3-a12e-08a236b47f62)
+![suporte](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/46a2ba57-dd01-4776-aa6f-1bff927407aa)
 
 
 ### Tela de notificações
