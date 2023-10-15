@@ -37,6 +37,7 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Tipografia
 <p>Determinou-se a fonte Poppins para ser empregue no projeto, devido sua fácil legibilidade e sua estética contemporânea e clean.</p>
+
 * Título de página: Poppins; Negrito; (H1; 24 a 36 px);
 * Título de Seção: Poppins; (H2, H3; 18 a 28px...);
 * Rótulos de componentes: Poppins (12 a 14px);
