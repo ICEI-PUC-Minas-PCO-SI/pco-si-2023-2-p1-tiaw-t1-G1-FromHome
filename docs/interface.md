@@ -46,6 +46,9 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 
 ![Tela de Pesquisa](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/7da193de-95e9-4bfc-ba2c-0b12b98ba93b)
 
+### Tela de pesquisar vagas
+<p>A tela de pesquisar vagas apresenta a barra de pesquisa com o botão de busca ao lado direito, embaixo serão exibidas sugestões de vagas relacionadas com o que está sendo digitado.</p>
+
 ### Tela de agendamento de serviços
 <p>A tela de agendamento de serviços apresenta o cabeçalho na parte superior. Nela, o usuário poderá buscar o serviço que precisa; irá aparecer uma lista de profissionais e suas especialidades, ele poderá selecionar o profissional, data e horário para o serviço ser realizado. Poderá escrever no campo de observação alguma(as) observação que tenha, e, se quiser, terá a opção de receber um lembrete do serviço. No final, deverá clicar em finalizar, ou, poderá clicar no "X" se não quiser agendar um serviço.</p>
 
