@@ -41,10 +41,10 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 
 
  
-### Tela de pesquisa
-<p>A tela de pesquisar demandas apresenta a barra de pesquisa, ao lado direito terá o link de busca. Na parte inferior terão sugestões de pesquisas baseadas com o que será buscado.</p>
+### Tela de pesquisa-cliente
+<p>A tela de pesquisar para clientes apresenta a barra de pesquisa, ao lado direito encontra-se o botão de busca. A parte inferior possui as últimas demandas solicitadas, com foto do local, titulo do serviço, status e localização.</p>
 
-![Tela de Pesquisa](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/7da193de-95e9-4bfc-ba2c-0b12b98ba93b)
+![Tela de pesquisa(cliente) (1)](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/f7bdc086-831a-4d3c-9762-f949300c8d28)
 
 ### Tela de pesquisar vagas
 <p>A tela de pesquisar vagas apresenta a barra de pesquisa com o botão de busca ao lado direito, embaixo serão exibidas sugestões de vagas relacionadas com o que está sendo digitado.</p>
