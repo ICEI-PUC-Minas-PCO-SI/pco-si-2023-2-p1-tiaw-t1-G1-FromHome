@@ -50,28 +50,28 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 <p>A tela de pesquisar vagas apresenta a barra de pesquisa com o botão de busca ao lado direito, embaixo serão exibidas sugestões de vagas relacionadas com o que está sendo digitado.</p>
 
 ### Tela de agendamento de serviços
-<p>A tela de agendamento de serviços apresenta o cabeçalho na parte superior. Nela, o usuário poderá buscar o serviço que precisa; irá aparecer uma lista de profissionais e suas especialidades, ele poderá selecionar o profissional, data e horário para o serviço ser realizado. Poderá escrever no campo de observação alguma(as) observação que tenha, e, se quiser, terá a opção de receber um lembrete do serviço. No final, deverá clicar em finalizar, ou, poderá clicar no "X" se não quiser agendar um serviço.</p>
+<p>Na tela de agendamento de serviços o usuário poderá buscar o serviço que precisa; irá aparecer uma lista de profissionais e suas especialidades, ele poderá selecionar o profissional, data e horário para o serviço ser realizado. Poderá escrever no campo de observação alguma(as) observação que tenha, e, se quiser, terá a opção de receber um lembrete do serviço. No final, deverá clicar em finalizar, ou, poderá clicar no "X" se não quiser agendar um serviço.</p>
 
 ![Agendamento](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/08fe30e5-09f0-4e40-9f56-e67f3273bff2)
 
 
 ### Tela de processos de pagamento
-<p>A tela de processos de pagamento apresenta o cabeçalho na parte superior. Nela, o usuário encontrará opções de pagamento que pode utilizar; caso ele queira fazer um pix,  será direcionado para a tela de pagamento via pix. Caso queira adicionar um novo cartão, basta clicar no botão adicionar novo cartão, que irá para a página de adicionar o cartão. E, caso queira utilizar um cartão já salvo, basta escolher a opção desejada que ele irá para a pagina dos cartões salvos.</p>
+<p>A tela de processos de pagamento exibe opções de pagamento que poderão ser usadas: pix, cartão de crédito, débito ou adicionar novo cartão.</p>
 
 ![Processo de Pagamento](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/c6b01b71-21e1-4842-a97b-a771b40e8013)
 
 ### Tela de pagamento via pix
-<p>A tela de pix apresenta como será feito o pagamento via pix. Nela, o cabeçalho está na parte superior.O pix como título e a chave para pagamento abaixo. Após realizar o pagamento, o usuário deverá enviar o comprovante do mesmo, em seguida, deverá clicar em salvar.</p>
+<p>A tela de pix apresenta como será feito o pagamento via pix, a chave para pagamento,local para enviar o comprovante do pagamento e um botão para salvar o comprovante.</p>
 
 ![Tela Pix](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/124e5faa-8225-4dea-93a8-95200377d7f9)
 
 ### Tela de adicionar novo cartão
-<p>A página de adicionar novo cartão apresenta um formulário que o usuário irá responder conforme solicitado, assim que terminar de preencher, deverá clicar em salvar, ou, se não quiser adicionar um novo cartão, ele pode clicar no "X" na parte superior.</p>
+<p>A página de adicionar novo cartão apresenta um campo para ser preenchido com os dados do novo cartão, como: tipo de cartão(crédito ou débito), número, data de validade, código de segurança, nome do titular, CPF e um botão para salvar as informações.</p>
 
 ![Tela de Adicionar novo cartão](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/7b93fe7a-ab3d-4d33-b9eb-3f88b902ded8)
 
 ### Tela de selecionar cartões salvos
-<p>A tela de selecionar cartões salvos apresenta os cartões já salvos pelo usuário. Ele deve clicar no cartão que irá usar ,e, será redirecionado para a tela de pagamento via cartão desejado.</p>
+<p>A tela de selecionar cartões salvos apresenta os cartões já salvos pelo usuário.</p>
 
 ![Selecionar cartoes salvos](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/26f9265e-a5dd-4161-b5a4-04ecab8ca191)
 
