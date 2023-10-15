@@ -115,7 +115,7 @@ O canal de suporte ao cliente apresenta um menu central com um desenho da empres
 
 
 ### Tela de sair
-<p>A tela de sair aparecerá quando um cliente quiser sair de uma página que ele não tenha salvado ou preenchido os dados solicitados.</p>
+<p>A tela de sair apresenta dois botões: sim, para sair da tela e não para permanecer na mesma.</p>
 
 ![Tela de Sair](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/e4e6d1fd-44c0-4ba9-8ce4-ea2fd80c4c32)
 
