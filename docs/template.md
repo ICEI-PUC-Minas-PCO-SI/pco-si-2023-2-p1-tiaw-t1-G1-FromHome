@@ -30,7 +30,7 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 
 | #AF05B5 | #A00BD6 | #801CEB | #5252FA | #3D0FD4 |
-<p>A paleta de cores que será utilizada no projeto é composta por tons de azul e roxo. O azul simboliza limpeza e segurança, salientando a proposta do site que é atender às necessidades domésticas. Enquanto o roxo simboliza o feminino e o masculino, evidenciando que a aplicação terá profissionais de ambos os sexos.</p>
+<p>A paleta de cores que será utilizada no projeto é composta por tons de azul e roxo. O azul simboliza limpeza e segurança, salientando a proposta do site que é atender às necessidades domésticas. Enquanto o roxo simboliza o feminino e o masculino, evidenciando que na aplicação será possível encontrar profissionais de ambos os sexos.</p>
 
 ![CORES](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/1d063125-9f35-4590-bfff-91fd6eb6b248)
 
