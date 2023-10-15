@@ -49,9 +49,11 @@ Determinou-se a fonte Poppins para ser empregue no projeto, devido sua fácil le
 ## Iconografia
 
 
-**Ícone de ação:** Botão, estrelas e menu(tela menor), irão facilitar a interação do usuário com o projeto.<br>
-
-**Ícone de estado:** “X”, irá indicar que o usuário pode fechar uma página, caso ele queira.
+**Ícone de ação  botão primário:** empregue para indicar ao usuário as ações recomendadas para ele seguir.<br>
+**Ícone de ação botão secundário:** aplicado para que o usuário perceba que apesar de ter duas opções de ações, é indicado que ele escolha a primeira opção.<br>
+**Ícone de ação estrela:** inserido para que o usuário faça a avaliação da experiência que teve.<br>
+**Ícone de estado  perfil:** utilizado para que o usuário personalize seu avatar.<br>
+**Ícone de estado X:** indica que o usuário pode fechar uma página.
 
 
 
