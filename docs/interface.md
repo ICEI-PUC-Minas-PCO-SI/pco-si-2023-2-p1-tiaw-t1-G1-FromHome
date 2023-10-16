@@ -7,7 +7,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/User flow.png)
+![UserFlow](img/User flow template (Community) (2).png)
 
 ## Wireframes
 
