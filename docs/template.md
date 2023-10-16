@@ -33,11 +33,11 @@ O layout padrão do site apresenta o cabeçalho na parte superior e o rodapé na
 * Menus ao centro e/ou pop-up;
 * Conteúdo principal ao centro;
 * Rodapé com informações sobre privacidade, endereço, termos e condições, redes sociais e outros;
-* Tamanho dos elementos: Titulo 36px e paragrafo 17px;
+* Tamanho dos elementos: Titulo 36px e paragrafos 18px;
 * Espaçamento dos elementos textuais: 1,5; 
-* Cores de fundo e fontes: Azul, rosa, roxo
+* Cores de fundo e fontes: Azul, rosa, roxo(variam de acordo com a página);
 * Fonte: Poppins;
-* Design: Moderno.
+* Design: Moderno, oferecendo como principal caracteristica a simplicidade e a usabilidade.
 
 
 
@@ -54,10 +54,10 @@ O layout padrão do site apresenta o cabeçalho na parte superior e o rodapé na
 ## Tipografia
 Determinou-se a fonte Poppins para ser empregue no projeto, devido sua fácil legibilidade e sua estética contemporânea e clean.
 
-* Título de página: Poppins; Negrito; (H1; 24 a 36 px);
-* Título de Seção: Poppins; (H2, H3; 18 a 28px...);
+* Título de página: Poppins; Negrito; (H1; 28 a 36 px);
+* Título de Seção: Poppins; (H2, H3...; 18 a 28px...);
 * Rótulos de componentes: Poppins (12 a 14px);
-* Corpo de Texto: Poppins (17px)
+* Corpo de Texto: Poppins (18px);
 
 
 
