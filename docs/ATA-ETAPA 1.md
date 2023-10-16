@@ -1,3 +1,5 @@
+<h2>ETAPA 1</h2>
+
 **João Vitor Silva Barbosa** : Fui responsável por indicar e escolher o Animaker para que o video pudesse ser feito e ajudei no roteiro.
 
 
@@ -8,3 +10,19 @@
 **Wanessa Cristina Ribeiro de Paula**: Fui responsável por fazer a parte do problema, especificação do projeto(ferramentas e tecnologias), o vídeo e editei algumas personas e história dos usuários.
 
 **Gustavo Medeiros Carneiro**: Fui responsável por definir o público alvo, o roteiro do vídeo, e as páginas da aplicação.
+
+
+<h2>ETAPA 2</h2>
+
+**Gustavo Medeiros Carneiro**: 
+
+**João Pedro Gomes da Silva**:
+
+**João Vitor Silva Barbosa** : 
+
+**Miriam Cristina Alves de Jesus** : 
+
+**Wanessa Cristina Ribeiro de Paula**: Wireframes(Login, Registro de serviço, Registro de usuarios, Perfil do Usuario, Formulário de denuncias, Suporte ao cliente); Seções de(Design Tipografia); Auxilio as demais seções;
+
+
+
