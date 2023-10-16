@@ -72,8 +72,7 @@ Determinou-se a fonte Poppins para ser empregue no projeto, devido sua fácil le
 <li><b>Ícone de estado X:</b> indica que o usuário pode fechar uma página.</li>
 
 
-<li><b> ![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/d1308c27-612b-4902-b634-07fd37cebf58)
- </li>
+<li><b> ![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/5f697611-c3e5-4e62-af2e-e65644069ee4) </li>
 
 </ul>
 
