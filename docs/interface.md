@@ -19,6 +19,11 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
+### Home 
+Página inicial do site onde mostra um carrossel e as opções de login ou sign-up.
+
+![Home](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/asdf.png)
+
  ### Registro de Usuário
  A tela de registro de usuário apresenta um menu central com as opções para preenchimento do usuário, como nome, e-mail, fotos e outros, além de um botão para finalizar o registro. Na parte superior, há uma barra de navegação com os elementos de login e informações sobre a empresa.
  
@@ -143,12 +148,6 @@ O canal de suporte ao cliente apresenta um menu central com um desenho da empres
 É composto por uma menu lateral com os perfis que o usuário possui interação, ao clicar em um perfil será apresentado um menu central com as mensagens trocadas pelos usuários. A esquerda da tela ficará o receptor, enquanto a esquerda o emissor(usuário). Dessa maneira, será possível visualizar o nome e a foto de perfil de cada usuário, bem como seu status.
 
 ![chat](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/d9a1ac7e-d6f8-4586-9775-ef36bea4a017)
-
-
-### Home 
-Página inicial do site onde mostra um carrossel e as opções de login ou sign-up.
-
-![Home](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/asdf.png)
 
 ### Lista trabalho
 Lista onde se encontra os colaboradores 
