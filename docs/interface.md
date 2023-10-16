@@ -12,7 +12,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Wireframes
 
 ### Home 
-Página inicial do site onde mostra um carrossel e as opções de login ou sign-up.
+Página inicial do site onde mostra as opções de login ou sign-up.
 
 ![Home](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/asdf.png)
 
