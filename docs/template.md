@@ -72,9 +72,9 @@ Determinou-se a fonte Poppins para ser empregue no projeto, devido sua fácil le
 <li><b>Ícone de estado X:</b> indica que o usuário pode fechar uma página.</li>
 
 
-<li><b>Ícone de login vinculando a conta Google X:</b>
-![icons8-google-logo-48](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/68bd4c3a-7f46-4151-9f0e-c5322946ef57)
+<li><b>Ícone de login vinculando a conta Google X:</b> Facilitar o login
  </li>
+![icons8-google-logo-48](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/4455dcbf-b83e-45f1-a341-9debc8a4b3ae)
 
 </ul>
 
