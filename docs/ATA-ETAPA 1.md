@@ -20,7 +20,7 @@
 
 **João Vitor Silva Barbosa** : 
 
-**Miriam Cristina Alves de Jesus** : 
+**Miriam Cristina Alves de Jesus** : Wireframes(pesquisa, agendamento de serviços, processos de pagamento, avaliação, notificações e sair); Auxilio as demais seções;
 
 **Wanessa Cristina Ribeiro de Paula**: Wireframes(Login, Registro de serviço, Registro de usuarios, Perfil do Usuario, Formulário de denuncias, Suporte ao cliente); Seções de(Design Tipografia); Auxilio as demais seções;
 
