@@ -159,7 +159,7 @@ trata-se de uma página que armazena os serviços e os colaboradores Favoritos d
 ### Detalhes do profissional
 Página que mostra o perfil detalhado do profissional escolhido
 
-![Detalhes do profissional](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/avaProff.png)
+![Detalhes do profissional](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/perfilProf.png)
 
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
