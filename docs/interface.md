@@ -20,25 +20,25 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ## Wireframes
 
  ### Registro de Usuário
- A tela de registro de usuário apresenta um menu central com as opções para preenchimento do usuário, como nome, e-mail, fotos e outros, além de um botão para finalizar o registro. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+ A tela de registro de usuário apresenta um menu central com as opções para preenchimento do usuário, como nome, e-mail, fotos e outros, além de um botão para finalizar o registro. Na parte superior, há uma barra de navegação com os elementos de login e informações sobre a empresa.
  
 ![Registro de usuario](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/1cea7672-ad8d-4a63-93bb-3cbb04fce9c8)
 
 
  ### Registro de Serviço
-A tela de registro de serviço apresenta um menu central com as opções para preenchimento do usuário, como nome do serviço ofertado, e-mail, fotos e outros, além de um botão para finalizar o registro. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+A tela de registro de serviço apresenta um menu central com as opções para preenchimento do usuário, como nome do serviço ofertado, e-mail, fotos e outros, além de um botão para finalizar o registro. 
 
 ![Registro de servico](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/60145f62-57e6-4659-a379-01c7ffdb0b06)
 
 
 ### Login
-A tela de login apresenta um menu central com as seções para o usuário inserir seu e-mail ou telefone e senha. Ademais, na parte inferior desse menu há opções de login utilizando a vinculação com outras contas, como Google e Facebook.Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+A tela de login apresenta um menu central com as seções para o usuário inserir seu e-mail ou telefone e senha. Ademais, na parte inferior desse menu há opções de login utilizando a vinculação com outras contas, como Google e Facebook.
 
 ![login](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/15be0ddc-3112-47b3-b37d-7b0a6bd1e5b0)
 
 
  ### Perfil do Usuário
- A tela de perfil do usuário apresenta a área central com um campo para inserir uma foto de capa, abaixo a foto de perfil do usuário, junto há informações pessoais. Abaixo da foto de capa e ao lado da foto/ informações sobre o usuário, um campo(opcional) para descrição de informações relevantes a gosto do usuário, bem como um campo para “destaques	“ e abaixo uma galeria de fotos na forma de uma grade. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+ A tela de perfil do usuário apresenta a área central com um campo para inserir uma foto de capa, abaixo a foto de perfil do usuário, junto há informações pessoais. Abaixo da foto de capa e ao lado da foto/ informações sobre o usuário, um campo(opcional) para descrição de informações relevantes a gosto do usuário, bem como um campo para “destaques	“ e abaixo uma galeria de fotos na forma de uma grade.
  
 
 ![perfil de usuario](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/623735c2-986b-4e5e-9e06-8650625918fc)
@@ -111,14 +111,14 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 ![Tela de avaliação(cliente-prestador)-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/18bb011e-1d33-44d7-880a-6c43c6907ae0)
 
 ### Denúncias
-O canal de denúncias apresenta um menu central com as seções para o usuário inserir um título para a denúncia, descrição do ocorrido, anexo de evidências para a acusação, dados de contato e privacidade. Ademais, na parte inferior desse menu há um botão para realizar a denúncia .Na parte superior do site, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+O canal de denúncias apresenta um menu central com as seções para o usuário inserir um título para a denúncia, descrição do ocorrido, anexo de evidências para a acusação, dados de contato e privacidade.
 
 ![formulario de denuncias](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/9259ecb7-f5b4-4cc5-a9f6-3b092c21604a)
 
 
 
 ### Suporte ao Cliente
-O canal de suporte ao cliente apresenta um menu central com um desenho da empresa, ao lado informações de contato e abaixo  as seções para o usuário inserir dados de contato e descrição para entrar em contato. Ademais, na parte inferior desse menu há um botão para realizar a solicitação. Na parte superior do site, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+O canal de suporte ao cliente apresenta um menu central com um desenho da empresa, ao lado informações de contato e abaixo  as seções para o usuário inserir dados de contato e descrição para entrar em contato. Ademais, na parte inferior desse menu há um botão para realizar a solicitação. 
 
 ![suporte ao cliente](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/9f2c98b6-4ec7-4ab3-846c-df026563f81a)
 
@@ -140,7 +140,7 @@ O canal de suporte ao cliente apresenta um menu central com um desenho da empres
 
 
 ### Mensagens e chat
-É composto por uma menu lateral com os perfis que o usuário possui interação, ao clicar em um perfil será apresentado um menu central com as mensagens trocadas pelos usuários. A esquerda da tela ficará o receptor, enquanto a esquerda o emissor(usuário), dessa maneira, será possível visualizar o nome e a foto de perfil de cada usuário, bem como seu status. Na parte superior, há uma barra de navegação com os elementos de contato, login e informações sobre a empresa.
+É composto por uma menu lateral com os perfis que o usuário possui interação, ao clicar em um perfil será apresentado um menu central com as mensagens trocadas pelos usuários. A esquerda da tela ficará o receptor, enquanto a esquerda o emissor(usuário). Dessa maneira, será possível visualizar o nome e a foto de perfil de cada usuário, bem como seu status.
 
 ![chat](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/d9a1ac7e-d6f8-4586-9775-ef36bea4a017)
 
