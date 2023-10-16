@@ -4,7 +4,7 @@ O layout padrão do site apresenta o cabeçalho na parte superior e o rodapé na
 
 <h3>Cabeçalho:</h3>
 <ul>
-<li>Possui em seu lado esquerdo a logo; um vetor em formato de casa nas cores azul e roxo, junto com o nome da empresa "FromHome".</li>
+<li>Possui em seu lado esquerdo a logo: um vetor em formato de casa nas cores azul e roxo, junto com o nome da empresa "FromHome".</li>
 
 <li>No centro localizam-se links que levarão para as páginas sobre (explica sobre o projeto), para o contratante (informa como a plataforma irá funcionar para este tipo de usuário) e para o prestador (esclarece como a plataforma irá funcionar para este tipo de usuário).</li>
 
