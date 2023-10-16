@@ -70,11 +70,8 @@ Determinou-se a fonte Poppins para ser empregue no projeto, devido sua fácil le
 <li><b>Ícone de ação estrela:</b> inserido para que o usuário faça a avaliação da experiência que teve.</li>
 <li><b>Ícone de estado  perfil:</b> utilizado para que o usuário personalize seu avatar.</li>
 <li><b>Ícone de estado X:</b> indica que o usuário pode fechar uma página.</li>
-<li><b>Ícone Google X:</b> Utilizado para o usuário logar com a conta do Google </li>
-![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/e8702fe4-70ec-4fb1-a627-eceaab33051d)
-<li><b>Ícone Google X:</b> Utilizado para o usuário logar com a conta do Facebook </li>
-[![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/e8702fe4-70ec-4fb1-a627-eceaab33051d)](https://icons8.com.br/icon/yGcWL8copNNQ/facebook)https://icons8.com.br/icon/yGcWL8copNNQ/facebook
-
+<li><b>[Ícone Google]https://icons8.com.br/icon/yGcWL8copNNQ/facebook:</b> Utilizado para o usuário logar com a conta do Google </li>
+<li><b>[Ícone Facebook](https://icons8.com.br/icon/yGcWL8copNNQ/facebook):</b> Utilizado para o usuário logar com a conta do Facebook </li>
 </ul>
 
 
