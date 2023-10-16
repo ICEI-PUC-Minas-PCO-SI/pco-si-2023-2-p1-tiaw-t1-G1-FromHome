@@ -74,9 +74,8 @@ Determinou-se a fonte Poppins para ser empregue no projeto, devido sua fácil le
 <li><b>[Ícone Facebook](https://icons8.com.br/icon/yGcWL8copNNQ/facebook):</b> Utilizado para o usuário logar com a conta do Facebook </li>
 </ul>
 
-
-<li>[Ícone Google](https://icons8.com.br/icon/17949/google-logo): Utilizado para o usuário logar com a conta do Google</li>
-<li>[Ícone Facebook](https://icons8.com.br/icon/yGcWL8copNNQ/facebook):Utilizado para o usuário logar com a conta do Facebook </li>
+* [Ícone Google](https://icons8.com.br/icon/17949/google-logo): Utilizado para o usuário logar com a conta do Google
+* [Ícone Facebook](https://icons8.com.br/icon/yGcWL8copNNQ/facebook):Utilizado para o usuário logar com a conta do Facebook 
 
 
 
