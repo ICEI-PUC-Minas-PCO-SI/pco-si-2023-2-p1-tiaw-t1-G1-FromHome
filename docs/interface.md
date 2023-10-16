@@ -139,7 +139,7 @@ O canal de suporte ao cliente apresenta um menu central com um desenho da empres
 ### Mensagens e chat
 É composto por uma menu lateral com os perfis que o usuário possui interação, ao clicar em um perfil será apresentado um menu central com as mensagens trocadas pelos usuários. A esquerda da tela ficará o receptor, enquanto a esquerda o emissor(usuário). Dessa maneira, será possível visualizar o nome e a foto de perfil de cada usuário, bem como seu status.
 
-![chat](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/d9a1ac7e-d6f8-4586-9775-ef36bea4a017)
+![chat](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/ee6fbb04-a257-4d6f-9575-b36e30298fdc)
 
 ### Lista trabalho
 Lista onde se encontra os colaboradores 
