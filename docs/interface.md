@@ -51,12 +51,12 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 
  
 ### Tela de pesquisa-cliente
-<p>A tela de pesquisa para clientes apresenta a barra de pesquisa, ao lado direito encontra-se o botão de busca. A parte inferior possui as últimas demandas solicitadas, com foto do local, titulo do serviço, status e localização.</p>
+<p>A tela de pesquisa para clientes apresenta a barra de pesquisa, ao lado direito encontra-se o botão de busca. A parte inferior possui as últimas demandas solicitadas: com foto do local, titulo do serviço, status e localização.</p>
 
 ![Tela de pesquisa(cliente) (1)](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/f7bdc086-831a-4d3c-9762-f949300c8d28)
 
 ### Tela de pesquisar-prestador de serviços
-<p>A tela de pesquisa para prestadores de serviço apresenta a barra de pesquisa, ao lado direito encontra-se o botão de busca. A parte inferior possui as últimas demandas solicitadas, com foto do local, titulo do serviço,nome do criador e localização.</p>
+<p>A tela de pesquisa para prestadores de serviço apresenta a barra de pesquisa, ao lado direito encontra-se o botão de busca. A parte inferior possui as últimas demandas solicitadas: com foto do local, titulo do serviço,nome do criador e localização.</p>
 
 ![Tela de pesquisa(prestador)-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/bcbeb93a-135e-40b6-aa14-5f767ecf5ff3)
 
