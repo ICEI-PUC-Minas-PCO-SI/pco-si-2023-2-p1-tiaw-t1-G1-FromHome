@@ -71,7 +71,7 @@ Determinou-se a fonte Poppins para ser empregue no projeto, devido sua fácil le
 <li><b>Ícone de estado  perfil:</b> utilizado para que o usuário personalize seu avatar.</li>
 <li><b>Ícone de estado X:</b> indica que o usuário pode fechar uma página.</li>
 </ul>
-[Ícone Google](https://icons8.com.br/icon/17949/google-logo)
+[Ícone Google]([https://icons8.com.br/icon/17949/google-logo](https://icons8.com.br/icons/set/google)
 [Ícone Facebook](https://icons8.com.br/icon/yGcWL8copNNQ/facebook)
 
 
