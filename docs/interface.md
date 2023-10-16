@@ -146,10 +146,6 @@ Lista onde se encontra os colaboradores
 
 ![Home](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/selecaoProf.png)
 
-### Painel
-Página onde o colaborador poderá acessar a página de pagamentos e serviços recentes por ele feitos
-
-![Painel](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/blob/main/docs/img/pg.png)
 
 ## Favoritos
 trata-se de uma página que armazena os serviços e os colaboradores Favoritos do cliente;
