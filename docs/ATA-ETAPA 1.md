@@ -14,7 +14,7 @@
 
 <h2>ETAPA 2</h2>
 
-**Gustavo Medeiros Carneiro**: 
+**Gustavo Medeiros Carneiro**: Criação do tamplate usado para a criação dos Wire Frames, criação do user flow
 
 **João Pedro Gomes da Silva**:
 
