@@ -18,7 +18,7 @@
 
 **João Pedro Gomes da Silva**:
 
-**João Vitor Silva Barbosa** : 
+**João Vitor Silva Barbosa** : Criação de parte dos wireframes e ajuda no userflow.
 
 **Miriam Cristina Alves de Jesus** : Wireframes(pesquisa, agendamento de serviços, processos de pagamento, avaliação, notificações e sair); Auxilio as demais seções;
 
