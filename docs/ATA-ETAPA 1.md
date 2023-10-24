@@ -20,9 +20,9 @@
 
 **João Vitor Silva Barbosa** : Criação de parte dos wireframes e ajuda no userflow.
 
-**Miriam Cristina Alves de Jesus** : Wireframes(pesquisa, agendamento de serviços, processos de pagamento, avaliação, notificações e sair); Auxilio as demais seções;
+**Miriam Cristina Alves de Jesus** : Wireframes(pesquisa, agendamento de serviços, processos de pagamento, avaliação, notificações e sair). Descrição do template e da iconografia.
 
-**Wanessa Cristina Ribeiro de Paula**: Wireframes(Login, Registro de serviço, Registro de usuarios, Perfil do Usuario, Formulário de denuncias, Suporte ao cliente); Seções de(Design Tipografia); Auxilio as demais seções;
+**Wanessa Cristina Ribeiro de Paula**: Wireframes(Login, Registro de serviço, Registro de usuarios, Perfil do Usuario, Formulário de denuncias, Suporte ao cliente); Seções de(Design, Tipografia e Cores); Auxilio as demais seções;
 
 
 
