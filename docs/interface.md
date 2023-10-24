@@ -58,45 +58,6 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 
 ![Agendamento de serviços-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/df25b211-924f-481e-b183-dec4f28dd2e9)
 
-
-
-### Tela de processos de pagamento
-<p>A tela de processos de pagamento mostra opções de pagamento que poderão ser usadas: pix, cartão de crédito, débito ou cartões salvos, apresenta também botões de voltar e pagar.</p>
-
-![Processo de pagamento-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/a4788780-1714-40ec-a611-6329489ee529)
-
-
-### Tela de pagamento via pix
-<p>A tela de pix apresenta um botão de fechar, chave para pagamento,botão para copiá-la e status de pagamento.</p>
-
-![Pagamento pix](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/89355397-0d56-4f66-a185-1b515b4bd171)
-
-
-### Tela de adicionar novo cartão
-<p>A página de adicionar novo cartão exibe um campo para ser preenchido com os dados do novo cartão, como: tipo de cartão(crédito ou débito), número, data de validade, código de segurança, nome do titular, CPF e botões para voltar e pagar.</p>
-
-![Adicionar novo cartão-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/982ac4f5-ffc1-4941-bc02-5789c522d466)
-
-
-### Tela de selecionar cartões 
-<p>A tela de selecionar cartões salvos mostra os cartões os últimos cartões utilizados, opção de salvar cartões e botão de voltar.</p>
-
-![Cartões salvos-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/1b79785a-b6d7-4502-9b7d-53591ee47c03)
-
-
- 
-### Tela de pagamento via cartão de crédito
-<p>A tela de  pagamento via cartão de crédito apresenta o cartão escolhido, opções de parcelamento e botões de confirmar e cancelar.</p>
-
-![Pagamento com cartão de crédito-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/21336713-ef8b-4476-91d6-61ccebd315e3)
-
-
-### Tela de pagamento via cartão de débito
-<p>A tela de  pagamento via cartão de débito exibe o cartão escolhido e botões de confirmar e cancelar.</p>
-
-![Pagamento com cartão de débito-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/c71f4e2f-7152-4fea-bffc-e7242469fbbd)
-
-
 ### Tela de avaliar cliente
 <p>A página de avaliar a experiência que profissional teve com determinado cliente mostra a foto do cliente, seu nome, descrição do serviço solicitado e ícones de estrela para serem marcados. Embaixo, ha um espaço para escrever um comentário e possui um botão de enviar.</p>
 
