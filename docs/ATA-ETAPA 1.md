@@ -25,4 +25,16 @@
 **Wanessa Cristina Ribeiro de Paula**: Wireframes(Login, Registro de serviço, Registro de usuarios, Perfil do Usuario, Formulário de denuncias, Suporte ao cliente); Seções de(Design, Tipografia e Cores); Auxilio as demais seções;
 
 
+<h2>ETAPA 3</h2>
+
+**Gustavo Medeiros Carneiro**: 
+
+**João Pedro Gomes da Silva**:
+
+**João Vitor Silva Barbosa** : 
+
+**Miriam Cristina Alves de Jesus** : 
+
+**Wanessa Cristina Ribeiro de Paula**: Elaboração dos wireframes de pesquisa do cliente e prestador de serviços;
+
 
