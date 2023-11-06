@@ -33,7 +33,7 @@
 
 **João Vitor Silva Barbosa** : 
 
-**Miriam Cristina Alves de Jesus** : 
+**Miriam Cristina Alves de Jesus** : Elaboração das páginas de confirmar pagamento, lista de perfil, perfil(modais) e página de registro de serviços.
 
 **Wanessa Cristina Ribeiro de Paula**: Elaboração dos wireframes de pesquisa do cliente e prestador de serviços;
 
