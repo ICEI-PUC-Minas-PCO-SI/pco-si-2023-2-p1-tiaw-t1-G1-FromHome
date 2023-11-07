@@ -27,11 +27,11 @@
 
 <h2>ETAPA 3</h2>
 
-**Gustavo Medeiros Carneiro**: 
+**Gustavo Medeiros Carneiro**: Criação do tamplate para ser usados nas telas de contratante e de prestador de serviços, além da criação da página home, página de seleção de contratante ou prestador de serviços, e página de registro de usuário;
 
 **João Pedro Gomes da Silva**: Fui responsavel por desenvolver as telas de avaliação tanto da parte do cliente quanto a parte do prestador;
 
-**João Vitor Silva Barbosa** : 
+**João Vitor Silva Barbosa** : Fui responsável por criar tela de login e de configuração, além de ter auxiliado em tarefas mais simples;
 
 **Miriam Cristina Alves de Jesus** : Elaboração das páginas de confirmar pagamento(modal), lista de perfil, perfil(modais) e página de registro de serviços.
 
