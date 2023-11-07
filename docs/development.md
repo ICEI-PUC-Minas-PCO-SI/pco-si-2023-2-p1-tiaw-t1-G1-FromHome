@@ -19,11 +19,11 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 
 ## Exemplo
 
-<h3>Tela de pesquisa prestador de serviço:</h3> 
+*Tela de pesquisa prestador de serviço:
 ![prestador](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/6ebbc633-788b-49fb-99e6-ea30cb01e6ff)
 
 
-<h3>Tela de pesquisa cliente(contratante):</h3> 
+*Tela de pesquisa cliente(contratante):
 ![cliente](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/4953c5bc-0fc9-485b-b8bf-26e23074abbf)
 
 
