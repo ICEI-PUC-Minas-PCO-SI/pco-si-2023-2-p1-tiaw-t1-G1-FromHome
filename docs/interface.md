@@ -54,10 +54,6 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 ![Tela de pesquisa(prestador)-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/bcbeb93a-135e-40b6-aa14-5f767ecf5ff3)
 
 
-### Tela de agendamento de serviços
-<p>A tela de agendamento de serviços exibe um ícone de X para fechá-la, barra de busca de serviço, opção de selecionar: profissional, especialidade, data e horário, campo para escrever observações, espaço de enviar lembrete via SMS ou e-mail e botão de finalizar.</p>
-
-![Agendamento de serviços-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/df25b211-924f-481e-b183-dec4f28dd2e9)
 
 ### Tela de avaliar cliente
 <p>A página de avaliar a experiência que profissional teve com determinado cliente mostra a foto do cliente, seu nome, descrição do serviço solicitado e ícones de estrela para serem marcados. Embaixo, ha um espaço para escrever um comentário e possui um botão de enviar.</p>
