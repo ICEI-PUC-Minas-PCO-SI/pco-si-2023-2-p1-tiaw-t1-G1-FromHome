@@ -35,7 +35,7 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 
 
  ### Perfil do Usuário
- A tela de perfil do usuário apresenta a área central com um campo para inserir uma foto de capa, abaixo a foto de perfil do usuário, junto há informações pessoais. Abaixo da foto de capa e ao lado da foto/ informações sobre o usuário, um campo(opcional) para descrição de informações relevantes a gosto do usuário, bem como um campo para “destaques	“ e abaixo uma galeria de fotos na forma de uma grade.
+ A tela de perfil do usuário apresenta a área central com um campo para inserir uma foto de capa, abaixo a foto de perfil do usuário, junto há informações pessoais. Abaixo da foto de capa e ao lado da foto/ informações sobre o usuário, um campo com as avaliações do profissional, um texto sobre ele e sua formação. 
  
 
 ![perfil wireframe](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/c5793f89-a53f-4ff5-afe9-092272e3434e)
