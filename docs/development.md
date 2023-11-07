@@ -45,9 +45,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir o perfil do usuário | ALTA | index.html |
-|RF-002| O sistema deve exibir uma lista dos profissionais | ALTA | index.html |
-|RF-003| Usuários podem realizar o cadastro de serviço na plataforma | ALTA | index.html |
+|RF-001| O sistema deve exibir o perfil do usuário | ALTA | lista de perfil.html |
+|RF-002| O sistema deve exibir uma lista dos profissionais | ALTA | lista de perfil.html |
+|RF-003| Usuários podem realizar o cadastro de serviço na plataforma | ALTA | registro de serviços.html |
 |RF-004| Usuários podem realizar o seu registro na plataforma | ALTA | index.html |
 |RF-005| O sistema deve exibir uma tela de apresentação | ALTA | index.html |
 |RF-006|  O sistema deve exibir uma tela de configuração | ALTA | index.html |
@@ -57,6 +57,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-010| Usuários prestadores de serviço podem realizar a avaliação do contratante | ALTA | index.html |
 |RF-011| Usuários contratantes de serviço podem realizar a avaliação do prestador | ALTA | index.html |
 |RF-012| Comprovante de pagamento | ALTA | index.html |
+|RF-013| O sistema deve exibir uma tela de confirmar pagamentos | ALTA | confirmar pagamento.html |
 
 
 ## Descrição das estruturas:
