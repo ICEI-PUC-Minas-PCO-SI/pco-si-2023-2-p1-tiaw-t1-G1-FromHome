@@ -35,6 +35,6 @@
 
 **Miriam Cristina Alves de Jesus** : Elaboração das páginas de confirmar pagamento(modal), lista de perfil, perfil(modais) e página de registro de serviços.
 
-**Wanessa Cristina Ribeiro de Paula**: Elaboração dos wireframes de pesquisa do cliente e prestador de serviços;
+**Wanessa Cristina Ribeiro de Paula**: Elaboração das telas de pesquisa do cliente e prestador de serviços, prenchimento dos requisitos funcionais, descrição de algumas estruturas;
 
 
