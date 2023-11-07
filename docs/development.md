@@ -66,8 +66,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | resultadopesquisacliente.html|
 |RF-010| Usuários prestadores de serviço podem realizar a avaliação do contratante | ALTA | telaAvaliacaoCliente.html |
 |RF-011| Usuários contratantes de serviço podem realizar a avaliação do prestador | ALTA | telaAvaliacaoPrestador.html |
-|RF-012| Comprovante de pagamento | ALTA | index.html |
-|RF-013| O sistema deve exibir uma tela de confirmar pagamentos | ALTA | confirmar pagamento.html |
+|RF-012| O sistema deve exibir uma tela de confirmar pagamentos | ALTA | confirmar pagamento.html |
 
 
 ## Descrição das estruturas:
