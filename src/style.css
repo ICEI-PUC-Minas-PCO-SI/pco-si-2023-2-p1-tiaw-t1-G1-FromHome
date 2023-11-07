@@ -1,3 +1,4 @@
+
 .lilascabecalho {
     background-color: #22229e; /* Cor lilás claro */
     /* Outros estilos desejados, como cor do texto, margens, preenchimento, etc. */
@@ -23,17 +24,10 @@
 
 
 
-
-
-
-
-
-
-
-
 body {
     font-family: 'Poppins';
 }
+
 
 
 
@@ -51,5 +45,14 @@ body {
 
 
  
+
+
+=======
+#map {
+     height: 200px; 
+   
+    }
+
+
 
 

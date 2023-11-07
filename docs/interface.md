@@ -35,10 +35,11 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 
 
  ### Perfil do Usuário
- A tela de perfil do usuário apresenta a área central com um campo para inserir uma foto de capa, abaixo a foto de perfil do usuário, junto há informações pessoais. Abaixo da foto de capa e ao lado da foto/ informações sobre o usuário, um campo(opcional) para descrição de informações relevantes a gosto do usuário, bem como um campo para “destaques	“ e abaixo uma galeria de fotos na forma de uma grade.
+ A tela de perfil do usuário apresenta a área central com um campo para inserir uma foto de capa, abaixo a foto de perfil do usuário, junto há informações pessoais. Abaixo da foto de capa e ao lado da foto/ informações sobre o usuário, um campo com as avaliações do profissional, um texto sobre ele e sua formação. 
  
 
-![perfil de usuario](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/623735c2-986b-4e5e-9e06-8650625918fc)
+![perfil wireframe](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/c5793f89-a53f-4ff5-afe9-092272e3434e)
+
 
 
  
@@ -53,10 +54,6 @@ A tela de login apresenta um menu central com as seções para o usuário inseri
 ![Tela de pesquisa(prestador)-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/bcbeb93a-135e-40b6-aa14-5f767ecf5ff3)
 
 
-### Tela de agendamento de serviços
-<p>A tela de agendamento de serviços exibe um ícone de X para fechá-la, barra de busca de serviço, opção de selecionar: profissional, especialidade, data e horário, campo para escrever observações, espaço de enviar lembrete via SMS ou e-mail e botão de finalizar.</p>
-
-![Agendamento de serviços-Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/df25b211-924f-481e-b183-dec4f28dd2e9)
 
 ### Tela de avaliar cliente
 <p>A página de avaliar a experiência que profissional teve com determinado cliente mostra a foto do cliente, seu nome, descrição do serviço solicitado e ícones de estrela para serem marcados. Embaixo, ha um espaço para escrever um comentário e possui um botão de enviar.</p>
@@ -82,18 +79,10 @@ O canal de suporte ao cliente apresenta um menu central com um desenho da empres
 
 
 
-### Tela de notificações
-<p>A tela de notificações exibe um botão para fechar e uma mensagem.</p>
+### Tela de confirmar pagamento
+<p>A tela de confirmar pagamento exibe dois botões, para confirmar ou cancelar. Caso o usuário tenha algum problema, a tela possui um link que o redireciona para o email da plataforma.</p>
 
-![Notificações 2 -Miriam](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/ac93eca1-522c-4f5c-8d90-18431ff55855)
-
-
-### Telas de sair
-<p>As telas de sair apresenta uma pergunta e dois botões: sim e não.</p>
-
-![tela de sair-1](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/ef615a64-087e-4b29-8fe2-432cd83e54d4)
-
-![tela de sair-2](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/990be57c-58ba-4b52-b448-503855a87891)
+![confirmar pagamento](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/3171c9cc-1e71-4844-93ad-29675662fd8f)
 
 
 
