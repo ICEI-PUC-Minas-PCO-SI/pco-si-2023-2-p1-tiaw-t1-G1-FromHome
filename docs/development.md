@@ -20,10 +20,14 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 ## Exemplo
 
 **<h3>Tela de perfil do usúario:</h3>**
+![perfil](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/e2edd0ef-6fa8-4e1d-a329-2b81aa5a7680)
+
+
+![perfil editar](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/8b351f01-9903-495e-8390-4a74fb331a59)
 
 
 **<h3>Tela lista de usúarios:</h3>**
-
+![lista de perfil](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/f656a894-04a6-4191-bfa3-efe314e70ccd)
 
 
 
@@ -35,6 +39,12 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 **<h3>Tela de pesquisa cliente(contratante):</h3>**
 ![cliente](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/4953c5bc-0fc9-485b-b8bf-26e23074abbf)
 
+**<h3>Tela de registrar serviço:</h3>**
+![registro de serviços](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/1419f24c-cbcb-4bc1-9792-680d8f7423f7)
+
+
+**<h3>Tela de confirmar pagamento:</h3>**
+![confirmar pagamentos](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/142696070/4159f1c3-8dc0-47ad-8356-4002d7f95a18)
 
 
 ## Requisitos Atendidos
