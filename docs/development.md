@@ -19,6 +19,15 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 
 ## Exemplo
 
+**<h3>Tela de perfil do usúario:</h3>**
+
+
+**<h3>Tela lista de usúarios:</h3>**
+
+
+
+
+
 **<h3>Tela de pesquisa prestador de serviço:</h3>**
 ![prestador](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/6ebbc633-788b-49fb-99e6-ea30cb01e6ff)
 
@@ -52,11 +61,75 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Notícia
+
+## Perfil do Usuário
+
+|  **Nome**            | **Tipo**                | **Descrição**                             | **Exemplo**                |
+|:--------------------:|-------------------------|-------------------------------------------|--------------------------|
+| Foto de Capa         | Imagem                  | Foto de capa do perfil                    | Foto a gosto do usúario |
+| Foto de Perfil       | Imagem                  | Foto de perfil do usuário                 | foto do usúario |
+| Nome do Usuário      | Texto                   | Nome do usuário                           | Gleydsson                 |
+| Avaliação Profissional | Número (Decimal)     | Avaliação profissional do usuário        | 4.7 (de 5.0)             |
+| Sobre                | Texto                   | Descrição do usuário e suas habilidades profissionais | Cuidador de idosos com 2 anos de experiência. |
+| Formação             | Texto                   | Detalhes da formação  do usuário | Curso cuidador de idosos |
+| Idade                | Número (Inteiro)        | Idade do usuário                          | 27 anos                  |
+| Endereço             | Texto                   | Endereço do usuário                       | Rua Seis, Mateus Leme, MG |
+| Contato              | Texto                   | Informações de contato do usuário         | (31)XXXXX-XXXX exemplo@email.com         |
+| Área       | Texto                   | Área de atuação do usuário               | Pedagogia |
+
+
+
+## Lista de Profissionais
+
+|  **Nome**             | **Tipo**               | **Descrição**                                | **Exemplo**                |
+|:---------------------:|------------------------|----------------------------------------------|--------------------------|
+| Título         | Texto             | Título da listagem                         | Selecione um profissional                                  |
+| Nome do Profissional  | Texto                  | Nome do profissional                         | Roberto              |
+
+
+## Registro de Serviço
+
+|  **Nome**             | **Tipo**               | **Descrição**                                | **Exemplo**                |
+|:---------------------:|------------------------|----------------------------------------------|--------------------------|
+| Nome do Serviço       | Texto                  | Nome do serviço a ser registrado             | Motofretista   |
+| Descrição do Serviço  | Texto                  | Descrição detalhada do serviço                | Realizar entregas para restaurantes |
+| Fotos                 | Imagem                 | Fotos relacionadas ao serviço                | imagem X |
+| Preço                 | Número (Decimal)       | Preço do serviço                             | R$ 100.00                 |
+| Categoria             | Texto                  | Categoria do serviço                        | Transporte           |
+| Localização           | Texto                  | Localização onde o serviço será prestado    | Belo Horizonte, MG            |
+| Disponibilidade       | Texto                  | Horários de disponibilidade do serviço      | Sexta, Sábado e Domingo, das 19h às 2h |
+| Datas Disponíveis     | Lista de datas         | Datas específicas em que o serviço está disponível | 17-11-2023, 18-11-2023, 19-11-2023 |
+
+
+## Confirmação de Pagamento
+
+|  **Nome**           | **Tipo**          | **Descrição**                                 | **Exemplo**                |
+|:-------------------:|-------------------|-----------------------------------------------|--------------------------|
+| Título              | Texto             | Título da tela de confirmação de pagamento    | Confirmar Pagamento       |
+|  Confirmar     | Botão      | Opção para o usuário confirmar o pagamento    | "Confirmar"             |
+|  Cancelar      | Botão     | Opção para o usuário cancelar o pagamento     | "Cancelar"           |
+| Texto de Contato    | Texto             | Informações de contato com a empresa          | Entre em contato conosco em caso de dúvidas ou problemas. |
+
+
+
+
+
+
+
+
+
+
+
+
+## Tela de pesquisa das demandas (Cliente e Prestador)
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Barra de Pesquisa  | Caixa de Texto      | Campo para pesquisar demandas             | "Campo para pesquisar"      |
+| Título         | Texto             | Título da demanda                         | Jardineiro                                   |
+| Nome do criador da demanda      | Texto             | Nome do usúario responsável por criar a demanda                      | Chico                           |
+| Endereço  | Texto  | Endereço da demanda | Eldorado - Contagem - MG                                             |
+| Status  | Texto  | Identificador da execução da demanda | Em execução / Divulgada / Encerrada                                              |
+| Descrição  | Texto  | Conteúdo descritivo da demanda | Realizar a manutenção do jardim do condominio de modo a garantir o plantio de vegetação, irrigação, podas, controle de pragas e doenças, adubação, corte de grama e manutenção de sistemas de drenagem.                                              |
+| Localização  | Texto  | Titulo para nomear o mapa  | Localização |
+| Mapa  | Mapa interativo  | Identificar e localizar a posição exata da demanda, facilitando a navegação e orientação de informações de localização. | Representação geográfica visual que identifica a localização exata do local da demanda                                            |
 
