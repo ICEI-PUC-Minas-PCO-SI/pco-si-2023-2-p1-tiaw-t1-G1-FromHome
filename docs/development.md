@@ -19,11 +19,11 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 
 ## Exemplo
 
-*Tela de pesquisa prestador de serviço:
+**<h3>Tela de pesquisa prestador de serviço:</h3>**
 ![prestador](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/6ebbc633-788b-49fb-99e6-ea30cb01e6ff)
 
 
-*Tela de pesquisa cliente(contratante):
+**<h3>Tela de pesquisa cliente(contratante):</h3>**
 ![cliente](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/4953c5bc-0fc9-485b-b8bf-26e23074abbf)
 
 
@@ -36,8 +36,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|RF-001| O sistema deve exibir o perfil do usuário | ALTA | index.html |
+|RF-002| O sistema deve exibir uma lista dos profissionais | ALTA | index.html |
+|RF-003| Usuários podem realizar o cadastro de serviço na plataforma | ALTA | index.html |
+|RF-004| Usuários podem realizar o seu registro na plataforma | ALTA | index.html |
+|RF-005| O sistema deve exibir uma tela de apresentação | ALTA | index.html |
+|RF-006|  O sistema deve exibir uma tela de configuração | ALTA | index.html |
+|RF-007|  O sistema deve exibir uma tela de login | ALTA | cadastro-noticia.html |
+|RF-008| Usuários prestadores de serviço podem visualizar e se candidatar a vagas | ALTA | resultadopesquisa.html |
+|RF-009| Usuários contratantes de serviço podem visualizar e candidatar a vaga| ALTA | resultadopesquisa2.html|
+|RF-010| Usuários prestadores de serviço podem realizar a avaliação do contratante | ALTA | index.html |
+|RF-011| Usuários contratantes de serviço podem realizar a avaliação do prestador | ALTA | index.html |
+|RF-012| Comprovante de pagamento | ALTA | index.html |
+
 
 ## Descrição das estruturas:
 
