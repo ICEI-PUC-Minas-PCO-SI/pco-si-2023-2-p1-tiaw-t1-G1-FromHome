@@ -3,7 +3,7 @@
 **João Vitor Silva Barbosa** : Fui responsável por indicar e escolher o Animaker para que o video pudesse ser feito e ajudei no roteiro.
 
 
-**João Pedro Gomes da Silva**
+**João Pedro Gomes da Silva** : 
 
 **Miriam Cristina Alves de Jesus** : Fui responsável por fazer a parte de objetivos, editei a introdução, fiz alguns requisitos funcionais, requisitos não funcionais e restrições.
 
@@ -29,7 +29,7 @@
 
 **Gustavo Medeiros Carneiro**: 
 
-**João Pedro Gomes da Silva**:
+**João Pedro Gomes da Silva**: Fui responsavel por desenvolver as telas de avaliação tanto da parte do cliente quanto a parte do prestador;
 
 **João Vitor Silva Barbosa** : 
 
