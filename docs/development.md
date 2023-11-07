@@ -63,7 +63,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-006|  O sistema deve exibir uma tela de configuração | ALTA | index.html |
 |RF-007|  O sistema deve exibir uma tela de login | ALTA | cadastro-noticia.html |
 |RF-008| Usuários prestadores de serviço podem visualizar e se candidatar a vagas | ALTA | resultadopesquisa.html |
-|RF-009| Usuários contratantes de serviço podem visualizar e candidatar a vaga| ALTA | resultadopesquisa2.html|
+|RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | resultadopesquisacliente.html|
 |RF-010| Usuários prestadores de serviço podem realizar a avaliação do contratante | ALTA | telaAvaliacaoCliente.html |
 |RF-011| Usuários contratantes de serviço podem realizar a avaliação do prestador | ALTA | telaAvaliacaoPrestador.html |
 |RF-012| Comprovante de pagamento | ALTA | index.html |
