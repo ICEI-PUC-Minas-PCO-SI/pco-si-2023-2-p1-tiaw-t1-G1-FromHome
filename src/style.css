@@ -1,0 +1,38 @@
+
+.lilascabecalho {
+    background-color: #22229e; /* Cor lilás claro */
+    /* Outros estilos desejados, como cor do texto, margens, preenchimento, etc. */
+}
+
+#map {
+    display: none;
+    width: 100%;
+    height: 300px;
+}
+
+.hover-effect:hover {
+    cursor: pointer;
+    color: rgb(247, 0, 255); /* Cor desejada ao passar o mouse */
+}
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Poppins';
+}
+
+
+
+#map {
+     height: 200px; 
+   
+    }
+
+
+
+  
