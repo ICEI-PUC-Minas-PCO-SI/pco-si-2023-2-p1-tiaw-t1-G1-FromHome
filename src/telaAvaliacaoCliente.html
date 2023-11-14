@@ -148,7 +148,7 @@ document.addEventListener('click', function (e) {
                 <div>
                     <textarea class="form-control" rows="4" style="max-width: 100%;" placeholder="Digite sua opinião aqui..."></textarea>
                     <br>
-                    <button type="button" id="enviarOpiniao">Enviar</button>
+                    <button type="button" id="enviarOpiniao" onclick="buscarVaga()">Enviar</button>
             </div>
         </div>
     </div>
@@ -181,7 +181,11 @@ document.addEventListener('click', function (e) {
         <p class="text-center small">&copy; 2023 FromHome. Todos os direitos reservados.</p>
     </footer>
 
-
+    <script>
+        function buscarVaga(){
+            window.location.href = "buscarVagas.html";
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

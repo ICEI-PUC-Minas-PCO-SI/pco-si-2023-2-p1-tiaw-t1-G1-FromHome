@@ -110,7 +110,7 @@
                         <div class="card-body">
                             <h1 class="text-center"><b>Registro de Usuário</b></h1>
                         </div>
-                        <form class="row g-3">
+                        <form id="FormularioCadastro" method="post" class="row g-3">
                             <div class="col-md-6">
                                 <label for="inputEmail" class="form-label">Email</label>
                                 <input type="email" class="form-control" id="inputEmail" placeholder="Seu email">
@@ -167,6 +167,26 @@
                                 <button type="submit" class="btn button-primary">Registrar</button>
                             </div>
                         </form>
+                          <!-- Modal de Confirmação -->
+                          <div class="modal fade" id="confirmacaoModal" tabindex="-1" role="dialog" aria-labelledby="confirmacaoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="confirmacaoModalLabel">Cadastro Realizado com Sucesso!</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Você será redirecionado para o login!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" onclick="login()">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -201,10 +221,25 @@
         </div>
         <p class="text-center small">&copy; 2023 FromHome. Todos os direitos reservados.</p>
     </footer>
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function login(){
+                window.location.href="login.html";
+            }
+        $(document).ready(function(){
+            $("#FormularioCadastro").submit(function(event){
+                event.preventDefault(); // Impede o envio padrão do formulário
+    
+                // Aqui você pode adicionar lógica adicional, como enviar dados com AJAX
+    
+                // Exibe o modal após o envio bem-sucedido
+                $('#confirmacaoModal').modal('show');
+            });
+        });
+    </script>    
+
+    
 </body>
 </html>
