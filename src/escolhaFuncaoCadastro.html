@@ -104,8 +104,8 @@
         <div class="custom-box">
             <h1>Escolha uma opção:</h1>
             <div class="options">
-                <a href="registroUsuario.html"> <button class="btn btn-primary" ">Sou Prestador</button> </a>
-               <a href="registroUsuario.html"> <button class="btn btn-primary" >Sou Contratante</button></a> 
+               <button class="btn btn-primary" onclick="btnPrestador('prestador')">Sou Prestador</button>
+               <button class="btn btn-primary" onclick="btnCadastro('contratante')">Sou Contratante</button> 
             </div>
         </div>
     </div>
@@ -137,7 +137,19 @@
     </div>
     <p class="text-center small">&copy; 2023 FromHome. Todos os direitos reservados.</p>
 </footer>
-
+<script>
+    function btnPrestador(Opcao){
+        var opcao = Opcao;
+        localStorage.setItem("varFuncao", opcao);
+        window.location.href = "registroUsuario.html";
+    }
+    function btnCadastro(Opcao){
+        var opcao = Opcao;
+        alert(opcao);
+        localStorage.setItem("varFuncao", opcao);
+        window.location.href = "registroUsuario.html";
+    }
+</script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
