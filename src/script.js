@@ -1,62 +1,3 @@
-//function search(){
-
-
-    //let input = document.getElementById('Pesquisar').value
-  //input =   input.toLowerCase()
-  //let x = document.getElementsByClassName('animals')
-
-
-
-
- // for(i= 0; i< x.length; i++){
-
-
- //   if(!x[i].innerHTML.toLowerCase().includes(input)) {// SE a ariavel x com o html incluir o input q vai ser inserido
-
-
-  //      x[i].style.display = "none"
-  //  }else{
-  //      x[i].style.display = "list-item"
-  //  }
- // }
-//}//
-
-
-// const searchWrapper = document.querySelector('Pesquisar');
-//const inputBox = searchWrapper.querySelector('input');
-//const sugestBox = searchWrapper.querySelector('.list');
-//let linktag = searchWrapper.querySelector('a');
-//let weblink;//
-
-
-
-
-
-
-//inputBox.onkeyup = (e) =>{
-//  let userData = e.target.value;
-//  let emptyArray = [];
-
-
-
-
-  //if(e.key == 'Enter'){
-  // if(userData){
-  //   window.open(`https://www.google.com/search?q=${userData}`, '}_blank');
-  //  }
-  //  }
- // }
-
-
- 
-
-
-  //function search(){
-  //  if(userData){
-  //    window.open(`https://www.google.com/search?q=${userData}`, '}_blank');
-  //  }
- // }
-
 
  function apertaenter(event) {
     if (event.key === "Enter") {
@@ -68,33 +9,10 @@
   }
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   var map
   console.log(map)
   
-  
-  
-  
-  
+ 
   
   //MAPA 1
   function mostrarMapa1() {
