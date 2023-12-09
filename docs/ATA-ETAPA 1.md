@@ -39,8 +39,12 @@
 <h2>ETAPA 4</h2>
 
 **Gustavo Medeiros Carneiro**:
+
 **João Pedro Gomes da Silva**:
+
 **João Vitor Silva Barbosa**:
+
 **Miriam Cristina Alves de Jesus**:
+
 **Wanessa Cristina Ribeiro de Paula**:
 
