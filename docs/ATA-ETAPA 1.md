@@ -4,7 +4,7 @@
 
 **João Pedro Gomes da Silva**
 
-**Miriam Cristina Alves de Jesus** : Fui responsável por fazer a parte de objetivos, editei a introdução, fiz alguns requisitos funcionais, requisitos não funcionais e restrições.
+**Miriam Cristina Alves de Jesus**: Fui responsável por fazer a parte de objetivos, editei a introdução, fiz alguns requisitos funcionais, requisitos não funcionais e restrições.
 
 **Wanessa Cristina Ribeiro de Paula**: Fui responsável por fazer a parte do problema, especificação do projeto(ferramentas e tecnologias), o vídeo e editei algumas personas e história dos usuários.
 
@@ -17,9 +17,9 @@
 
 **João Pedro Gomes da Silva**:
 
-**João Vitor Silva Barbosa** : Criação de parte dos wireframes e ajuda no userflow.
+**João Vitor Silva Barbosa**: Criação de parte dos wireframes e ajuda no userflow.
 
-**Miriam Cristina Alves de Jesus** : Wireframes(pesquisa, avaliação e confirmar pagamento). Descrição do template e da iconografia.
+**Miriam Cristina Alves de Jesus**: Wireframes(pesquisa, avaliação e confirmar pagamento). Descrição do template e da iconografia.
 
 **Wanessa Cristina Ribeiro de Paula**: Wireframes(Login, Registro de serviço, Registro de usuarios, Perfil do Usuario, Formulário de denuncias, Suporte ao cliente); Seções de(Design, Tipografia e Cores); Auxilio as demais seções;
 
@@ -30,10 +30,17 @@
 
 **João Pedro Gomes da Silva**: Fui responsavel por desenvolver as telas de avaliação tanto da parte do cliente quanto a parte do prestador;
 
-**João Vitor Silva Barbosa** : Fui responsável por criar tela de login e de configuração, além de ter auxiliado em tarefas mais simples;
+**João Vitor Silva Barbosa**: Fui responsável por criar tela de login e de configuração, além de ter auxiliado em tarefas mais simples;
 
-**Miriam Cristina Alves de Jesus** : Elaboração das páginas de confirmar pagamento(modal), lista de perfil, perfil(modais) e página de registro de serviços.
+**Miriam Cristina Alves de Jesus**: Elaboração das páginas de confirmar pagamento(modal), lista de perfil, perfil(modais) e página de registro de serviços.
 
 **Wanessa Cristina Ribeiro de Paula**: Elaboração das telas de pesquisa do cliente e prestador de serviços, preenchimento dos requisitos funcionais, descrição de algumas estruturas.
 
 <h2>ETAPA 4</h2>
+
+**Gustavo Medeiros Carneiro**:
+**João Pedro Gomes da Silva**:
+**João Vitor Silva Barbosa**:
+**Miriam Cristina Alves de Jesus**:
+**Wanessa Cristina Ribeiro de Paula**:
+
