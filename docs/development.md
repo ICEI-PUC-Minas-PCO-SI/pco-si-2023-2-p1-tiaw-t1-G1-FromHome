@@ -53,7 +53,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado | | Criador (parte dinamica) |
+|ID    | Descrição do Requisito | Prioridade | Artefato Criado | Criador (parte dinamica) |
 |------|------------------------|------------|-----------------|----------------------------------|
 |RF-001| O sistema deve exibir o perfil do usuário | ALTA | lista de perfil.html | Gustavo |
 |RF-002| O sistema deve exibir uma lista dos profissionais | ALTA | lista de perfil.html | Gustavo |
