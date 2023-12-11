@@ -44,7 +44,7 @@
 
 **João Vitor Silva Barbosa**:
 
-**Miriam Cristina Alves de Jesus**:
+**Miriam Cristina Alves de Jesus**: Modais termos de uso e politicas de privacidade, tornar as telas de avaliações dinamicas.
 
 **Wanessa Cristina Ribeiro de Paula**:
 
