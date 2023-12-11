@@ -38,7 +38,7 @@
 **Wanessa Cristina Ribeiro de Paula**: Elaboração das telas de pesquisa do cliente e prestador de serviços, preenchimento dos requisitos funcionais, descrição de algumas estruturas;
 
 
-h2>ETAPA 4</h2>
+<h2>ETAPA 4</h2>
 
 **Gustavo Medeiros Carneiro**: 
 
