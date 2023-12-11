@@ -38,3 +38,14 @@
 **Wanessa Cristina Ribeiro de Paula**: Elaboração das telas de pesquisa do cliente e prestador de serviços, preenchimento dos requisitos funcionais, descrição de algumas estruturas;
 
 
+h2>ETAPA 4</h2>
+
+**Gustavo Medeiros Carneiro**: 
+
+**João Pedro Gomes da Silva**: Fui responsavel pela parte de deploy no vercel e em auxiliar os outros membros em suas partes quando necessario;
+
+**João Vitor Silva Barbosa** : 
+
+**Miriam Cristina Alves de Jesus** : 
+
+**Wanessa Cristina Ribeiro de Paula**: 
