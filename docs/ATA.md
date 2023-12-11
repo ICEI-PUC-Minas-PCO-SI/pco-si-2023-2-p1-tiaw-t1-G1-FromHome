@@ -48,4 +48,4 @@
 
 **Miriam Cristina Alves de Jesus** : Modais termos de uso e políticas de privacidade, tornar as telas de avaliações dinâmicas.
 
-**Wanessa Cristina Ribeiro de Paula**: 
+**Wanessa Cristina Ribeiro de Paula**: Realizar Json das paginas de registrar a demanda e apresentar na tela resultado das pesquisas do cliente e prestador.
