@@ -1,5 +1,5 @@
 
-https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/257d0d92-f008-428a-89da-0f35ef8d19cd
+
 # Apresentação
 
 Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
