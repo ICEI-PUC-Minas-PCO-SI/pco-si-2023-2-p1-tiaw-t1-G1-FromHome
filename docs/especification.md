@@ -31,7 +31,8 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
   
   ## Linguaguens e Tecnologias
 **Back-end** 
-  - API'S: MapBox eBcrypt.
+  - API'S: MapBox e Bcrypt
+  - JSon
 
 ## Personas
 
