@@ -67,28 +67,23 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 |  Jobson        | Quero encontrar um profissional disposto e de confiança              | Para cuidar de meu pai              |
 
 
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Cadastro de usuários | ALTA |  |
-|RF-002| Menu de serviços ofertados   | MÉDIA| |
-|RF-003| Geolocalização   | ALTA | |
-|RF-004| Tela de buscas   | MÉDIA | |
-|RF-005| Avaliações  | ALTA | |
-|RF-006| Formas de pagamento  | ALTA | |
-|RF-007| Geração de relatório de colaboradores | MÉDIA | |
-|RF-008| Consulta e alterações de dados pessoais de clientes  | MÉDIA | |
-|RF-009| Permitir que o usuário cadastre tarefa | ALTA |  |
-|RF-010| Permitir que o usuário contrate um serviço   | ALTA | |
-|RF-011| Permitir interação entre contratado e contratante   | MÉDIA | |
-|RF-012| Notificar ao usuário novos serviços postados  | BAIXA | |
-|RF-013| Emitir relatório de serviços prestados e notas   | MÉDIA | |
-|RF-014| Emitir relatório de ganho mensal   | MÉDIA | |
+|ID    | Descrição do Requisito | Prioridade | Artefato Criado | Criador (parte dinamica) |
+|------|------------------------|------------|-----------------|----------------------------------|
+|RF-001| O sistema deve exibir o perfil do usuário | ALTA | lista de perfil.html | Gustavo |
+|RF-002| O sistema deve exibir uma lista dos profissionais | ALTA | lista de perfil.html | Gustavo |
+|RF-003| Usuários podem realizar o cadastro de serviço na plataforma | ALTA | registro de serviços.html | Wanessa |
+|RF-004| Usuários podem realizar o seu registro na plataforma | ALTA | index.html | Gustavo |
+|RF-005| O sistema deve exibir uma tela de apresentação | ALTA | index.html |  Gustavo |
+|RF-006|  O sistema deve exibir uma tela de configuração | ALTA | index.html |  Gustavo |
+|RF-007|  O sistema deve exibir uma tela de login | ALTA | cadastro-noticia.html |  Gustavo |
+|RF-008| Usuários prestadores de serviço podem visualizar e se candidatar a vagas | ALTA | resultadopesquisa.html | Wanessa |
+|RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | resultadopesquisacliente.html| Wanessa |
+|RF-010| Usuários prestadores de serviço podem realizar a avaliação do contratante | ALTA | telaAvaliacaoCliente.html | Miriam |
+|RF-011| Usuários contratantes de serviço podem realizar a avaliação do prestador | ALTA | telaAvaliacaoPrestador.html | Miriam |
+|RF-012| O sistema deve exibir uma tela de confirmar pagamentos | ALTA | confirmar pagamento.html |
+|RF-013| O sistema deve estar hospedado em um servidor web | ALTA |  | João Pedro |
 
 
 ### Requisitos não Funcionais
