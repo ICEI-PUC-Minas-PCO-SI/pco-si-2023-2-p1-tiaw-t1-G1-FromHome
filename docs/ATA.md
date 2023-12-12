@@ -40,11 +40,11 @@
 
 <h2>ETAPA 4</h2>
 
-**Gustavo Medeiros Carneiro**: 
+**Gustavo Medeiros Carneiro**: Criação do server.js, organizar arquivos,  login/registro -> escolhaFuncaoCadastro listaperfil, escolhaFuncaoLogin;
 
 **João Pedro Gomes da Silva**: Fui responsavel pela parte de deploy no vercel e em auxiliar os outros membros em suas partes quando necessario;
 
-**João Vitor Silva Barbosa** : 
+**João Vitor Silva Barbosa** : confirmarpagamentoclient, servicoEmAndamento.html, servicoEmAndamento;
 
 **Miriam Cristina Alves de Jesus** : Modais termos de uso e políticas de privacidade, tornar as telas de avaliações dinâmicas, fazer as telas sobre e de ajuda.
 
