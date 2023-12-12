@@ -1,3 +1,5 @@
+
+https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/257d0d92-f008-428a-89da-0f35ef8d19cd
 # Apresentação
 
 Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
@@ -7,7 +9,7 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 
 *[Pitch inicial](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/617db421-ea7c-4f63-bfef-90986e1f666eple-pitch.mp4) -- vídeo com a apresentação inicial
 
-* [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
+* [Apresentação final](./https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/cf69c5b7-ea48-4b65-ae41-9fea6ee955ff) -- arquivo com os slides da apresentação final
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
