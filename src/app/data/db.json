@@ -1,0 +1,403 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João",
+      "email": "joao@example.com",
+      "idade": 25
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "email": "maria@example.com",
+      "idade": 30
+    },
+    {
+      "id": 3,
+      "nome": "Carlos",
+      "email": "carlos@example.com",
+      "idade": 28
+    }
+  ],
+  "users": [
+    {
+      "id": 1702258049627
+    },
+    {
+      "id": 1702258260806
+    },
+    {
+      "id": 1702314789072,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702315693478,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702316905746,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702317164026,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702317231861,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702317307197,
+      "email": "meufone451@gmail.com"
+    },
+    {
+      "id": 1702317869512,
+      "email": "meufone451@gmail.com"
+    },
+    {
+      "id": 1702318732880,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702318971335,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702319088234,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702325665336
+    },
+    {
+      "id": 1702325702295
+    },
+    {
+      "id": 1702325743432
+    },
+    {
+      "id": 1702325766885
+    },
+    {
+      "id": 1702325808193
+    },
+    {
+      "id": 1702325958559
+    },
+    {
+      "id": 1702326013167
+    },
+    {
+      "id": 1702326027775,
+      "username": "Guxta",
+      "phone": "12392613876",
+      "birthdate": "12/23/12",
+      "gender": "Masculino",
+      "address": "sdfsdf",
+      "city": "dfjks",
+      "state": "fdkjs",
+      "country": "jdfk"
+    },
+    {
+      "id": 1702326175753,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702328220350,
+      "username": "Guxta",
+      "phone": "12392613876",
+      "birthdate": "12/23/12",
+      "gender": "Masculino",
+      "address": "sdfsdf",
+      "city": "dfjks",
+      "state": "fdkjs",
+      "country": "jdfk"
+    },
+    {
+      "id": 1702332091448,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702332114663,
+      "username": "Guxta",
+      "phone": "12392613876",
+      "birthdate": "12/23/12",
+      "gender": "Masculino",
+      "address": "sdfsdf",
+      "city": "dfjks",
+      "state": "fdkjs",
+      "country": "jdfk"
+    },
+    {
+      "id": 1702332668757,
+      "username": "Guxta",
+      "phone": "12392613876",
+      "birthdate": "12/23/12",
+      "gender": "Masculino",
+      "address": "sdfsdf",
+      "city": "dfjks",
+      "state": "fdkjs",
+      "country": "jdfk"
+    },
+    {
+      "id": 1702333479625,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702335728054,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702335791587,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702335881967,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702336371999,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702337319700,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702337469709,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702337510341,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702337589972,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702337666987,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702337683707,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702338905438,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702339056484,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702339110323,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702339895669,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702339950694,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702340380122,
+      "email": "gustavomedeiros.c451@gmail.com"
+    },
+    {
+      "id": 1702340945612
+    },
+    {
+      "id": 1702341062318
+    },
+    {
+      "id": 1702341136373,
+      "email": "gustavomedeiros.c451@gmail.com",
+      "password": "1212",
+      "username": "gusta",
+      "phone": "31987766546",
+      "birthdate": "2023-12-13",
+      "gender": "male",
+      "address": "sdljfasdlkfj",
+      "city": "fdlksj",
+      "state": "kj",
+      "country": "Brasil"
+    },
+    {
+      "id": 1702341346199,
+      "email": "gustavomedeiros.c451@gmail.com",
+      "password": "1212",
+      "username": "gusta",
+      "phone": "31987766546",
+      "birthdate": "2023-12-20",
+      "gender": "male",
+      "address": "sdljfasdlkfj",
+      "city": "fdlksj",
+      "state": "kj",
+      "country": "Brasil"
+    },
+    {
+      "id": 1702348398391,
+      "email": "gustavo@gmail.com"
+    },
+    {
+      "id": 1702375911905,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375915052,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375915589,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375916093,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375916295,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375916499,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375916753,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375917008,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375917248,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375917516,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375917800,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    },
+    {
+      "id": 1702375918104,
+      "email": "gustavo@gmail.com",
+      "password": "X\"n4Yx*WY)G5%'.",
+      "username": "asdfasdfasdf",
+      "phone": "31987556856",
+      "birthdate": "2121-02-21",
+      "gender": "male",
+      "address": "fdafasdf",
+      "city": "asdfasd",
+      "state": "hg",
+      "country": "sdfgf"
+    }
+  ]
+}
