@@ -83,14 +83,16 @@ document.addEventListener('click', function (e) {
         }
         body {
             padding-top: 60px;
-            padding-bottom: 100px; /* Espaço para o footer */
+            padding-bottom: 140px; /* Espaço para o footer */
         }
     </style>
 </head>
 <body>
 
     <header class="navbar navbar-expand-lg navbar-light bg-light fixed-header" style="background-color: #e9e4ff !important;">
-        <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="" style="width: 100px;">FromHome</a>
+        <a class="navbar-brand" href="index.html">
+            <img src="../img/Logo.png" alt="" style="width: 100px;">FromHome
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
@@ -98,19 +100,19 @@ document.addEventListener('click', function (e) {
         <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav" id="navbarNav">
             <ul class="navbar-nav text-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="sobre.html">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Vagas</a>
+                    <a class="nav-link" href="#">Suas Demandas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Historico de Serviços</a>
+                    <a class="nav-link" href="registroservicos.html">Criar Demanda</a>
                 </li>
             </ul>
         </div>
             <div class="nav-item dropdown ml-2">
                 <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="img/foto_perfil.jpg" alt="Sua Foto de Perfil" class="rounded-circle" width="40" height="40">
+                    <img src="../img/foto_perfil.jpg" alt="Sua Foto de Perfil" class="rounded-circle" width="40" height="40">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown" style="background-color: rgb(229, 216, 255); color: rgb(0, 0, 0); border: 3px;">
                     <a class="dropdown-item" href="#">Perfil</a>
@@ -127,11 +129,11 @@ document.addEventListener('click', function (e) {
     <div class="content" style="margin-bottom: 60px;">
         <div class="container mt-4">
             <div class="text-center">
-                <h3>Avalie sua experiência com (Cliente)</h3>
+                <h3>Avalie sua experiência com (Profissional)</h3>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/IMAGEM_EX_PERFIL.jpg" class="img-fluid"  alt="Minha Figura">
+                    <img src="../img/IMAGEM_EX_PERFIL.jpg" class="img-fluid"  alt="Minha Figura">
                 </div>
                 <div class="col-md-6">
                     <h4>Nome do Profissional</h4>
@@ -148,7 +150,7 @@ document.addEventListener('click', function (e) {
                 <div>
                     <textarea class="form-control" rows="4" style="max-width: 100%;" placeholder="Digite sua opinião aqui..."></textarea>
                     <br>
-                    <button type="button" id="enviarOpiniao">Enviar</button>
+                    <button type="button" id="enviarOpiniao" onclick="buscarVaga()">Enviar</button>
             </div>
         </div>
     </div>
@@ -156,7 +158,7 @@ document.addEventListener('click', function (e) {
 
     <footer class="text-light mt-1" style="background-color: rgb(58, 50, 77); position: fixed; bottom: 0; width: 100%;">
         <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
-            <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="" style="width: 100px;"></a>
+            <a class="navbar-brand" href="#"><img src="../img/Logo.png" alt="" style="width: 100px;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -164,7 +166,7 @@ document.addEventListener('click', function (e) {
             <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ajuda</a>
+                        <a class="nav-link" href="ajuda.html">Ajuda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Termos de Uso</a>
@@ -181,8 +183,12 @@ document.addEventListener('click', function (e) {
         <p class="text-center small">&copy; 2023 FromHome. Todos os direitos reservados.</p>
     </footer>
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>
+        function buscarVaga(){
+            window.location.href = "buscarVagas.html";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>

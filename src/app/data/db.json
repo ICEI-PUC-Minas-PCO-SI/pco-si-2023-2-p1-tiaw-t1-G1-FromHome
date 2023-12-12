@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "birthdate": "2023-12-11",
+      "password": "0f4e17f5a3958c407bb2f2d1719db823168d08c83da9f4ae66691146e1c1bf55",
+      "username": "e621",
+      "gender": "other",
+      "email": "teste@e621.com",
+      "phone": "dasdasda",
+      "address": "666",
+      "country": "landia",
+      "state": "FU",
+      "city": "inferno",
+      "ratings": [
+        {
+          "uid": 1702401343055,
+          "rating": 69,
+          "reason": "riadnv"
+        }
+      ],
+      "id": 1702401343055
+    }
+  ],
+  "tokens": [
+    {
+      "token": "$2b$10$x/u3HeppGFuOiogGSECIau7S80uN3bgcYte0Cbyjstqs/Xu1LtSwK",
+      "id": 1702401343055
+    }
+  ],
+    "profissionais": [
+      {
+        "id": 1,
+        "nome": "Maria",
+        "descricao": "Busco trabalhos freelancer em casas de família.",
+        "fotoUrl": "img/MARIA_PRESTADORA.jpg",
+        "avaliacao": "3"
+      },
+      {
+        "id": 2,
+        "nome": "Roberta",
+        "descricao": "Procuro serviços para trabalhar com jardinagem.",
+        "fotoUrl": "img/prestador_2.PNG",
+        "avaliacao": 0
+      },
+      {
+        "id": 3,
+        "nome": "Fernanda",
+        "descricao": "Sou bábá a 15 anos, procuro uma familia com crianças eduacadas e felizes para que eu possa cuidar.",
+        "fotoUrl": "img/IMAGEM_BABA_3.jpg",
+        "avaliacao": 0
+      }
+    ],
+    "clientes": [
+      {
+        "id": 1,
+        "nome": "Augusto",
+        "descricaoServicoSolicitado": "Quero limpar meu apartamento",
+        "fotoUrl": "img/AUGUSTO_CLIENTE.png",
+        "avaliacao": "2"
+      },
+      {
+        "id": 2,
+        "nome": "Leticia",
+        "descricaoServicoSolicitado": "Busco uma baba para cuidar da minha filha e limpar minha casa.",
+        "fotoUrl": "img/LETICIA_CLIENTE.jpg",
+        "avaliacao": 0
+      },
+      {
+        "id": 3,
+        "nome": "Flavio",
+        "descricaoServicoSolicitado": "Procuro alguém que me faça companhia enquanto meu filho trabalha.",
+        "fotoUrl": "img/FLAVIO_CLIENTE.jpg",
+        "avaliacao": 0
+      }
+    ]
+  }
