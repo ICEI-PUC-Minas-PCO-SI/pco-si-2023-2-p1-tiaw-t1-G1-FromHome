@@ -106,4 +106,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| Não contará com banco de dados real                   |
 |04| Não divulgará clientes                                |
-|05| Será monetizado através de anúncios                   |
+|05| Não terá monetização                                  |
+|06| Não será possível realiazar pagamentos na plataforma. |
