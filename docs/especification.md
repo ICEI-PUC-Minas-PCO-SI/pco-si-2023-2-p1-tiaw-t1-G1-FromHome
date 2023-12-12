@@ -92,8 +92,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| Ter um orçamento pronto em até 40 minutos |  BAIXA | 
-|RNF-004| Definir o tempo que o sistema ficará no ar |  ALTA | 
+|RNF-003| Definir o tempo que o sistema ficará no ar |  ALTA | 
 
 
 
