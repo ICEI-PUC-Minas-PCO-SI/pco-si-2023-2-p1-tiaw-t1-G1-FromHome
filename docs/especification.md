@@ -29,6 +29,9 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 - Bootstrap
 - JQuery(editor)
   
+  ## Linguaguens e Tecnologias
+**Back-end** 
+  - API'S: MapBox eBcrypt.
 
 ## Personas
 
