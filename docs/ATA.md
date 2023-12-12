@@ -44,7 +44,7 @@
 
 **João Pedro Gomes da Silva**: Fui responsavel pela parte de deploy no vercel e em auxiliar os outros membros em suas partes quando necessario;
 
-**João Vitor Silva Barbosa** : confirmarpagamentoclient, servicoEmAndamento.html, servicoEmAndamento;
+**João Vitor Silva Barbosa** : Fui responsável pelas telas confirmarpagamentoclient, servicoEmAndamento.html, servicoEmAndamento. E auxiliei os outros membros no que fosse necessário;
 
 **Miriam Cristina Alves de Jesus** : Modais termos de uso e políticas de privacidade, tornar as telas de avaliações dinâmicas, fazer as telas sobre e de ajuda.
 
