@@ -1,33 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telapesquisaprestadordeservico</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+   
+    <title>Telapesquisacliente</title>
+   
     <link rel="stylesheet" href="style.css">
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-
-
+   
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
+    
+
+
+
+    
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet" />
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+        
 
 
     <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
+<body style="max-height: 100vh; overflow-y: auto; margin: 0;">
 
+<<<<<<< HEAD:src/public/pages/resultadopesquisa.html
 <header class="navbar navbar-expand-lg navbar-light bg-light fixed-header" style="background-color: #e9e4ff !important;">
     <a class="navbar-brand" href="index.html">
         <img src="../img/Logo.png" alt="" style="width: 100px;">FromHome
@@ -61,52 +80,153 @@
             <a class="dropdown-item" href="#">Configurações</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Sair</a>
+=======
+
+    
+    <header class="navbar navbar-expand-lg navbar-light bg-light fixed-header"
+        style="background-color: #e9e4ff !important;">
+        <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="" style="width: 100px;">FromHome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav"
+            id="navbarNav">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Suas Demandas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Criar Demanda</a>
+                </li>
+            </ul>
+>>>>>>> f_registrodeservico4:src/resultadopesquisa.html
         </div>
-    </div>
-</header>
+        <div class="nav-item dropdown ml-2">
+            <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img src="img/foto_perfil.jpg" alt="Sua Foto de Perfil" class="rounded-circle" width="40" height="40">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown"
+                style="background-color: rgb(229, 216, 255); color: rgb(0, 0, 0); border: 3px;">
+                <a class="dropdown-item" href="#">Perfil</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Configurações</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Sair</a>
+            </div>
+        </div>
+
+    </header>
+
+        <style>
+            .card {
+                width: 100%;
+                text-align: justify;
+                border: none;
+                
+            }
+
+
+           
+        .btn{
+background-color: blueviolet;
+
+        }
+   
+        .btn:hover, #a:hover {
+background-color: rgb(226, 43, 144);
+
+        }
+   
+      .container{
+        height: 90%; /* Ajuste conforme necessário */
+      }  
+
+            .card img {
+                max-width: 20%;
+                max-height: 20%;
+            }
+
+
+            .card h5 {
+                margin-top: 0;
+            }
+
+            .map-container {
+    box-shadow: none;  /* ou box-shadow: 0 0 0 transparent; */
+}
+#mapa1 {
+    z-index: absolute;
+}
+            
+        </style>
+
+ <main>
+        <div class="container-fluid" style="overflow-y: auto; padding-bottom: 10%;">
+            <div class="row mt-5 pt-3 justify-content-center">
+                <div class="col-12 col-md-11 pt-2 rounded" style="background-color: rgb(128, 28, 235);">
+                    <div class="row">
+                        <div class="col-9 col-md-11" style="overflow-y: auto; ">
+                            <input list="sugestoes" class="form-control" placeholder="Pesquisar"
+                                style="text-align: left;" id="Pesquisar" onkeyup="pesquisar()"
+                                onkeydown="apertaenter(event)">
+                            <datalist id="sugestoes">
+                                <option value="Jardinagem">
+                                <option value="Cuidador(a) de idoso">
+                                <option value="Dog Walker">
+                                <option value="Entregador">
+                                <option value="Aulas particulares">
+                                <option value="Cozinnheiro">
+                            </datalist>
+                        </div>
 
 
 
 
-<body>
+                        <div class="col-3 col-md-1 text-center "><!-- tela de busca -->
+                            <a href="resultadopesquisa.html" class="btn mb-3"
+                                style="background-color: rgb(196, 148, 247); color: rgb(255, 255, 255); text-align: center;">
+                                Buscar
+                            </a>
+                        </div>
 
 
-    <div class="container-fluid">
-        <div class="row mt-5 pt-3 justify-content-center">
-            <div class="col-12 col-md-11 pt-2 rounded" style="background-color: rgb(128, 28, 235);">
-                <div class="row">
-                    <div class="col-9 col-md-11 ">
-                        <input list="sugestoes" class="form-control" placeholder="Pesquisar" style="text-align: left;" id="Pesquisar"onkeyup="pesquisar()" onkeydown="apertaenter(event)">
-                        <datalist id="sugestoes">
-                            <option value="Jardinagem">
-                            <option value="Cuidador(a) de idoso">
-                            <option value="Dog Walker">
-                            <option value="Entregador">
-                            <option value="Aulas particulares">
-                            <option value="Cozinnheiro">
-                        </datalist>
                     </div>
 
 
 
 
-                    <div class="col-3 col-md-1 text-center "><!-- tela de busca -->
-                        <a href="resultadopesquisa.html" class="btn mb-3"
-                            style="background-color: rgb(196, 148, 247); color: rgb(255, 255, 255); text-align: center;">
-                            Buscar
-                        </a>
-                    </div>
+                    <div class="row justify-content-center"><!-- cards coluna 1 -->
+                        <div class="col-md-6" id="texto" style="background-color: rgb(196, 148, 247);">
 
 
-                </div>
+                            <section>
+                                <div class="container">
+                                    <div style="max-height: 400px; overflow: auto;"> <!-- cards 1 mapa inicial -->
+                                        <div class="card mb-3 mt-2 " style="max-width: 555px;">
+                                            <div class="card">
+                                                <div class="row g-0" id="jogos-container">
 
+                                                   
 
-                <div class="row justify-content-center"><!-- cards coluna 1 -->
-                    <div class="col-md-6" id="texto" style="background-color: rgb(196, 148, 247);">
+                                                    <div class="col-md-12" id="card1">
+                                                        <div class="card-body">
+                                                          
+                                                        </div>
 
+                                                    </div>
 
+                                                   
+                                                </div>
 
+                                               
+                                            </div>
 
+<<<<<<< HEAD:src/public/pages/resultadopesquisa.html
                         <div style="max-height: 488px; overflow: auto;"> <!-- cards 1 mapa inicial-->
                             <div class="card mb-3 mt-2" style="max-width: 555px; ">
                                 <div class="row g-0">
@@ -120,19 +240,172 @@
                                                 <b><span class="hover-effect" onclick="mostrarMapa1()">Título da
                                                         Demanda</span></b>
                                             </h5>
+=======
+                                        </div>
+                                        <div class="card mb-3 mt-2" style="max-width: 555px;">
+                                            <div class="card">
+                                                <div class="row g-0" id="jogos-container">
+>>>>>>> f_registrodeservico4:src/resultadopesquisa.html
 
+                                                   
 
-                                            <p class="card-text text-center mt-3"><b>Nome do(a) Criador(a) da
-                                                    demanda</b></p>
-                                            <p class="card-text text-center "><b>Eldorado - Contagem - MG </b></p>
-                                         
+                                                    <div class="col-md-12" id="card2">
+                                                        <div class="card-body">
+                                                          
+                                                        </div>
+
+                                                    </div>
+
+                                                   
+                                                </div>
+
+                                               
+                                            </div>
+
+                                        </div>
+
+                                        <div class="card mb-3 mt-2" style="max-width: 555px;">
+                                            <div class="card">
+                                                <div class="row g-0" id="jogos-container">
+
+                                                   
+
+                                                    <div class="col-md-12" id="card3">
+                                                        <div class="card-body">
+                                                          
+                                                        </div>
+
+                                                    </div>
+
+                                                   
+                                                </div>
+
+                                               
+                                            </div>
+
+                                        </div>
+
+                                        <div class="card mb-3 mt-2" style="max-width: 555px;">
+                                            <div class="card">
+                                                <div class="row g-0" id="jogos-container">
+
+                                                   
+
+                                                    <div class="col-md-12" id="card4">
+                                                        <div class="card-body">
+                                                          
+                                                        </div>
+
+                                                    </div>
+
+                                                   
+                                                </div>
+
+                                               
+                                            </div>
+
+                                        </div>
+
+                                        <div class="card mb-3 mt-2" style="max-width: 555px;">
+                                            <div class="card">
+                                                <div class="row g-0" id="jogos-container">
+
+                                                   
+
+                                                    <div class="col-md-12" id="card5">
+                                                        <div class="card-body">
+                                                          
+                                                        </div>
+
+                                                    </div>
+
+                                                   
+                                                </div>
+
+                                               
+                                            </div>
+
+                                        </div>
+
+                                        <div class="card mb-3 mt-2" style="max-width: 555px;">
+                                            <div class="card">
+                                                <div class="row g-0" id="jogos-container">
+
+                                                   
+
+                                                    <div class="col-md-12" id="card6">
+                                                        <div class="card-body">
+                                                          
+                                                        </div>
+
+                                                    </div>
+
+                                                   
+                                                </div>
+
+                                               
+                                            </div>
+
+                                        </div>
+
+                                        <div class="card mb-3 mt-2" style="max-width: 555px;">
+                                            <div class="card">
+                                                <div class="row g-0" id="jogos-container">
+
+                                                   
+
+                                                    <div class="col-md-12" id="card7">
+                                                        <div class="card-body">
+                                                          
+                                                        </div>
+
+                                                    </div>
+
+                                                   
+                                                </div>
+
+                                               
+                                            </div>
+
+                                        </div>
+
+                                        <div class="card mb-3 mt-2" style="max-width: 555px;">
+                                            <div class="card">
+                                                <div class="row g-0" id="jogos-container">
+
+                                                   
+
+                                                    <div class="col-md-12" id="card8">
+                                                        <div class="card-body">
+                                                          
+                                                        </div>
+
+                                                    </div>
+
+                                                   
+                                                </div>
+
+                                               
+                                            </div>
+
                                         </div>
 
 
+
+
+
+
                                     </div>
+
+
+
+
                                 </div>
+                            </section>
+                        </div>
 
 
+<<<<<<< HEAD:src/public/pages/resultadopesquisa.html
                             </div><!-- card 2 -->
                             <div class="card mb-3 mt-2" style="max-width: 555px; ">
                                 <div class="row g-0">
@@ -146,21 +419,31 @@
                                                 <b><span class="hover-effect" onclick="mostrarMapa2()">Título da
                                                         Demanda</span></b>
                                             </h5>
+=======
+                       
+                       
+>>>>>>> f_registrodeservico4:src/resultadopesquisa.html
 
+                        <!-- Coluna 2 -->
+                        <div class="col-md-6 justify-content-center " style="background-color: rgb(196, 148, 247);    ">
+                            <h4 class="text-center pt-3 mb-2" id="titulo" style="font-size: 24px;"><b></b>
+                            </h4>
 
-                                            <p class="card-text text-center mt-3"><b>Nome do(a) Criador(a) da
-                                                    demanda</b></p>
-                                            <p class="card-text text-center "><b>Imbiruçu - Betim - MG </b></p>
-                                         
-                                        </div>
+                            
 
+                            <h6 class="align-items-right mb-2" id="status" style="font-size: 18px;"><b></b></h6>
+                            <h6 class="align-items-right mb-2" id="descricao" style="font-size: 18px;"><b>
+                                </b></h6>
+                            <p class="align-items-right mb-2" id="paragrafo" style="font-size: 13px;"><b> </b></p>
+                            <h6 class="align-items-right mb-1" id="localizacao" style="font-size: 18px;"><b>
+                                </b></h6>
 
-                                    </div>
-                                </div>
-
-
+                                <div class= "card-body">
+                                <div class="map-container" id="mapa1"></div>
                             </div>
+                            <div class="row justify-content-center pt-2">
 
+<<<<<<< HEAD:src/public/pages/resultadopesquisa.html
 
                             <div class="card mb-3 mt-2" style="max-width: 555px; ">
                                 <div class="row g-0">
@@ -184,10 +467,12 @@
 
 
                                     </div>
+=======
+                                <div class="col-10" style="background-color: rgb(23, 63, 70);">
+>>>>>>> f_registrodeservico4:src/resultadopesquisa.html
                                 </div>
-
-
                             </div>
+<<<<<<< HEAD:src/public/pages/resultadopesquisa.html
                             <div class="card mb-3 mt-2" style="max-width: 555px; ">
                                 <div class="row g-0">
                                     <div class="col-md-4 d-flex justify-content-center align-items-center">
@@ -246,76 +531,32 @@
                             </div>
 
 
+=======
+>>>>>>> f_registrodeservico4:src/resultadopesquisa.html
 
 
                          
-                        </div>
-                       
-                    </div>
-                    <!-- Coluna 2 -->
-                    <div class="col-md-6 justify-content-center " style="background-color: rgb(196, 148, 247);    ">
-                        <h4 class="text-center pt-3 mb-2" id="titulo" style="font-size: 24px;"><b>Título da demanda</b>
-                        </h4>
-                        <h6 class="align-items-right mb-2" id="status" style="font-size: 18px;"><b>Status: </b></h6>
-                        <h6 class="align-items-right mb-2" id="descricao" style="font-size: 18px;"><b>Descrição: </b></h6>
-                        <p class="align-items-right mb-2" id="paragrafo" style="font-size: 13px;"><b>Lorem ipsum dolor
-                                sit amet consectetur adipisicing elit. Impedit totam error dignissimos fugiat dolor
-                                rerum unde ipsam ea at nobis tenetur neque, repellat autem exercitationem soluta omnis
-                                odit atque dolores?</b></p>
-                        <h6 class="align-items-right mb-1" id="localizacao" style="font-size: 18px;"><b>Localização: </b></h6>
+                                <div class="col-auto">
+                                    <a href="resultadopesquisa.html" class="btn mb-3 btn-custom"
+                                        style="background-color: rgb(128, 28, 235); color: rgb(255, 255, 255); width: 150px;" >
 
+                                        Candidatar-se
 
-
-
-
-
-
-
-                        <div class="row justify-content-center pt-2">
-                       
-                            <div class="col-10" style="background-color: rgb(161, 218, 228);">
-
-
-                                <div id="map"></div>
-
-
-
-
-
-
+                                    </a>
+                                </div>
                             </div>
+
                         </div>
 
+                        
 
 
 
-
-
-                        <div class="row mt-3 justify-content-center">
-                            <div class="col-auto">
-                                <a href="servicoEmAndamento.html" class="btn mb-3"
-                                    style="background-color: rgb(128, 28, 235); color: rgb(255, 255, 255); width: 150px;">
-                                    Candidatar-se
-
-                                    Criar nova demanda
-
-                                </a>
-                            </div>
-                        </div>
-
-
-
-
-                       
-
-
-
-
+                        
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
@@ -328,7 +569,7 @@
 
 
 
-    </div>
+        </div>
 
 
 
@@ -343,31 +584,180 @@
 
 
 
-   
-    <div class="container-fluid mt-5"> <!-- Adiciona uma margem superior -->
-        <!-- Seu conteúdo principal aqui -->
-    </div>
 
 
-    <!-- Rodapé com a classe fixed-bottom -->
-    <footer class="text-light" style="background-color: rgb(58, 50, 77);">
+
+
+
+    </main>
+
+    <footer class="text-light mt-auto rodape" style="background-color: rgb(58, 50, 77); width: 100%; bottom: 0; position: fixed; padding-bottom: 0px;">
         <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
-            <!-- Conteúdo do cabeçalho do rodapé aqui -->
+            <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="" style="width: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ajuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Termos de Uso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Políticas de Privacidade</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="container text-center mt-1">
             <p>Contato: contato@fromhome.com<br>Telefone: (11) 1234-5678</p>
         </div>
         <p class="text-center small">&copy; 2023 FromHome. Todos os direitos reservados.</p>
     </footer>
+<div style="height: 100px;"></div>
 
 
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+
+            $("#loginForm").submit(function (event) {
+                event.preventDefault();
+                let Funcao = localStorage.getItem("varFuncao");
+                `alert = "Funcao"`;
+                if (Funcao == "prestador") {
+                    window.location.href = "buscarVagas.html";
+                }
+                else {
+                    window.location.href = "tamplate.html";
+                }
+            });
 
 
+<<<<<<< HEAD:src/public/pages/resultadopesquisa.html
 </body>
 <script src="../js/script.js"></script>
 <script src="sugestoes.js"></script>
+=======
+        </script>
+        <div style="height: 100px;"></div>
+ <script>
+  function exibirMapa(rua, cidade, estado, titulo, descricao, containerId) {
+    // Adicione o seu token de acesso Mapbox aqui
+    const mapboxAccessToken = 'pk.eyJ1Ijoid2FuZXNzYWNyaXN0aW5hIiwiYSI6ImNscHBmeDN3bDBwNXoyanBwNDd1NHdjbWoifQ.mn9RiaWKROJGkiLQynhltg';
+
+    // Realiza uma busca reversa de geocodificação para obter as coordenadas
+    fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${rua},${cidade},${estado}.json?access_token=${mapboxAccessToken}`)
+        .then(response => response.json())
+        .then(data => {
+            const [longitude, latitude] = data.features[0].center;
+
+            // Inicializa o mapa Mapbox
+            mapboxgl.accessToken = mapboxAccessToken;
+            const map = new mapboxgl.Map({
+                container: containerId,
+                style: 'mapbox://styles/mapbox/streets-v11',
+                center: [longitude, latitude],
+                zoom: 13,
+            });
+
+            // Adiciona um marcador ao mapa
+            new mapboxgl.Marker().setLngLat([longitude, latitude]).addTo(map);
+
+            // Adiciona o título e a descrição
+            const tituloElement = document.createElement("h6");
+            tituloElement.textContent = titulo;
+
+            const descricaoElement = document.createElement("p");
+            descricaoElement.textContent = descricao;
+
+            containerId.appendChild(tituloElement);
+            containerId.appendChild(descricaoElement);
+        });
+}
+
+function carregar() {
+    fetch("http://localhost:3000/servicos")
+        .then(response => response.json())
+        .then(servicos => {
+            console.log("Dados do db.json:", servicos);
+
+            const albuns = servicos.slice(0, 8);
+
+            albuns.map((album, index) => {
+                const cardContainer = document.querySelector(`#card${index + 1}`);
+                const card = document.createElement("div");
+                card.classList.add("card");
+
+                const img = document.createElement("img");
+                img.src = album.foto;
+                img.alt = album.nome;
+                img.classList.add("card-img-top", "img-fluid");
+
+                const titulo = document.createElement("h5");
+                titulo.textContent = album.nome;
+                titulo.classList.add("text-center");
+
+                const categoria = document.createElement("p");
+                categoria.classList.add("card-text");
+                categoria.textContent = album.categoria;
+                categoria.classList.add("text-center");
+
+                const cardBody = document.createElement("div");
+                cardBody.classList.add("card-body");
+
+                cardBody.appendChild(img);
+                cardBody.appendChild(titulo);
+                cardBody.appendChild(categoria);
+
+                const linkMaisInformacoes = document.createElement("button");
+                // Ao clicar no botão, exibe o mapa
+                linkMaisInformacoes.onclick = function () {
+                    const mapaContainerId = `mapa${index + 1}`;
+                    // Criar um elemento div para conter o mapa
+                    const mapaContainer = document.createElement("div");
+                    mapaContainer.id = mapaContainerId;
+                    mapaContainer.style.height = "300px"; // Defina a altura conforme necessário
+
+                    // Adicionar o elemento do mapa ao cardContainer
+                    cardContainer.appendChild(mapaContainer);
+
+                    // Exibir o mapa no novo contêiner
+                    exibirMapa(album.rua, album.cidade, album.estado, album.nome, album.descricao, mapaContainer);
+                };
+                linkMaisInformacoes.classList.add("btn", "me-2");
+                linkMaisInformacoes.textContent = "Mais informações";
+
+                const divCentralizada = document.createElement("div");
+                divCentralizada.classList.add("d-flex", "justify-content-center");
+                divCentralizada.appendChild(linkMaisInformacoes);
+
+                cardBody.appendChild(divCentralizada);
+                card.appendChild(cardBody);
+                cardContainer.appendChild(card);
+            });
+        });
+}
+
+// Chama a função carregar
+
+carregar();
+</script>
+>>>>>>> f_registrodeservico4:src/resultadopesquisa.html
 
 
+
+
+
+
+
+
+    </body>
+    <script src="script.js"></script>
 
 
 
