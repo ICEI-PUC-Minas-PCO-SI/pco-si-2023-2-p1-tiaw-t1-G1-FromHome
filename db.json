@@ -35,6 +35,8 @@
       "categoria": "Outros",
       "descricao": "Sou um profissional comprometido em fornecer um ambiente seguro e carinhoso para idosos",
       "localizacao": "Nome da rua, num, Bairro, Cidade",
+      "cidade": "Nome da rua, num, Bairro, Cidade",
+      "estado": "Nome da rua, num, Bairro, Cidade",
       "foto": "img/usuario.png",
       "disponibilidade": "12:00",
       "preco": 50,
@@ -46,14 +48,29 @@
       "categoria": "Jardinagem",
       "descricao": "especialista em jardinagem e paisagismo",
       "localizacao": "Nome da rua, num, Bairro, Cidade",
+      "cidade": "bh",
+      "estado": "mg",
       "foto": "img/usuario.png",
       "disponibilidade": "12:00",
       "preco": 50,
       "data": "2023-12-31",
       "contato": true,
       "id": 2
+    },
+    {
+      "nome": "Babá",
+      "categoria": "Cozinha e Culinária",
+      "descricao": "Cuido de criancas",
+      "localizacao": "Rua1 ",
+      "cidade": "Itaúna",
+      "estado": "Minas Gerais",
+      "foto": "",
+      "disponibilidade": "05:50",
+      "preco": "60.00",
+      "data": "2023-02-22",
+      "contato": false,
+      "id": 3
     }
-   
-    
-  ]
+  ],
+  "enderecos": []
 }

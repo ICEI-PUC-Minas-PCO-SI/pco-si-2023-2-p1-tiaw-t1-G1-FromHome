@@ -14,12 +14,20 @@
     <title>Registro de Serviços</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tabelaDeRegistro.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script id="search-js" defer="" src="https://api.mapbox.com/search-js/v1.0.0-beta.18/web.js"></script>
+
+    <link
+  rel="stylesheet"
+  href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css"
+  type="text/css"
+/>
+
   </head>
   <body>
     <header
@@ -156,49 +164,10 @@
                     id="inputDescricaoServico"
                   />
                 </div>
-                <div class="col-md-4">
-                  <label for="inputLocal" class="form-label"
-                    >Localização
-                  </label>
-                  <input
-                    name="localizacao"
-                    type="text"
-                    class="form-control"
-                    id="inputLocal" 
-                    placeholder="Nome da rua, num, Bairro, Cidade"
-                    style="width: 300px"
-                  />
-                </div>
-
+                
                 
 
-                <script>
-                  // Função para buscar endereço ao digitar
-                  function buscarEnderecoAoDigitar() {
-                    var inputLocal = document.getElementById('inputLocal');
-                    var timeoutId;
                 
-                    inputLocal.addEventListener('input', function() {
-                      clearTimeout(timeoutId);
-                      
-                      timeoutId = setTimeout(function() {
-                        var enderecoDigitado = inputLocal.value;
-                  
-                        // Realizar a solicitação à API do ViaCEP
-                        axios.get(`https://viacep.com.br/ws/${enderecoDigitado}/json/`)
-                          .then(response => preencherEndereco(response.data))
-                          .catch(error => {
-                            console.error("Erro na requisição:", error);
-                            limparEndereco();
-                          });
-                      }, 500); // Atraso de 500 milissegundos (ajuste conforme necessário)
-                    });
-                  }
-                
-                  // Restante do seu código...
-                
-                </script>
-              
 
 
 
@@ -252,6 +221,31 @@
                   />
                   <span class="validity"> </span>
                 </div>
+                <form class="flex flex--column" name="checkoutForm">
+                  <div class="grid grid--gut24 mb60">
+                      <div class="col col--auto-mm w-full">
+                          <!-- Input form -->
+                          <label class="txt-s txt-bold color-gray mb3">Address</label>
+                          <input class="input mb12" placeholder="Start typing your address, e.g. 123 Main..." autocomplete="address-line1" id="inputLocal">
+                          <div id="manual-entry" class="w180 mt6 link txt-ms border-b color-gray color-black-on-hover">
+                            Enter an address manually
+                        </div>
+                          <div class="secondary-inputs hide">
+                              <label class="txt-s txt-bold color-gray mb3">City</label>
+                              <input class="input mb12" placeholder="City" autocomplete="address-level2" id="cityInput">
+                              <label class="txt-s txt-bold color-gray mb3">State / Region</label>
+                              <input class="input mb12" placeholder="State / Region" autocomplete="address-level1" id="stateInput">
+                          </div>
+                      </div>
+                      <div class="col col-md-4">
+                          <!-- Visual confirmation map -->
+                          <div id="minimap-container" class="none h240 w360 relative mt18"></div>
+                      </div>
+                  </div>
+              </form>
+              
+              <div id="validation-msg" class="mt24 txt-m txt-bold none">Test</div>
+           
 
                 <div class="container mt-5">
                   <div class="row">
@@ -281,6 +275,9 @@
                   </div>
                 </div>
               </form>
+
+
+              
             </div>
           </div>
         </div>
@@ -291,7 +288,7 @@
       class="text-light mt-5"
       style="
         background-color: rgb(58, 50, 77);
-        position: fixed;
+       
         bottom: 0;
         width: 100%;
         margin-top: 20px;
@@ -345,6 +342,134 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="server.js"></script>
-    <script src="app.js"></script>
-  </body>
+  
+ 
+
+     
+  <script>
+             
+    const ACCESS_TOKEN = 'pk.eyJ1Ijoid2FuZXNzYWNyaXN0aW5hIiwiYSI6ImNscHBmeDN3bDBwNXoyanBwNDd1NHdjbWoifQ.mn9RiaWKROJGkiLQynhltg';
+
+    let autofillCollection;
+    let minimap;
+             
+          
+              // Form operation functions
+              function showMap() {
+                  const el = document.getElementById("minimap-container");
+                  el.classList.remove("none");
+              }
+          
+              function hideMap() {
+                  const el = document.getElementById("minimap-container");
+                  el.classList.add("none");
+              }
+
+              const manualEntryButton = document.getElementById("manual-entry");
+if (manualEntryButton) {
+manualEntryButton.addEventListener("click", expandForm);
+}
+          
+              function expandForm() {
+                  document.getElementById("manual-entry").classList.add("hide");
+                  document.querySelector(".secondary-inputs").classList.remove("hide");
+              }
+          
+              function collapseForm() {
+                  document.getElementById("manual-entry").classList.remove("hide");
+                  document.querySelector(".secondary-inputs").classList.add("hide");
+              }
+          
+              function setValidationText(color, msg, clear = false) {
+                  const validationTextElement = document.getElementById("validation-msg");
+                  if (clear) validationTextElement.classList.add("none");
+                  validationTextElement.classList.remove("color-green", "color-red");
+                  validationTextElement.classList.add(`color-${color}`);
+                  validationTextElement.innerText = msg;
+                  validationTextElement.classList.remove("none");
+              }
+          
+              function submitForm() {
+                  setValidationText("green", "Order successfully submitted.");
+                  setTimeout(() => {
+                      resetForm();
+                  }, 2500);
+              }
+          
+              function resetForm() {
+                  const inputs = document.querySelectorAll("input");
+                  inputs.forEach(input => input.value = "");
+                  collapseForm();
+                  setValidationText("green", "", true)
+                  autofillCollection.update();
+                  minimap.feature = null;
+              }
+          
+              // Bind functions to HTML buttons
+              document.getElementById("manual-entry").addEventListener("click", expandForm);
+          
+              // Autofill initialization
+              document.getElementById("search-js").onload = () => {
+                  mapboxsearch.config.accessToken = ACCESS_TOKEN;
+          
+                  autofillCollection = mapboxsearch.autofill({});
+          
+                  minimap = new MapboxAddressMinimap();
+                  minimap.canAdjustMarker = true;
+                  minimap.satelliteToggle = true;
+                  minimap.onSaveMarkerLocation = (lnglat) => {
+                      console.log(`Marker moved to ${lnglat}`);
+                  };
+                  const minimapContainer = document.getElementById("minimap-container");
+                  minimapContainer.appendChild(minimap);
+          
+                  autofillCollection.addEventListener(
+                      "retrieve",
+                      async (e) => {
+                          expandForm();
+                          if (minimap) {
+                              minimap.feature = e.detail.features[0];
+                              showMap();
+                          }
+                      }
+                  );
+
+                  document.addEventListener("DOMContentLoaded", () => {
+                  const form = document.forms.checkoutForm;
+                  
+    form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        document.addEventListener('DOMContentLoaded', function() {
+        // Obtendo dados do formulário
+        const addressInput = document.getElementById("inputLocal");
+        const cityInput = document.getElementById("cityInput");
+        const stateInput = document.getElementById("stateInput");
+
+        // Obtendo dados da biblioteca Mapbox Search
+        const address = autofillCollection.get("address-line1");
+
+        // Criando um objeto com os dados do formulário
+        const formData = {
+            address: addressInput.value,
+            city: cityInput.value,
+            state: stateInput.value,
+            mapboxAddress: address,
+            // Adicione mais campos conforme necessário
+        };
+
+        // Convertendo para JSON
+        const jsonData = JSON.stringify(formData);
+
+        // Exibindo os dados em JSON no console (você pode enviar ou processar conforme necessário)
+        console.log(jsonData);
+
+        // Restante do seu código...
+    });
+}
+)}
+)}           
+</script>
+</body>
+
 </html>
