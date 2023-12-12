@@ -7,7 +7,11 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
 
-*[Pitch inicial](./617db421-ea7c-4f63-bfef-90986e1f666eple-pitch.mp4) -- vídeo com a apresentação inicial
+
+
+
+
+*[Pitch inicial](./https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/153bee74-e7f2-40a5-8c9c-06638befcee8) -- vídeo com a apresentação inicial
 
 * [Apresentação final](.) -- arquivo com os slides da apresentação final
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
