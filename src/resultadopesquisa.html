@@ -11,35 +11,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-
-    
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+   
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,400;1,500&display=swap"
         rel="stylesheet">
     
-
-
-
-    
         <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet" />
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
-        
-
 
     <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -120,13 +101,15 @@ background-color: rgb(226, 43, 144);
                 margin-top: 0;
             }
 
-            .map-container {
-    box-shadow: none;  /* ou box-shadow: 0 0 0 transparent; */
-}
-#mapa1 {
-    z-index: absolute;
-}
             
+
+
+           .map-container {
+    /* Outras regras existentes */
+    display: flex;
+    flex-direction: column;
+}
+
         </style>
 
  <main>
@@ -163,7 +146,7 @@ background-color: rgb(226, 43, 144);
 
 
 
-
+                    
                     <div class="row justify-content-center"><!-- cards coluna 1 -->
                         <div class="col-md-6" id="texto" style="background-color: rgb(196, 148, 247);">
 
@@ -356,85 +339,31 @@ background-color: rgb(226, 43, 144);
                        
                        
 
-                        <!-- Coluna 2 -->
-                        <div class="col-md-6 justify-content-center " style="background-color: rgb(196, 148, 247);    ">
-                            <h4 class="text-center pt-3 mb-2" id="titulo" style="font-size: 24px;"><b></b>
-                            </h4>
-
-                            
-
-                            <h6 class="align-items-right mb-2" id="status" style="font-size: 18px;"><b></b></h6>
-                            <h6 class="align-items-right mb-2" id="descricao" style="font-size: 18px;"><b>
-                                </b></h6>
-                            <p class="align-items-right mb-2" id="paragrafo" style="font-size: 13px;"><b> </b></p>
-                            <h6 class="align-items-right mb-1" id="localizacao" style="font-size: 18px;"><b>
-                                </b></h6>
-
-                                <div class= "card-body">
-                                <div class="map-container" id="mapa1"></div>
-                            </div>
-                            <div class="row justify-content-center pt-2">
-
-                                <div class="col-10" style="background-color: rgb(23, 63, 70);">
-                                </div>
-                            </div>
-
-
-                         
-                                <div class="col-auto">
-                                    <a href="resultadopesquisa.html" class="btn mb-3 btn-custom"
-                                        style="background-color: rgb(128, 28, 235); color: rgb(255, 255, 255); width: 150px;" >
-
+                        <div class="col-md-6 justify-content-center" style="background-color: rgb(196, 148, 247);">
+                            <h4 class="text-center pt-3 mb-2" id="titulo" style="font-size: 24px;"><b></b></h4>
+                            <h6 class="mb-2" id="status" style="font-size: 18px;"><b></b></h6>
+                            <h6 class="mb-2" id="descricao" style="font-size: 18px;"><b></b></h6>
+                            <p class="mb-2" id="paragrafo" style="font-size: 13px;"><b> </b></p>
+                            <h6 class="mb-1" id="localizacao" style="font-size: 18px;"><b></b></h6>
+                        
+                            <!-- Container for map and additional information -->
+                            <div class="map-container" id="map-container1" style="height: 300px; display: flex; flex-direction: column; align-items: center;">
+                                <!-- Map container -->
+                                <div id="map1" style="flex: 1; width: 100%;"></div>
+                        
+                                <!-- Additional information container -->
+                                <div class="col-auto mt-3">
+                                    <a href="resultadopesquisa.html" class="btn btn-custom" style="background-color: rgb(128, 28, 235); color: rgb(255, 255, 255); width: 150px;">
                                         Candidatar-se
-
                                     </a>
                                 </div>
                             </div>
-
                         </div>
-
-                        
-
-
-
-                        
                     </div>
                 </div>
             </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
+        </main>
+        
 
     <footer class="text-light mt-auto rodape" style="background-color: rgb(58, 50, 77); width: 100%; bottom: 0; position: fixed; padding-bottom: 0px;">
         <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
@@ -485,112 +414,87 @@ background-color: rgb(226, 43, 144);
 
         </script>
         <div style="height: 100px;"></div>
- <script>
-  function exibirMapa(rua, cidade, estado, titulo, descricao, containerId) {
-    // Adicione o seu token de acesso Mapbox aqui
-    const mapboxAccessToken = 'pk.eyJ1Ijoid2FuZXNzYWNyaXN0aW5hIiwiYSI6ImNscHBmeDN3bDBwNXoyanBwNDd1NHdjbWoifQ.mn9RiaWKROJGkiLQynhltg';
 
-    // Realiza uma busca reversa de geocodificação para obter as coordenadas
-    fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${rua},${cidade},${estado}.json?access_token=${mapboxAccessToken}`)
-        .then(response => response.json())
-        .then(data => {
-            const [longitude, latitude] = data.features[0].center;
 
-            // Inicializa o mapa Mapbox
-            mapboxgl.accessToken = mapboxAccessToken;
-            const map = new mapboxgl.Map({
-                container: containerId,
-                style: 'mapbox://styles/mapbox/streets-v11',
-                center: [longitude, latitude],
-                zoom: 13,
+       <script>
+    function exibirMapa(rua, cidade, estado, titulo, descricao, containerId) {
+        const mapboxAccessToken = 'pk.eyJ1Ijoid2FuZXNzYWNyaXN0aW5hIiwiYSI6ImNscHBmeDN3bDBwNXoyanBwNDd1NHdjbWoifQ.mn9RiaWKROJGkiLQynhltg';
+
+        fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${rua},${cidade},${estado}.json?access_token=${mapboxAccessToken}`)
+            .then(response => response.json())
+            .then(data => {
+                const [longitude, latitude] = data.features[0].center;
+
+                mapboxgl.accessToken = mapboxAccessToken;
+
+                // Create map without affecting the layout
+                const map = new mapboxgl.Map({
+                    container: 'map1',
+                    style: 'mapbox://styles/mapbox/streets-v11',
+                    center: [longitude, latitude],
+                    zoom: 13,
+                });
+
+                new mapboxgl.Marker().setLngLat([longitude, latitude]).addTo(map);
+
+                // Set the title and description in the respective HTML elements
+                document.getElementById('titulo').textContent = titulo;
+                document.getElementById('descricao').textContent = descricao;
             });
+    }
 
-            // Adiciona um marcador ao mapa
-            new mapboxgl.Marker().setLngLat([longitude, latitude]).addTo(map);
+    function carregar() {
+        fetch("http://localhost:3000/servicos")
+            .then(response => response.json())
+            .then(servicos => {
+                console.log("Dados do db.json:", servicos);
 
-            // Adiciona o título e a descrição
-            const tituloElement = document.createElement("h6");
-            tituloElement.textContent = titulo;
+                const albuns = servicos.slice(0, 8);
 
-            const descricaoElement = document.createElement("p");
-            descricaoElement.textContent = descricao;
+                albuns.forEach((album, index) => {
+                    const cardContainer = document.querySelector(`#card${index + 1}`);
+                    const card = document.createElement("div");
+                    card.classList.add("card");
 
-            containerId.appendChild(tituloElement);
-            containerId.appendChild(descricaoElement);
-        });
-}
+                    const img = document.createElement("img");
+                    img.src = album.foto;
+                    img.alt = album.nome;
+                    img.classList.add("card-img-top", "img-fluid");
 
-function carregar() {
-    fetch("http://localhost:3000/servicos")
-        .then(response => response.json())
-        .then(servicos => {
-            console.log("Dados do db.json:", servicos);
+                    const titulo = document.createElement("h5");
+                    titulo.textContent = album.nome;
+                    titulo.classList.add("text-center");
 
-            const albuns = servicos.slice(0, 8);
+                    const categoria = document.createElement("p");
+                    categoria.classList.add("card-text", "text-center");
+                    categoria.textContent = album.categoria;
 
-            albuns.map((album, index) => {
-                const cardContainer = document.querySelector(`#card${index + 1}`);
-                const card = document.createElement("div");
-                card.classList.add("card");
+                    const cardBody = document.createElement("div");
+                    cardBody.classList.add("card-body");
+                    cardBody.appendChild(img);
+                    cardBody.appendChild(titulo);
+                    cardBody.appendChild(categoria);
 
-                const img = document.createElement("img");
-                img.src = album.foto;
-                img.alt = album.nome;
-                img.classList.add("card-img-top", "img-fluid");
+                    const linkMaisInformacoes = document.createElement("button");
+                    linkMaisInformacoes.classList.add("btn", "me-2");
+                    linkMaisInformacoes.textContent = "Mais informações";
+                    linkMaisInformacoes.onclick = function () {
+                        exibirMapa(album.rua, album.cidade, album.estado, album.nome, album.descricao);
+                    };
 
-                const titulo = document.createElement("h5");
-                titulo.textContent = album.nome;
-                titulo.classList.add("text-center");
+                    const divCentralizada = document.createElement("div");
+                    divCentralizada.classList.add("d-flex", "flex-column", "align-items-center");
+                    divCentralizada.appendChild(linkMaisInformacoes);
 
-                const categoria = document.createElement("p");
-                categoria.classList.add("card-text");
-                categoria.textContent = album.categoria;
-                categoria.classList.add("text-center");
-
-                const cardBody = document.createElement("div");
-                cardBody.classList.add("card-body");
-
-                cardBody.appendChild(img);
-                cardBody.appendChild(titulo);
-                cardBody.appendChild(categoria);
-
-                const linkMaisInformacoes = document.createElement("button");
-                // Ao clicar no botão, exibe o mapa
-                linkMaisInformacoes.onclick = function () {
-                    const mapaContainerId = `mapa${index + 1}`;
-                    // Criar um elemento div para conter o mapa
-                    const mapaContainer = document.createElement("div");
-                    mapaContainer.id = mapaContainerId;
-                    mapaContainer.style.height = "300px"; // Defina a altura conforme necessário
-
-                    // Adicionar o elemento do mapa ao cardContainer
-                    cardContainer.appendChild(mapaContainer);
-
-                    // Exibir o mapa no novo contêiner
-                    exibirMapa(album.rua, album.cidade, album.estado, album.nome, album.descricao, mapaContainer);
-                };
-                linkMaisInformacoes.classList.add("btn", "me-2");
-                linkMaisInformacoes.textContent = "Mais informações";
-
-                const divCentralizada = document.createElement("div");
-                divCentralizada.classList.add("d-flex", "justify-content-center");
-                divCentralizada.appendChild(linkMaisInformacoes);
-
-                cardBody.appendChild(divCentralizada);
-                card.appendChild(cardBody);
-                cardContainer.appendChild(card);
+                    cardBody.appendChild(divCentralizada);
+                    card.appendChild(cardBody);
+                    cardContainer.appendChild(card);
+                });
             });
-        });
-}
+    }
 
-// Chama a função carregar
-
-carregar();
+    carregar();
 </script>
-
-
-
-
 
 
 
