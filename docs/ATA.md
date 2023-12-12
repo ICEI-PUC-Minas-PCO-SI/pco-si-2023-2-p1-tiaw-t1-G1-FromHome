@@ -46,6 +46,6 @@
 
 **João Vitor Silva Barbosa** : 
 
-**Miriam Cristina Alves de Jesus** : Modais termos de uso e políticas de privacidade, tornar as telas de avaliações dinâmicas.
+**Miriam Cristina Alves de Jesus** : Modais termos de uso e políticas de privacidade, tornar as telas de avaliações dinâmicas, fazer as telas sobre e de ajuda.
 
 **Wanessa Cristina Ribeiro de Paula**: Realizar Json das paginas de registrar a demanda e apresentar na tela resultado das pesquisas do cliente e prestador.
