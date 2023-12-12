@@ -13,7 +13,7 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 
 *[Pitch inicial](./https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-2-p1-tiaw-t1-G1-FromHome/assets/139433754/153bee74-e7f2-40a5-8c9c-06638befcee8) -- vídeo com a apresentação inicial
 
-* [Apresentação final](.) -- arquivo com os slides da apresentação final
+* [Apresentação final](./PITCH APRESENTACAO G1 FROMHOME SISTEMAS DE INFORMACAO.mp4) -- arquivo com os slides da apresentação final
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
