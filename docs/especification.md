@@ -29,7 +29,6 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 - Bootstrap
 - JQuery(editor)
   
-  ## Linguaguens e Tecnologias
 **Back-end** 
   - API'S: MapBox e Bcrypt
   - JSon
@@ -92,7 +91,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição do Requisito  |Prioridade | Artefato Criado | Criador (parte dinamica) |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
