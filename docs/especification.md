@@ -72,7 +72,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado | Criador (parte dinamica) |
+|ID    | Descrição do Requisito | Prioridade | Artefato Criado | Criador                          |
 |------|------------------------|------------|-----------------|----------------------------------|
 |RF-001| O sistema deve exibir o perfil do usuário | ALTA | lista de perfil.html | Gustavo |
 |RF-002| O sistema deve exibir uma lista dos profissionais | ALTA | lista de perfil.html | Gustavo |
@@ -91,8 +91,8 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade | Artefato Criado | Criador (parte dinamica) |
-|-------|-------------------------|----|
+|ID     | Descrição do Requisito  |Prioridade | Artefato Criado | Criador           |
+|-------|-------------------------|----------------------------|--------------------|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| Definir o tempo que o sistema ficará no ar |  ALTA | 
