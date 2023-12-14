@@ -110,4 +110,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| Não contará com banco de dados real                   |
 |04| Não divulgará clientes                                |
 |05| Não terá monetização                                  |
-|06| Não será possível realiazar pagamentos na plataforma. |
+|06| Não será possível realizar pagamentos na plataforma   |
