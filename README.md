@@ -8,7 +8,8 @@
 
 `SEMESTRE: 1º`
 
-A From Home representa uma solução completa para atender às necessidades domésticas, abrangendo áreas como faxina, culinária, cuidado infantil, serviços diários e muito mais. Com esta inovadora plataforma, é possível conectar prestadores de serviços a oportunidades de trabalho de maneira eficiente, enquanto proporciona aos proprietários uma forma conveniente e descomplicada de encontrar profissionais qualificados. O website foi projetado para simplificar o processo de negociação dos serviços, oferecendo uma experiência perfeita.
+A From Home representa uma solução completa para atender às necessidades domésticas, abrangendo áreas como faxina, culinária, cuidado infantil, serviços diários e muito mais. Com nossa inovadora plataforma, conectamos prestadoras de serviços a oportunidades de trabalho de maneira eficiente, enquanto proporcionamos às proprietárias uma forma conveniente e descomplicada de encontrar profissionais qualificados. 
+Nosso website foi projetado para simplificar o processo de cálculo, negociação e pagamento dos serviços, oferecendo uma experiência perfeita. Como parte do nosso modelo de negócios, uma taxa percentual será aplicada ao custo do serviço, garantindo nosso compromisso com a excelência e o crescimento contínuo.
 
 ## Integrantes
 

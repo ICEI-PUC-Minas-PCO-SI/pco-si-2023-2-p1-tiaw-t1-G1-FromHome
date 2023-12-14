@@ -32,32 +32,13 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-<<<<<<< HEAD
-=======
-    <button class="btn btn-primary btn-confirmar" onclick="encerrarServico()">Encerrar Serviço</button>
->>>>>>> a6d14cbbfd58e74e8a73c67fa9d93d6af4445256
-
     <script>
-        function encerrarServico() {
-            localStorage.setItem("encerrarServicoClicked", "true");
-            window.location.href = "confirmarpagamentocliente.html";
-        }
+       setTimeout(() => {
+        window.location.href = "confirmarpagamentocliente.html";
+    }, "3000");
     </script>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-
-    <script>
-        // Adicione esta parte para redirecionar automaticamente se a flag estiver definida
-        document.addEventListener("DOMContentLoaded", function () {
-            if (localStorage.getItem("encerrarServicoClicked")) {
-                window.location.href = "confirmarpagamentocliente.html";
-            }
-        });
-    </script>
-=======
->>>>>>> a6d14cbbfd58e74e8a73c67fa9d93d6af4445256
 </body>
 </html>
