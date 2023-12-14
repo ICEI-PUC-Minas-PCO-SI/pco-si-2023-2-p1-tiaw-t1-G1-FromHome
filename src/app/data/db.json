@@ -26,9 +26,8 @@
       "token": "$2b$10$x/u3HeppGFuOiogGSECIau7S80uN3bgcYte0Cbyjstqs/Xu1LtSwK",
       "id": 1702401343055
     }
+
   ],
-
-
 
     "profissionais": [
       {
@@ -76,4 +75,8 @@
         "avaliacao": 0
       }
     ]
-}
+<<<<<<< HEAD
+  }
+=======
+  
+>>>>>>> a6d14cbbfd58e74e8a73c67fa9d93d6af4445256
