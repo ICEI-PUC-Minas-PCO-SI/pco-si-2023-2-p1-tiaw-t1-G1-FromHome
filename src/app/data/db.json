@@ -8,69 +8,55 @@
       "email": "teste@e621.com",
       "phone": "dasdasda",
       "address": "666",
-      "country": "landia",
+      "country": "furrylandia",
       "state": "FU",
       "city": "inferno",
       "ratings": [
         {
           "uid": 1702401343055,
           "rating": 69,
-          "reason": "riadnv"
+          "reason": "gostoso da porra comeria dnv"
         }
       ],
       "id": 1702401343055
-    }
+    },
+    {
+      "birthdate": "1212-02-21",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "Miriam",
+      "gender": "male",
+      "email": "miriam@gmail.com",
+      "phone": "31894389438",
+      "address": "Rua pão",
+      "country": "Brasil",
+      "state": "MG",
+      "city": "Contagem",
+      "ratings": [],
+      "id": 1702594122325
+    },
+    [
+      "miriam@gmaill.com",
+      "123456",
+      "on"
+    ],
+    [
+      "miriam@gmaill.com",
+      "123456",
+      "on"
+    ]
   ],
   "tokens": [
     {
       "token": "$2b$10$x/u3HeppGFuOiogGSECIau7S80uN3bgcYte0Cbyjstqs/Xu1LtSwK",
       "id": 1702401343055
+    },
+    {
+      "token": "$2b$10$gP1OulsAzB6ammPXO1kJDOG99i42Gy9zrqK1N1LGwyzPjujLJLVn2",
+      "id": 1702594122325
+    },
+    {
+      "token": "$2b$10$MKkw0KXGdp/fUibeep7dS.6dGFehpUmA5N6V7IDg5iXTdLf/SAcwK",
+      "id": 1702594122325
     }
-  ],
-    "profissionais": [
-      {
-        "id": 1,
-        "nome": "Maria",
-        "descricao": "Busco trabalhos freelancer em casas de família.",
-        "fotoUrl": "img/MARIA_PRESTADORA.jpg",
-        "avaliacao": "3"
-      },
-      {
-        "id": 2,
-        "nome": "Roberta",
-        "descricao": "Procuro serviços para trabalhar com jardinagem.",
-        "fotoUrl": "img/prestador_2.PNG",
-        "avaliacao": 0
-      },
-      {
-        "id": 3,
-        "nome": "Fernanda",
-        "descricao": "Sou bábá a 15 anos, procuro uma familia com crianças eduacadas e felizes para que eu possa cuidar.",
-        "fotoUrl": "img/IMAGEM_BABA_3.jpg",
-        "avaliacao": 0
-      }
-    ],
-    "clientes": [
-      {
-        "id": 1,
-        "nome": "Augusto",
-        "descricaoServicoSolicitado": "Quero limpar meu apartamento",
-        "fotoUrl": "img/AUGUSTO_CLIENTE.png",
-        "avaliacao": "2"
-      },
-      {
-        "id": 2,
-        "nome": "Leticia",
-        "descricaoServicoSolicitado": "Busco uma baba para cuidar da minha filha e limpar minha casa.",
-        "fotoUrl": "img/LETICIA_CLIENTE.jpg",
-        "avaliacao": 0
-      },
-      {
-        "id": 3,
-        "nome": "Flavio",
-        "descricaoServicoSolicitado": "Procuro alguém que me faça companhia enquanto meu filho trabalha.",
-        "fotoUrl": "img/FLAVIO_CLIENTE.jpg",
-        "avaliacao": 0
-      }
-    ]
-  }
+  ]
+}
