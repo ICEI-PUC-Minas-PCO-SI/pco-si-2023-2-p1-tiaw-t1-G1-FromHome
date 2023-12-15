@@ -64,7 +64,7 @@
       "on"
     ],
     {
-      "userType": "prestador",
+      "user_type": "prestador",
       "birthdate": "2003-12-12",
       "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
       "username": "asdf",
@@ -79,7 +79,7 @@
       "id": 1702669558691
     },
     {
-      "userType": "contratante",
+      "user_type": "contratante",
       "birthdate": "1212-12-12",
       "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
       "username": "asdfkjah'",
@@ -92,6 +92,66 @@
       "city": "asdisdnk",
       "ratings": [],
       "id": 1702669630842
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "2004-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "rafafa",
+      "gender": "male",
+      "email": "joaovsbarbosa8@gmail.com",
+      "phone": "31988667755",
+      "address": "asdfas",
+      "country": "asdf",
+      "state": "as",
+      "city": "asdf",
+      "ratings": [],
+      "id": 1702672703214
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "2004-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "rafa",
+      "gender": "male",
+      "email": "raffaa@gmail.com",
+      "phone": "3124343434",
+      "address": "gdsfr",
+      "country": "gfsdr",
+      "state": "sd",
+      "city": "sdfgr",
+      "ratings": [],
+      "id": 1702675657250
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "2005-12-12",
+      "password": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e",
+      "username": "SadBox",
+      "gender": "male",
+      "email": "sad@gmail.com",
+      "phone": "31987654635",
+      "address": "Gusst",
+      "country": "Piitn",
+      "state": "MG",
+      "city": "Contato",
+      "ratings": [],
+      "id": 1702681218098
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "2004-01-24",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "Gustavo",
+      "gender": "male",
+      "email": "gustavom@gmail.com",
+      "phone": "31985382572",
+      "address": "sdljfasdlkfj",
+      "country": "Brasil",
+      "state": "kj",
+      "city": "fdlksj",
+      "ratings": [],
+      "id": 1702682201398
     }
   ],
   "tokens": [
@@ -114,6 +174,91 @@
     {
       "token": "$2b$10$5ZvylCFdpgK2l4PyTnkzgekK3BBCdJKUWNlHm/UKkPBq/kKszQ.t6",
       "id": 1702650882356
+    },
+    {
+      "token": "$2b$10$PFAQlSYUuVeaOtWF05WDMueICCqESc1Je8DfZS9LltFwGTdTEwEES",
+      "id": 1702594122325
+    },
+    {
+      "token": "$2b$10$TDBelDv159Ucu9ic/F3TuOunCng/z2yiFnF.z.maNEykHTF04DvSW",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$u.tqpnPueqXLpsa7REYINebQqj5TKlM.e0LmP/63YATJaEcPCtQz.",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$YDjo8zYW.ethuspSo/OZ6.cOaOUfmvAAFjbMsHSR9M.dtWVbXYip6",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$Re2DTb4DVrBpMbrQZa1NoeZWhVRoi9ySq5Dq5jQ00jOBbptBeQePe",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$0XJeFwcxVYJK7IsuqF0dVOFvbFKpI9Zf57Hm8phdvOgDrvqxxzyim",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$FVhXa5gmtSJBZAvz/LUrqOdXAJpumjX.NPlZ4PmSXbg6rlGGQIHz2",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$3qRtPUceoJFRu8XEIMGkhOr9kKFajlqEgZoiZRiHZEydnOeYoYlMy",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$cjFknJOENy0RblpIgQTGSOUSCBgyXTtU22XxEGHjUnKll2N9ls94O",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$VE4Yc51H/Prl/wvwJOkwAebOP2btf4WpgYMdjvaQbh301w1Z1KZTW",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$Fl1h6Br.5cEYOftBurQmH.X.DGLoGDFVbJLDZvBvVblcUOd24Njn.",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$R8jIwHvVBNNcqF8tnyV8E.Qw6nuySbTzCJi7hg2o.xdxytmJUHRbS",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$rKDpxKrnX4As8BMCrlAzmupgMZVvFQ7GqJ7fFZbLvj.ZM4xebFAD6",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$I3QvBs8RqjIQbjXG0cCCE.7m151EE/v3iHAQ4boidNoPC2eSC1.AO",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$iJqCLi8vBxrpaYxwd1o4DO4UWs2A9fojx41dx56/2IrHXvnG9l5ia",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$TvH99RHGUO6ymmuwYZyQv.SidBKFy3khcHMDNmMXUGw/TbwcSLLJy",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$GLvp.4rRw8.pHq/Kpal9peiqlMhz8yiTVL6ra2FeZ70VUTrhgllvK",
+      "id": 1702681218098
+    },
+    {
+      "token": "$2b$10$7aqE3e9bL0OJdt/qzmZDM.eY/BXzPZMlZmE6PmXpx6e9/DeTGMvIa",
+      "id": 1702681218098
+    },
+    {
+      "token": "$2b$10$FMQEUevJOurJGIleVHngqebzSb3FlJCMj80UB981JESHcOPrZG4nm",
+      "id": 1702682201398
+    },
+    {
+      "token": "$2b$10$vOasLetvbfkNBrnUK1JvqeEGNS5os3uhUCj3UW.RFNVJJrAOn68Oa",
+      "id": 1702682201398
     }
-  ]
+  ],
+  {
+    demandas:
+    "a"
+    candidatos:
+  }
 }
