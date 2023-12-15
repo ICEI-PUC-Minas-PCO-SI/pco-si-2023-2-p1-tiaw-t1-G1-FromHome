@@ -1,0 +1,201 @@
+document.addEventListener("DOMContentLoaded", () => {
+const form = document.querySelector('.row.g-3');
+const campos = document.querySelectorAll('.required');
+
+// Adicionar ouvintes de evento 'blur' para todos os campos de entrada
+document.querySelectorAll('input, select, textarea').forEach(function (element) {
+element.addEventListener('blur', validarCampoNaoVazio);
+});
+
+form.addEventListener('submit', (event) => {
+// Verificar se todos os campos estão preenchidos
+if (validarFormulario()) {
+// Se todos os campos estiverem preenchidos, permitir o envio do formulário
+// Se quiser realizar alguma ação antes do envio, adicione aqui
+} else {
+// Se algum campo não estiver preenchido, impedir o envio e exibir um alerta
+event.preventDefault();
+alert("Por favor, preencha todos os campos obrigatórios antes de enviar o formulário.");
+}
+});
+
+
+
+
+
+
+
+
+
+
+
+// Adicionar um ouvinte de evento 'blur' para chamar precoValidate quando o foco é retirado do campo
+document.getElementById('inputPreco').addEventListener('blur', precoValidate);
+
+
+
+const ACCESS_TOKEN =
+'pk.eyJ1Ijoid2FuZXNzYWNyaXN0aW5hIiwiYSI6ImNscHBmeDN3bDBwNXoyanBwNDd1NHdjbWoifQ.mn9RiaWKROJGkiLQynhltg';
+
+let autofillCollection;
+let minimap;
+
+
+// Form operation functions
+function showMap() {
+const el = document.getElementById("minimap-container");
+el.classList.remove("none");
+}
+
+function hideMap() {
+const el = document.getElementById("minimap-container");
+el.classList.add("none");
+}
+
+const manualEntryButton = document.getElementById("manual-entry");
+if (manualEntryButton) {
+manualEntryButton.addEventListener("click", expandForm);
+}
+
+function expandForm() {
+document.getElementById("manual-entry").classList.add("hide");
+document.querySelector(".secondary-inputs").classList.remove("hide");
+}
+
+function collapseForm() {
+document.getElementById("manual-entry").classList.remove("hide");
+document.querySelector(".secondary-inputs").classList.add("hide");
+}
+
+function setValidationText(color, msg, clear = false) {
+const validationTextElement = document.getElementById("validation-msg");
+if (clear) validationTextElement.classList.add("none");
+validationTextElement.classList.remove("color-green", "color-red");
+validationTextElement.classList.add(`color-${color}`);
+validationTextElement.innerText = msg;
+validationTextElement.classList.remove("none");
+}
+
+function submitForm() {
+setValidationText("green", "Order successfully submitted.");
+setTimeout(() => {
+resetForm();
+}, 2500);
+}
+
+function resetForm() {
+const inputs = document.querySelectorAll("input");
+inputs.forEach(input => input.value = "");
+collapseForm();
+setValidationText("green", "", true)
+autofillCollection.update();
+minimap.feature = null;
+}
+
+// Bind functions to HTML buttons
+document.getElementById("manual-entry").addEventListener("click", expandForm);
+
+// Autofill initialization
+document.getElementById("search-js").onload = () => {
+mapboxsearch.config.accessToken = ACCESS_TOKEN;
+
+autofillCollection = mapboxsearch.autofill({});
+
+minimap = new MapboxAddressMinimap();
+minimap.canAdjustMarker = true;
+minimap.satelliteToggle = true;
+minimap.onSaveMarkerLocation = (lnglat) => {
+console.log(`Marker moved to ${lnglat}`);
+};
+const minimapContainer = document.getElementById("minimap-container");
+minimapContainer.appendChild(minimap);
+
+autofillCollection.addEventListener(
+"retrieve",
+async (e) => {
+expandForm();
+if (minimap) {
+minimap.feature = e.detail.features[0];
+showMap();
+}
+}
+);
+
+document.addEventListener("DOMContentLoaded", () => {
+const form = document.forms.checkoutForm;
+
+form.addEventListener("submit", async (e) => {
+e.preventDefault();
+
+
+// Obtendo dados do formulário
+const addressInput = document.getElementById("inputLocal");
+const cityInput = document.getElementById("cityInput");
+const stateInput = document.getElementById("stateInput");
+
+// Obtendo dados da biblioteca Mapbox Search
+const address = autofillCollection.get("address-line1");
+
+// Criando um objeto com os dados do formulário
+const formData = {
+address: addressInput.value,
+city: cityInput.value,
+state: stateInput.value,
+mapboxAddress: address,
+// Adicione mais campos conforme necessário
+};
+
+// Convertendo para JSON
+const jsonData = JSON.stringify(formData);
+
+// Exibindo os dados em JSON no console (você pode enviar ou processar conforme necessário)
+console.log(jsonData);
+
+// Restante do seu código...
+});
+}
+)
+}
+
+// Restante do seu código...
+
+function validarCampoNaoVazio(event) {
+const campo = event.target;
+
+// Verificar se o valor do campo está em branco
+if (campo.value.trim() === '') {
+alert('O campo não pode estar em branco!');
+
+// Impedir o envio do formulário
+event.preventDefault();
+
+// Você pode adicionar mais lógica aqui, como focar no campo novamente
+}
+}
+
+function validarFormulario() {
+let formularioValido = true;
+
+// Iterar sobre todos os campos obrigatórios
+campos.forEach((campo, index) => {
+if (campo.value.trim() === '') {
+setError(index);
+formularioValido = false;
+} else {
+removeError(index);
+}
+});
+
+return formularioValido;
+}
+
+function setError(index) {
+campos[index].style.border = '2px solid #ff0000';
+// Adicione qualquer outra lógica necessária para indicar um erro no campo
+}
+
+function removeError(index) {
+campos[index].style.border = '2px solid #652b77';
+// Adicione qualquer outra lógica necessária para remover a indicação de erro no campo
+}
+});
