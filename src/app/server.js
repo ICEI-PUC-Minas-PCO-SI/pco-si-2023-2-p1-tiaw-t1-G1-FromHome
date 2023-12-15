@@ -1,4 +1,5 @@
 const json_server = require("json-server")
+const cookies = require("cookies")
 const express = require("express")
 const crypto = require("crypto")
 const bcrypt = require("bcrypt")
@@ -11,6 +12,12 @@ const Port = process.env.PORT || 621;
 
 let DBG = console.log
 
+function Send403(Response) {
+  Response.status(403)
+  Response.send("<h1>Você não tem acesso a esta página</h1>")
+}
+
+
 // @note Isso deve sempre ser o primeiro middleware
 Application.use((Request, _Response, NextHandles) => {
   let Socket = Request.socket
@@ -20,12 +27,11 @@ Application.use((Request, _Response, NextHandles) => {
 
 Application.use(express.urlencoded({ extended: true }))
 Application.use(express.json())
-Application.use(express.static(path.join(__dirname, "../public/pages")))
 Application.use("/js", express.static(path.join(__dirname, "../public/js")))
 Application.use("/img", express.static(path.join(__dirname, "../public/img")))
-Application.use("/pages", express.static(path.join(__dirname, "../public/pages")))
-
 function UserDataFromToken(Token) {
+  if (!Token) { return false }
+
   let UID = null
   for (let TokenObject of JSONRouter.db.get("tokens")) {
     if (TokenObject.token == Token) {
@@ -58,7 +64,7 @@ Application.post("/api/account", (Request, Response) => {
 
   if (Type == "REGISTER") {
     let NewUser = {
-      userType: UserType,
+      user_type: UserType,
       birthdate: Birthdate,
       password: SaltedPassword,
       username: Username,
@@ -94,9 +100,8 @@ Application.post("/api/account", (Request, Response) => {
     }
 
     if (Token) {
-      document.cookie = `token=${Token}`
-      window.location.href = 'buscarVagas.html';
-
+      (new cookies(Request, Response)).set('token', Token, { maxAge: 900000, httpOnly: true });
+      Response.sendStatus(200)
     }
     else {
       Response.json({ success: false, message: "Login invalido ou inexistente" });
@@ -106,9 +111,9 @@ Application.post("/api/account", (Request, Response) => {
 });
 
 Application.post("/api/rate", (Request, Response) => {
-  let User = UserDataFromToken(Request.headers.authorization)
+  let User = UserDataFromToken((new cookies(Request, Response)).get("token"))
 
-  if (!User) { return Response.sendStatus(403) }
+  if (!User) { return Send403(Response) }
 
   let [Rating, Target, Reason] = Request.body
 
@@ -121,6 +126,23 @@ Application.post("/api/rate", (Request, Response) => {
 
 Application.use("/api", json_server.defaults())
 Application.use("/api", JSONRouter)
+
+Application.use((Request, Response, NextHandles) => {
+  let Cookies = new cookies(Request, Response)
+  if(["/", "/index.html", "/login.html", "/registroUsuario.html", "/escolhaFuncaoCadastro.html", "/escolhaFuncaoLogin.html"].find((V) => (V == Request.path))){
+    return NextHandles();
+  }
+  let User = UserDataFromToken(Cookies.get("token"))
+  if(!User) Send403(Response)
+  if(User.user_type == "prestador" && ["/buscarVagas.html", "/confirmarpagamentocliente.html","/resultadopesquisa.html", "/servicoEmAndamento.html", "/telaAvaliacaoCliente.html"].find((V) => (V == Request.path))) return NextHandles();
+  else if(User.user_type == "contratante" && ["/confirmarpagamentocliente.html","/listaperfil.html", "/registroservicos.html","/telapesquisacliente.html", "/telaAvaliacaoPrestador.html"].find((V) => (V == Request.path))) return NextHandles();
+  else return Send403(Response)
+})
+
+
+Application.use(express.static(path.join(__dirname, "../public/pages")))
+Application.use("/pages", express.static(path.join(__dirname, "../public/pages")))
+
 
 // Movida a rota padrão para o final
 Application.use((_Request, Response) => {

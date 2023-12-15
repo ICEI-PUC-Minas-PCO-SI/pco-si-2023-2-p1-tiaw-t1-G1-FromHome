@@ -3,7 +3,7 @@ $(document).ready(function(){
     $("#loginForm").submit(function(event){
       event.preventDefault();
   
-      const formData = [$("#emailOrPhone").val(), $("#password").val()]
+      const formData = [localStorage.getItem("varFuncao"), $("#emailOrPhone").val(), $("#password").val()]
       
       //$("#rememberMe").val()
       $.ajax({
