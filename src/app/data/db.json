@@ -8,14 +8,14 @@
       "email": "teste@e621.com",
       "phone": "dasdasda",
       "address": "666",
-      "country": "furrylandia",
+      "country": "landia",
       "state": "FU",
-      "city": "inferno",
+      "city": "inno",
       "ratings": [
         {
           "uid": 1702401343055,
           "rating": 69,
-          "reason": "gostoso da porra comeria dnv"
+          "reason": "gonv"
         }
       ],
       "id": 1702401343055
@@ -43,6 +43,25 @@
       "miriam@gmaill.com",
       "123456",
       "on"
+    ],
+    {
+      "birthdate": "1212-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "Emy",
+      "gender": "male",
+      "email": "emy@gmail.com",
+      "phone": "31987675643",
+      "address": "rua pinto",
+      "country": "Brasil",
+      "state": "MG",
+      "city": "camarões",
+      "ratings": [],
+      "id": 1702650882356
+    },
+    [
+      "emy@gmail.com",
+      "123456",
+      "on"
     ]
   ],
   "tokens": [
@@ -57,6 +76,45 @@
     {
       "token": "$2b$10$MKkw0KXGdp/fUibeep7dS.6dGFehpUmA5N6V7IDg5iXTdLf/SAcwK",
       "id": 1702594122325
+    },
+    {
+      "token": "$2b$10$qerOgtosoGQ0oGXRvylmbOf.DJO4PYVqaFRJh4EHoOyX9juJv.dAO",
+      "id": 1702650882356
+    },
+    {
+      "token": "$2b$10$5ZvylCFdpgK2l4PyTnkzgekK3BBCdJKUWNlHm/UKkPBq/kKszQ.t6",
+      "id": 1702650882356
+    }
+  ],
+
+  "servicos": [
+    {
+      "id": 1,
+      "nome": "Cuidador de idoso",
+      "categoria": "Outros",
+      "descricao": "Procuramos um profissional comprometido em fornecer um ambiente seguro e carinhoso para idosos",
+      "localizacao": "marimba",
+      "cidade": "Contagem",
+      "estado": "Minas Gerais",
+      "foto": "img/usuario.png",
+      "disponibilidade": "12:00",
+      "preco": 50,
+      "data": "2023-12-31",
+      "contato": true
+    },
+    {
+      "nome": "Babá",
+      "categoria": "Babá Cuidados com Crianças",
+      "descricao": "Procuro alguém responsável para olhar meus 2 filhos em horário integral de 8hrs às 15hrs. Pago por dia",
+      "localizacao": "Rua Nova Canaã ",
+      "cidade": "Betim",
+      "estado": "Minas Gerais",
+      "foto": "",
+      "disponibilidade": "07:00",
+      "preco": "50,00",
+      "data": "2023-12-20",
+      "contato": true,
+      "id": 2
     }
   ]
 }
