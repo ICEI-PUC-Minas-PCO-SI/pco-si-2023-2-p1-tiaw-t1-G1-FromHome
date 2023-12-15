@@ -62,7 +62,37 @@
       "emy@gmail.com",
       "123456",
       "on"
-    ]
+    ],
+    {
+      "userType": "prestador",
+      "birthdate": "2003-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "asdf",
+      "gender": "male",
+      "email": "joaovsbarbosa8@gmail.com",
+      "phone": "31987876564",
+      "address": "asdfsadf",
+      "country": "sadf",
+      "state": "asdf",
+      "city": "asdfsadf",
+      "ratings": [],
+      "id": 1702669558691
+    },
+    {
+      "userType": "contratante",
+      "birthdate": "1212-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "asdfkjah'",
+      "gender": "male",
+      "email": "joaovsbarbosa8@gmail.com",
+      "phone": "23948239487293",
+      "address": "asdjjdsn",
+      "country": "Brasil",
+      "state": "HG",
+      "city": "asdisdnk",
+      "ratings": [],
+      "id": 1702669630842
+    }
   ],
   "tokens": [
     {

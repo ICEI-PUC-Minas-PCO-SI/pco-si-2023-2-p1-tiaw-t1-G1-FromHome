@@ -50,7 +50,7 @@ function UserDataFromToken(Token) {
 
 Application.post("/api/account", (Request, Response) => {
   DBG(Request.body)
-  const [ Identifier, Password, Username, Phone, Birthdate, Gender, Address, City, State, Country ] = Request.body
+  const [ UserType, Identifier, Password, Username, Phone, Birthdate, Gender, Address, City, State, Country ] = Request.body
 
   // Hashear a senha é sempre uma boa pratica, apesar que seria altamente beneficial se tivesse um salt na hash.
   let SaltedPassword = crypto.createHash("sha256").update(Password).digest("hex")
@@ -58,6 +58,7 @@ Application.post("/api/account", (Request, Response) => {
 
   if (Type == "REGISTER") {
     let NewUser = {
+      userType: UserType,
       birthdate: Birthdate,
       password: SaltedPassword,
       username: Username,

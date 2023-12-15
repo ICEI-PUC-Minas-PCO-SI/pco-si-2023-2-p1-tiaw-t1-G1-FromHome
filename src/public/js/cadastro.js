@@ -2,11 +2,13 @@ function redirectLogin() {
   window.location.href = '/login.html';
 }
 $(document).ready(function(){
-  
+
+
   $("#FormularioCadastro").submit(function(event){
     event.preventDefault();
 
     const formData = [
+      localStorage.getItem("varFuncao"),
       $("#inputEmail").val(),
       $("#inputPassword").val(),
       $("#inputUsername").val(),
