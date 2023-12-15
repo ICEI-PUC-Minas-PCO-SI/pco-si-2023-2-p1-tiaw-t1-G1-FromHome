@@ -85,5 +85,36 @@
       "token": "$2b$10$5ZvylCFdpgK2l4PyTnkzgekK3BBCdJKUWNlHm/UKkPBq/kKszQ.t6",
       "id": 1702650882356
     }
+  ],
+
+  "servicos": [
+    {
+      "id": 1,
+      "nome": "Cuidador de idoso",
+      "categoria": "Outros",
+      "descricao": "Procuramos um profissional comprometido em fornecer um ambiente seguro e carinhoso para idosos",
+      "localizacao": "marimba",
+      "cidade": "Contagem",
+      "estado": "Minas Gerais",
+      "foto": "img/usuario.png",
+      "disponibilidade": "12:00",
+      "preco": 50,
+      "data": "2023-12-31",
+      "contato": true
+    },
+    {
+      "nome": "Babá",
+      "categoria": "Babá Cuidados com Crianças",
+      "descricao": "Procuro alguém responsável para olhar meus 2 filhos em horário integral de 8hrs às 15hrs. Pago por dia",
+      "localizacao": "Rua Nova Canaã ",
+      "cidade": "Betim",
+      "estado": "Minas Gerais",
+      "foto": "",
+      "disponibilidade": "07:00",
+      "preco": "50,00",
+      "data": "2023-12-20",
+      "contato": true,
+      "id": 2
+    }
   ]
 }
