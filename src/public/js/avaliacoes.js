@@ -37,7 +37,7 @@ function processarDadosContratante(contratanteId) {
     function marcarEstrelasContratante(contratante, valor) {
         const starsC = document.querySelectorAll('.starC-icon');
         valorAvaliacaoCliente = valor;
-        starsC.forEach(starC => {
+        starC.forEach(starC => {
             const starCValue = parseInt(starC.dataset.value);
             const isStarCSelected = starCValue <= valor;
             starC.classList.toggle('ativo', isStarCSelected);
