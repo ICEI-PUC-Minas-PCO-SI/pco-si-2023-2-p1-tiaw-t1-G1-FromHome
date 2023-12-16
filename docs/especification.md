@@ -96,8 +96,10 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| Definir o tempo que o sistema ficará no ar |  ALTA | 
-
-
+|RNF-004| O sistema deve conter criptografia de senhas |  ALTA | login.Html | Gustavo
+|RNF-005| O sistema deve conter "banco de dados" |  ALTA | DB.json | Gustavo
+|RNF-006| O sistema deve informar aos usuários os termos de uso |  ALTA | modais.js | Miriam
+|RNF-007| O sistema deve mostrar ao usuário as políticas de privacidade |  ALTA | modais.js | Miriam
 
 ## Restrições
 
