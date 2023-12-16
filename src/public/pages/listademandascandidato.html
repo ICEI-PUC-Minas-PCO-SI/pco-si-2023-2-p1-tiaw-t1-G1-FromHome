@@ -281,10 +281,11 @@
 
                                 <!-- Additional information container -->
                                 <div class="col-auto mt-3">
-                                    <a href="resultadopesquisa.html" class="btn btn-custom"
+                                    <button  class="btn btn-custom" id="btnCandidatar"
                                         style="background-color: rgb(128, 28, 235); color: rgb(255, 255, 255); width: 150px;">
                                         Candidatar-se
-                                    </a>
+                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -444,6 +445,39 @@
     </script>
 
 
+
+
+<script>
+    // Função para enviar a candidatura usando AJAX
+    function candidatarSe(idProfissional) {
+        const url = 'http://seuservidor.com/api/candidatura'; // Substitua pela URL correta
+        const dados = {
+            idProfissional: idProfissional,
+            // Adicione outros dados que você precisa enviar
+        };
+
+        $.ajax({
+            type: 'POST',
+            url: url,
+            contentType: 'application/json',
+            data: JSON.stringify(dados),
+            success: function (data) {
+                // Lide com a resposta do servidor, se necessário
+                console.log('Resposta do servidor:', data);
+            },
+            error: function (error) {
+                console.error('Erro ao enviar candidatura:', error);
+            }
+        });
+    }
+
+    // Adicione um ouvinte de evento para o clique no botão
+    $('#btnCandidatar').on('click', function () {
+        // Substitua "idProfissional" pelo valor real do ID do profissional
+        const idProfissional = 123; // Exemplo, substitua pelo ID real
+        candidatarSe(idProfissional);
+    });
+</script>
 
 
 </body>
