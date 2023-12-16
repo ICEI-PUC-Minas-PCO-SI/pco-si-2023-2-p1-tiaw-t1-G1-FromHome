@@ -180,7 +180,7 @@
                                     placeholder="Senha" required aria-describedby="mensagemErrosenha"
                                     oninput="senhaValidate()" onblur="senhaValidate()">
                                 <span class="span-required" id="mensagemErrosenha">
-                                    <p>A descrição deve ter no mínimo 20 caracteres</p>
+                                    <p> </p>
                                 </span>
                             </div>
                             <div class="col-md-6"> <!-- confirma senha -->
@@ -215,7 +215,7 @@
                                 <input type="date" class="form-control required" id="inputBirthdate" max="9999-12-31"
                                     required oninput="idadeValidate()" onblur="idadeValidate()">
                                 <span class="span-required" id="mensagemErroIdade">
-                                    <p>O usuário deve ter mais de 18 anos</p>
+                                    <p>Campo obrigatório: O usuário deve ter mais de 18 anos</p>
                                 </span>
                             </div>
                             <div class="col-md-6"> <!-- genero -->
@@ -248,7 +248,7 @@
                                             id="inputAddress" style="resize: vertical;" rows="2"
                                             oninput="enderecoValidate()" onblur="enderecoValidate()">
                                         <span class="span-required" id="mensagemErroEndereco">
-                                            <p>O endereço deve ter no mínimo 3 caracteres</p>
+                                            <p>Campo obrigatório: endereço deve ter no mínimo 3 caracteres</p>
                                         </span>
                                     </div>
                                 </div>
@@ -613,43 +613,58 @@
         }
     }
 
+
     function nameValidate() {
         const usernameInput = document.getElementById("inputUsername");
         const mensagemErroUsername = document.getElementById("mensagemErroUsername");
 
-        if (usernameInput.value.length < 4) {
-            setError(usernameInput, mensagemErroUsername);
+        const setError = (errorMessage) => {
+            usernameInput.style.border = '2px solid #ff0000';
+            mensagemErroUsername.style.display = 'block';
+            mensagemErroUsername.textContent = errorMessage;
+        };
+
+        const removeError = () => {
+            usernameInput.style.border = '2px solid #652b77';
+            mensagemErroUsername.style.display = 'none';
+        };
+
+        if (usernameInput.value.trim().length === 0) {
+            setError("Este campo é obrigatório.");
+            return false;
+        } else if (usernameInput.value.length < 4) {
+            setError("O nome deve ter pelo menos 4 caracteres.");
             return false;
         } else {
-            removeError(usernameInput, mensagemErroUsername);
+            removeError();
             return true;
         }
     }
-
     function telefoneValidate() {
         const phoneInput = document.getElementById("inputPhone");
         const mensagemErroTelefone = document.getElementById("mensagemErroTelefone");
 
+        const setError = () => {
+            phoneInput.style.border = '2px solid #ff0000';
+            mensagemErroTelefone.style.display = 'block';
+            mensagemErroTelefone.textContent = "Este campo é obrigatório e deve conter o número e o DDD.";
+        };
+
+        const removeError = () => {
+            phoneInput.style.border = '2px solid #652b77';
+            mensagemErroTelefone.style.display = 'none';
+        };
+
         // Expressão regular para validar o número de telefone
         const phoneRegex = /^[0-9]{10,}$/;
 
-        if (!phoneRegex.test(phoneInput.value)) {
-            setError(phoneInput, mensagemErroTelefone);
+        if (phoneInput.value.trim().length === 0 || !phoneRegex.test(phoneInput.value)) {
+            setError();
             return false;
         } else {
-            removeError(phoneInput, mensagemErroTelefone);
+            removeError();
             return true;
         }
-    }
-
-    function setError(inputElement, errorSpan) {
-        inputElement.style.border = '2px solid #ff0000';
-        errorSpan.style.display = 'block';  // Exibe a mensagem de erro
-    }
-
-    function removeError(inputElement, errorSpan) {
-        inputElement.style.border = '2px solid #652b77';
-        errorSpan.style.display = 'none';  // Oculta a mensagem de erro
     }
 
 
