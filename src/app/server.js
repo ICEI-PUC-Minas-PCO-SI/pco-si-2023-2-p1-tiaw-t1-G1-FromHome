@@ -100,6 +100,18 @@ Application.post("/api/account", (Request, Response) => {
       }
     }
 
+/*
+    let TokenList = JSONRouter.db.get("tokens")
+    let NewTokens = []
+    for (let T of TokenList) {
+      if (!NewTokens.find((V) => V.id == T.id)) {
+        NewTokens.push(T)
+      }
+    }
+    DBG(NewTokens)
+    JSONRouter.db.set("tokens", NewTokens).write()
+    */
+
     if (Token) {
       (new cookies(Request, Response)).set('token', Token, { maxAge: 900000, httpOnly: true });
       Response.sendStatus(200)
@@ -112,16 +124,19 @@ Application.post("/api/account", (Request, Response) => {
 });
 
 Application.post("/api/rate", (Request, Response) => {
+  let [Target, Rating, Reason] = Request.body
   let User = UserDataFromToken((new cookies(Request, Response)).get("token"))
 
   if (!User) { return Send403(Response) }
-
-  let [Rating, Target, Reason] = Request.body
-
   let TargetUser = JSONRouter.db.get("users").find({ id: Target })
-  TargetUser.get("ratings").push({ uid: User.id, rating: Rating, reason: Reason}).write()
-  
-  Response.json({ success: true, message: "Review com sucesso" })
+
+  if (Request.method == "GET") {
+    return Response.json(TargetUser)
+  }
+  else if (Request.method == "POST") {
+    TargetUser.get("ratings").push({ uid: User.id, rating: Rating, reason: Reason}).write()
+    return Response.json({ success: true, message: "Review com sucesso" })
+  }
 })
 
 

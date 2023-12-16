@@ -2,13 +2,15 @@
 function processarDadosContratante(contratanteId) {
     $.ajax({
         type: "GET",
-        url: "/api/user?type=contratante&id=" + encodeURIComponent(contratanteId),
+        data: JSON.stringify([contratanteId]),
+        url: "/api/rate",
         contentType: 'application/json',
         success: function (contratante) {
+            contratante = JSON.parse(contratante)
             if (contratante) {
-                document.getElementById('imagemContratante').src = contratante.fotoUrl;
-                document.getElementById('nomePerfilContratante').textContent = contratante.nome;
-                document.getElementById('descricaoServicoSolicitado').textContent = contratante.descricao;
+                //document.getElementById('imagemContratante').src = contratante.fotoUrl;
+                document.getElementById('nomePerfilContratante').textContent = contratante.username;
+                //document.getElementById('descricaoServicoSolicitado').textContent = contratante.descricao;
                 contratante.ratings = contratante.ratings || [];
   
                 const avaliacaoContratanteSection = document.getElementById('avaliacaoContratanteSection');
@@ -57,9 +59,9 @@ function processarDadosContratante(contratanteId) {
   
     function enviarAvaliacaoContratante(contratanteId, valor) {
         $.ajax({
-            type: "PATCH",
-            url: "/api/user?type=contratante&id=" + encodeURIComponent(contratanteId),
-            data: JSON.stringify({ avaliacao: valor }),
+            type: "POST",
+            url: "/api/rate",
+            data: JSON.stringify([contratanteId, Number(valor), "nao."]),
             contentType: 'application/json',
             success: function (response) {
                 console.log('Avaliação enviada com sucesso!', response);
@@ -71,6 +73,5 @@ function processarDadosContratante(contratanteId) {
     }
   }
 
-  
 
   //prestadores
