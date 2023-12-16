@@ -26,6 +26,31 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <style>
+        .profile-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+
+
         /* Estilos personalizados para o cabeçalho fixo */
         .fixed-header {
             position: fixed;
@@ -58,31 +83,16 @@
             padding-bottom: 120px;
         }
 
-        h2 {
-            color: #7d1297;
+
+        footer {
+            padding-bottom: 0px;
         }
 
 
 
-        .form-control {
-            border: 2px solid #7d1297;
-            /* Cor da borda padrão */
-        }
 
-        .form-control:focus {
-            border-color: #8c00ff;
-            box-shadow: 3px rgba(166, 12, 255, 0.25);
-        }
 
-        /* Adiciona uma borda vermelha aos campos de entrada com erro */
-        .form-control.error {
-            border-color: #dc3545;
-        }
 
-        /* Adiciona uma borda verde aos campos de entrada com sucesso */
-        .form-control.success {
-            border-color: #28a745;
-        }
 
         .login-box {
             border: 2px solid #8a34db;
@@ -92,48 +102,6 @@
 
         .poppins-text {
             font-family: 'Poppins', sans-serif;
-        }
-
-        .form-label {
-            color: rgb(89, 52, 114);
-            /* Altere para a cor desejada */
-        }
-
-
-        .btn-primary {
-            background-color: rgb(89, 52, 114);
-            /* Altera a cor de fundo do botão para roxo */
-            border: 2px solidrgb(89, 52, 114);
-            /* Altera a cor da borda do botão para roxo */
-        }
-
-        /* Adiciona um efeito de hover ao botão para indicar interação */
-        .btn-primary:hover {
-            background-color: rgb(132, 28, 201);
-            /* Altera a cor de fundo ao passar o mouse */
-            border: 2px solid darkpurple;
-            /* Altera a cor da borda ao passar o mouse */
-        }
-
-        p {
-            color: #8928a7;
-        }
-
-        .span-required {
-            display: none;
-            font-size: 12px;
-            color: rgb(255, 0, 0);
-
-        }
-
-
-
-        /* Estilo para a caixa de marcação quando está marcada */
-        .form-check-input:checked {
-            background-color: #8a34db;
-            /* Cor de fundo roxa quando a caixa de marcação está marcada */
-            border: 2px solid #8a34db;
-            /* Cor da borda roxa quando a caixa de marcação está marcada */
         }
     </style>
 </head>
@@ -177,46 +145,45 @@
         </div>
     
     </header>
+
     <!-- Conteúdo principal da página -->
     <div class="content" style="margin-bottom: 60px;">
         <div class="container">
             <div class="login-box">
-                <h2 class="text-center"><b>Login</b></h2>
-                <form id="loginForm" action="api/users" method="post">
-                    <div class="mb-3">
-                        <label for="emailOrPhone" class="form-label"><b>Email ou Telefone</b></label>
-                        <input type="text" class="form-control required" id="emailOrPhone"
-                            placeholder="Digite seu email ou telefone" onblur="emailValidate()">
-                        <span class="span-required" id="mensagemErroEmail">
-                            <p>Insira um e-mail válido</p>
-                        </span>
+                <div class="profile-container">
+                    <div class="profile-picture">
+                        <img src="img/perfil_homem.png" alt="Profile Picture">
                     </div>
-                    <div class="mb-3">
-                        <label for="password" class="form-label"><b>Senha</b></label>
-                        <input type="password" class="form-control required" id="password"
-                            placeholder="Digite sua senha" aria-describedby="mensagemErrosenha"
-                            onblur="senhaValidate()">
-                        <span class="span-required" id="mensagemErrosenha">
-                            <p>Este campo é obrigatório</p>
-                        </span>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="rememberMe">
-                        <label class="form-check-label" for="rememberMe">Lembrar senha</label>
-                    </div>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-primary">Entrar</button>
-                    </div>
-                </form>
+                    <h2 class="text-center" id="nomeusuario"><b> </b></h2>
+                    <div class="container mt-5">
+                        <h5>Informações Pessoais</h5>
+                        <form id="personalInfoForm" action="api/users" method="post">
 
-                <!-- Adicione a opção de cadastro -->
-                <p class="text-center mt-3">Não tem login? <a href="registroUsuario.html">Cadastre-se aqui</a></p>
+
+                            <div class="mb-3">
+                                <label for="age" class="form-label" id="nascimento"><b>Data de nascimento</b></label>
+                                <p id="ageParagraph"></p>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="phone" class="form-label"><b>Telefone</b></label>
+                                <p id="phoneParagraph"></p>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="address" class="form-label"><b>Endereço</b></label>
+                                <p id="addressParagraph"></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    </section>
 
-
-    <footer class="text-light mt-1" style="background-color: rgb(58, 50, 77); position: fixed; bottom: 0; width: 100%;">
+    <footer class="text-light mt-1"
+        style="background-color: rgb(58, 50, 77); position:relative; bottom: 0; width: 100%;">
         <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
             <a class="navbar-brand" href="#"><img src="../img/Logo.png" alt="" style="width: 100px;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -245,80 +212,41 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
 
 
     <script>
+        // Dados do JSON
+        var userData = {
+            "nome": "Jeffersson",
+            "nascimento": "25/08/2000",
+            "telefone": "3198799997",
+            "localizacao": "Rua Nova Canaã",
+            "cidade": "Betim",
+            "estado": "Minas Gerais",
+            "foto": "/img"
+        };
 
-        const campos = document.querySelectorAll('.required');
-        const span = document.querySelectorAll('.span-required');
+        // Preencher os elementos HTML com os dados do JSON
+        document.getElementById('nomeusuario').innerText = '' + userData.nome; 
+        document.getElementById('ageParagraph').innerText = '  ' + userData.nascimento;
+        document.getElementById('phoneParagraph').innerText = ' ' + userData.telefone;
+        document.getElementById('addressParagraph').innerText = ' ' + userData.localizacao + ', ' + userData.cidade + ', ' + userData.estado;
 
-        function emailValidate() {
-            const emailInput = document.getElementById("emailOrPhone");
-            const emailValue = emailInput.value.trim();
-            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        // Função para calcular a idade com base na data de nascimento
+        function calcularIdade(dataNascimento) {
+            var hoje = new Date();
+            var nascimento = new Date(dataNascimento);
+            var idade = hoje.getFullYear() - nascimento.getFullYear();
 
-            function setError(errorMessage) {
-                emailInput.style.border = '2px solid #ff0000';
-                document.getElementById("mensagemErroEmail").style.display = 'block';
-                document.getElementById("mensagemErroEmail").textContent = errorMessage;
+            // Ajustar a idade se o aniversário ainda não ocorreu este ano
+            if (hoje.getMonth() < nascimento.getMonth() || (hoje.getMonth() === nascimento.getMonth() && hoje.getDate() < nascimento.getDate())) {
+                idade--;
             }
 
-            function removeError() {
-                emailInput.style.border = '2px solid #652b77';
-                document.getElementById("mensagemErroEmail").style.display = 'none';
-            }
-
-            if (emailValue.length === 0) {
-                setError("Este campo é obrigatório.");
-                return false;
-            } else if (!emailRegex.test(emailValue)) {
-                setError("Por favor, forneça um e-mail válido.");
-                return false;
-            } else {
-                removeError();
-                return true;
-            }
+            return idade;
         }
-
-
-        function senhaValidate() {
-            const senhaInput = document.getElementById("password");
-            const senhaValue = senhaInput.value.trim();
-
-            const setError = (inputElement, errorMessage) => {
-                inputElement.style.border = '2px solid #ff0000';
-                const errorSpan = document.getElementById(inputElement.getAttribute('aria-describedby'));
-
-                if (errorSpan) {
-                    errorSpan.style.display = 'block';
-                    errorSpan.textContent = errorMessage;
-                }
-            };
-
-            const removeError = (inputElement) => {
-                inputElement.style.border = '2px solid #652b77';
-                const errorSpan = document.getElementById(inputElement.getAttribute('aria-describedby'));
-
-                if (errorSpan) {
-                    errorSpan.style.display = 'none';
-                }
-            };
-
-            if (senhaValue.length === 0) {
-                setError(senhaInput, "Este campo é obrigatório.");
-                return false;
-            } else {
-                removeError(senhaInput);
-                return true;
-            }
-        }
-
-
-
     </script>
-
-
 
 </body>
 
