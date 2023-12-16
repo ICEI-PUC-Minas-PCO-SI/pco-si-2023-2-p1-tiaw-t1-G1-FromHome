@@ -88,9 +88,10 @@ Application.post("/api/account", (Request, Response) => {
   else if (Type == "LOGIN") {
     let Token = null
     for (let User of JSONRouter.db.get("users")) {
-      if ((User.email == Identifier || User.phone == Identifier) && SaltedPassword == User.password) {
+      if (User.user_type == UserType && (User.email == Identifier || User.phone == Identifier) && SaltedPassword == User.password) {
+        DBG(Request.body, "=", User)
 
-        Token = bcrypt.hashSync(`${SaltedPassword};${User.email};${Date.now()}`, 10)
+        Token = bcrypt.hashSync(`${User.user_type}${SaltedPassword};${User.email};${Date.now()}`, 10)
         JSONRouter.db.get("tokens").push({
           token: Token,
           id: User.id

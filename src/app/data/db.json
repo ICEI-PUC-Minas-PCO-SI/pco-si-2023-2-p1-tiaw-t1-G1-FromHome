@@ -152,6 +152,27 @@
       "city": "fdlksj",
       "ratings": [],
       "id": 1702682201398
+    },
+    {
+      "id": 1702682201399
+    },
+    {
+      "id": 1702682201400
+    },
+    {
+      "user_type": "contratante",
+      "birthdate": "2004-12-12",
+      "password": "3ee63c72f8e379ca3e5b43156a2dd411e8d58256fe9444757f0d91df58b1f996",
+      "username": "Guxtaus",
+      "gender": "male",
+      "email": "gustavomedeiros.c451@gmail.com",
+      "phone": "31987654563",
+      "address": "pao",
+      "country": "pao",
+      "state": "pso",
+      "city": "pso",
+      "ratings": [],
+      "id": 1702736171354
     }
   ],
   "tokens": [
@@ -254,9 +275,36 @@
     {
       "token": "$2b$10$vOasLetvbfkNBrnUK1JvqeEGNS5os3uhUCj3UW.RFNVJJrAOn68Oa",
       "id": 1702682201398
+    },
+    {
+      "token": "$2b$10$zx9X6wV2.e/5dAdgzRsFqe1Y9Q7ufBDALxWr2Kw71LjA.TMdnqgOq",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$7VOAFEyDnUbFnhp7TOdFNOBx8fubCChs60s.2Mxy7E9Y7MHvP6VUm",
+      "id": 1702682201398
+    },
+    {
+      "token": "$2b$10$3HInaEGjC59E5jyYmdUJrOxW1xviys2r3Cb.9v10X0hOs.4FGZzM6",
+      "id": 1702682201398
+    },
+    {
+      "token": "$2b$10$ZmXXykvavhCYCpgwpXlPGODt4fglMpnBCgPlemyO1wxWzObNSviL.",
+      "id": 1702682201398
+    },
+    {
+      "token": "$2b$10$JLpOrj3zoK2VMk4j42YWR.sjuxkwiFDspOZTzcaVDyV7PR/rbQx02",
+      "id": 1702682201398
+    },
+    {
+      "token": "$2b$10$bU.tmwDKsHfCpvE6vAtJ.unsZsMpCe1VbYGYTgjOS0xtOzOOWco7q",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$gVOUq0RAFwSoBiaoO.LNEepCAkkzkpU0Pb5LFQqZ0ROtxVhT0HnzC",
+      "id": 1702669630842
     }
   ],
-
   "servicos": [
     {
       "id": 1,
