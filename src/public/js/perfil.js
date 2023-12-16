@@ -1,0 +1,7 @@
+//perfilcontratante
+function atualizarCarrossel() {
+    
+}
+
+//perfilalterar
+
