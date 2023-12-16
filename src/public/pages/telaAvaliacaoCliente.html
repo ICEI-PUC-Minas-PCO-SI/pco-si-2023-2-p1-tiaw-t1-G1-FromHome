@@ -16,7 +16,7 @@
 
     <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <style>
         /* Estilos personalizados para o cabeçalho fixo */
         .fixed-header {
@@ -31,13 +31,16 @@
         .navbar.navbar-expand-lg.navbar-light {
             width: 100%;
         }
+
         .avaliacao {
             display: flex;
         }
+
         img {
             max-width: 100%;
             height: auto;
         }
+
         .star-icon {
             list-style-type: none;
             border: 1px solid #fff;
@@ -50,7 +53,7 @@
             content: "\2605";
         }
 
-        .star-icon.ativo ~ .star-icon::before {
+        .star-icon.ativo~.star-icon::before {
             content: "\2606";
         }
 
@@ -58,96 +61,110 @@
             content: "\2605";
         }
 
-        .star-icon:hover ~ .star-icon::before {
+        .star-icon:hover~.star-icon::before {
             content: "\2606";
         }
+
         .button-primary {
             background-color: #801CEB;
             color: white;
             font-size: 18px;
         }
+
         footer {
             background-color: rgb(58, 50, 77);
             position: absolute;
             bottom: 0;
             width: 100%;
         }
+
         body {
             font-family: "Poppins";
             font-weight: bold;
             padding-top: 100px;
-            padding-bottom: 140px; /* Espaço para o footer */
-            transition: padding-top 0.3s ease; 
+            padding-bottom: 140px;
+            /* Espaço para o footer */
+            transition: padding-top 0.3s ease;
             margin: 0;
         }
+
         h6 {
-        font-weight: bold; 
-        color:#801CEB; 
+            font-weight: bold;
+            color: #801CEB;
         }
+
         h5 {
-        font-weight: bold; 
-        color:black; 
+            font-weight: bold;
+            color: black;
         }
+
         .content {
-        margin-bottom: 60px; 
+            margin-bottom: 60px;
         }
     </style>
 </head>
+
 <body>
 
-    <header class="navbar navbar-expand-lg navbar-light bg-light fixed-header" style="background-color: #e9e4ff !important;">
+    <header class="navbar navbar-expand-lg navbar-light bg-light fixed-header"
+        style="background-color: #e9e4ff !important;">
         <a class="navbar-brand" href="index.html">
             <img src="../img/Logo.png" alt="" style="width: 100px;">FromHome
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav"
+            id="navbarNav">
             <ul class="navbar-nav text-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="src/public/pages/index.html">Sobre</a>
+                    <a class="nav-link" href="index.html">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="src/public/pages/listademandacliente.html">Suas Demandas</a>
+                    <a class="nav-link" href="listademandacliente.html">Suas Demandas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="src/public/pages/registroservicos.html">Criar Demanda</a>
+                    <a class="nav-link" href="registroservicos.html">Criar Demanda</a>
                 </li>
             </ul>
         </div>
-            <div class="nav-item dropdown ml-2">
-                <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="../img/foto_perfil.jpg" alt="Sua Foto de Perfil" class="rounded-circle" width="40" height="40">
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown" style="background-color: rgb(229, 216, 255); color: rgb(0, 0, 0); border: 3px;">
-                    <a class="dropdown-item" href="#">Perfil</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Sair</a>
-                </div>
+        <div class="nav-item dropdown ml-2">
+            <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img src="../img/foto_perfil.jpg" alt="Sua Foto de Perfil" class="rounded-circle" width="40"
+                    height="40">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown"
+                style="background-color: rgb(229, 216, 255); color: rgb(0, 0, 0); border: 3px;">
+                <a class="dropdown-item" href="#">Perfil</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Sair</a>
             </div>
+        </div>
 
     </header>
 
-   <!-- Conteúdo principal da página -->
-   <div class="content" style="margin-bottom: 60px">
-    <div class="container mt-4">
-        <div class="text-center">
-            <h1 class="titulo"><b>Avalie sua experiência com</b></h1>
+    <!-- Conteúdo principal da página -->
+    <div class="content" style="margin-bottom: 60px">
+        <div class="container mt-4">
+            <div class="text-center">
+                <h1 class="titulo"><b>Avalie sua experiência com</b></h1>
             </div>
-        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 g-4">
-            <div class="col-md-6 mb-3 mb-md-0">
-                <img id="imagemContratante" class="img-fluid" alt="Figura Cliente">
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 g-4">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <img id="imagemContratante" class="img-fluid" alt="Figura Cliente">
+                </div>
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h4 class="nome-text " id="nomePerfilContratante" style="color:black;"></h4>
+                    <p class="descricao-text" id="descricaoServicoSolicitado"></p>
+                </div>
             </div>
-            <div class="col-md-6 mb-3 mb-md-0">
-                <h4 class="nome-text " id="nomePerfilContratante" style="color:black;"></h4>
-                <p class="descricao-text" id="descricaoServicoSolicitado"></p>
+            <div class="avaliacao" id="avaliacaoContratanteSection">
             </div>
-        </div>
-        <div class="avaliacao" id="avaliacaoContratanteSection">
-             </div>
             <div>
-                <button type="button" class="btn button-primary"  id="enviarAvaliacaoCliente" onclick="perfilCliente()">Enviar</button>
+                <button type="button" class="btn button-primary" id="enviarAvaliacaoCliente"
+                    onclick="perfilCliente()">Enviar</button>
             </div>
         </div>
     </div>
@@ -156,17 +173,17 @@
     <footer class="text-light mt-1" style="background-color: rgb(58, 50, 77); position: fixed; bottom: 0; width: 100%;">
         <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
             <a class="navbar-brand" href="#"><img src="../img/Logo.png" alt="" style="width: 100px;"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="src/public/pages/ajuda.html">Ajuda</a>
+                        <a class="nav-link" href="ajuda.html">Ajuda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"id="termosDeUso">Termos de Uso</a>
+                        <a class="nav-link" id="termosDeUso">Termos de Uso</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="politicasPrivacidade">Políticas de Privacidade</a>
@@ -181,7 +198,7 @@
     </footer>
 
     <script>
-         var starsC = document.querySelectorAll('.starC-icon');
+        var starsC = document.querySelectorAll('.starC-icon');
         document.addEventListener('click', function (e) {
             var classStarC = e.target.classList;
             if (!classStar.contains('ativo')) {
@@ -192,15 +209,16 @@
                 console.log(e.target.getAttribute('data-avaliacao'));
             }
         });
-        function buscarVaga(){
-            window.location.href = "src/public/pages/buscarVagas.html";
+        function buscarVaga() {
+            window.location.href = "buscarVagas.html";
         }
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="src/public/js/modais.js"></script>
-    <script src="src/public/js/perfil.js"></script>
-    <script src="src/public/js/avaliacoes.js"></script>
+    <script src="modais.js"></script>
+    <script src="perfil.js"></script>
+    <script src="avaliacoes.js"></script>
 </body>
+
 </html>
