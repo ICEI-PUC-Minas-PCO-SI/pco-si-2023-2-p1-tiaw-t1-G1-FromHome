@@ -15,7 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,400;1,500&display=swap"
         rel="stylesheet">
- 
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 
@@ -26,7 +26,7 @@
 
     <style>
         b {
-            color: #9900ff;
+            color: #3a2866;
         }
 
 
@@ -56,23 +56,101 @@
 
         select option {
             color: rgb(89, 52, 114);
-            background-color: #f2dfff;
+            background-color: #e6d1ff;
         }
 
 
+        .form-label {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        h1 {
+            color: rgb(89, 52, 114);
+        }
 
         .form-control {
             outline: none;
             /* Remove a borda padrão do foco */
             border-color: rgb(89, 52, 114);
-            padding: 8px;
-            /* Adiciona uma borda preta quando o input está em foco */
+
+            box-sizing: border-box;
         }
 
         .form-control:focus {
             outline: none;
             /* Remove a borda padrão do foco */
-            border: 3px solid #652b77;
+            border: 3px solid rgb(89, 52, 114);
+        }
+
+
+        .form-label {
+            color: rgb(89, 52, 114);
+        }
+
+        #postarBtn {
+            background-color: #801CEB;
+            color: white;
+            font-size: 18px;
+            border-radius: 20%;
+        }
+
+        #postarBtn:hover {
+            background-color: #be51be;
+
+        }
+
+        #postarBtn {
+            text-align: center;
+
+            margin-left: 1rem;
+        }
+
+
+
+        .inputOpcoes {
+            width: 100%;
+            /* Define a largura do select */
+            padding: 8px;
+            /* Adiciona preenchimento interno */
+            border: 1px solid rgb(89, 52, 114);
+            /* Adiciona uma borda ao redor do select */
+            border-radius: 5px;
+            /* Borda arredondada */
+        }
+
+        /* Estilo quando o select está focado */
+        .inputOpcoes:focus {
+            outline: none;
+            /* Remove a borda de foco padrão */
+            border-color: rgb(89, 52, 114);
+            /* Muda a cor da borda quando o select está focado */
+            box-shadow: 0 0 5px rgb(89, 52, 114);
+            /* Adiciona uma sombra quando o select está focado */
+        }
+
+        /* Estilo da seta (triângulo) do select */
+        .inputOpcoes::-ms-expand {
+            display: none;
+            /* Remove a seta no Internet Explorer */
+        }
+
+        .inputOpcoes:after {
+            content: '\25BC';
+            /* Adiciona uma seta usando o código Unicode */
+            position: absolute;
+            /* Posiciona a seta */
+            top: 50%;
+            /* Alinha a seta verticalmente */
+            right: 10px;
+            /* Define a distância da borda direita */
+            transform: translateY(-50%);
+            /* Ajusta verticalmente a seta */
+        }
+
+        /* Altera a cor do texto dentro do select */
+        .inputOpcoes option {
+            color: rgb(89, 52, 114);
         }
     </style>
 
@@ -81,49 +159,46 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg navbar-light bg-light fixed-header"
-        style="background-color: #e9e4ff !important">
-        <a class="navbar-brand" href="#"><img src="imgs/Logo.png" alt="" style="width: 100px" />FromHome</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav"
-            id="navbarNav">
-            <ul class="navbar-nav text-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Suas Demandas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Criar Demanda</a>
-                </li>
-            </ul>
+<header class="navbar navbar-expand-lg navbar-light bg-light fixed-header"
+    style="background-color: #e9e4ff !important;">
+    <a class="navbar-brand" href="index.html">
+        <img src="../img/Logo.png" alt="" style="width: 100px;">FromHome
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav"
+        id="navbarNav">
+        <ul class="navbar-nav text-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="listademandacliente.html">Suas Demandas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registroservicos.html">Criar Demanda</a>
+            </li>
+        </ul>
+    </div>
+    <div class="nav-item dropdown ml-2">
+        <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="../img/foto_perfil.jpg" alt="Sua Foto de Perfil" class="rounded-circle" width="40" height="40">
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown"
+            style="background-color: rgb(229, 216, 255); color: rgb(0, 0, 0); border: 3px;">
+            <a class="dropdown-item" href="perfilindividual.html">Perfil</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index.html">Sair</a>
         </div>
-        <div class="nav-item dropdown ml-2">
-            <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <img src="imgs/foto_perfil.avif" alt="Sua Foto de Perfil" class="rounded-circle" width="40"
-                    height="40" />
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown" style="
-            background-color: rgb(229, 216, 255);
-            color: rgb(0, 0, 0);
-            border: 3px;
-          ">
-                <a class="dropdown-item" href="#">Perfil</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#confirmarPagamento" data-toggle="modal">Pagamentos</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Sair</a>
-            </div>
-        </div>
-    </header>
+    </div>
+
+</header>
 
     <!-- Conteúdo principal da página -->
-    <div class="content" style="margin-bottom: 60px; padding-bottom: 10%; color: rgb(89, 52, 114);">
+    <div class="content" style="margin-bottom: 60px; font-family: 'Poppins';">
         <!-- conteúdo principal -->
         <div class="row mt-5 justify-content-center">
             <div class="col-lg-7 mx-auto">
@@ -133,66 +208,101 @@
                     </div>
                     <div class="container mt-5">
                         <form class="row g-3" method="POST" name="checkoutForm">
+
                             <div class="col-md-6">
                                 <label for="inputNameS" class="form-label">Nome do serviço</label>
                                 <input name="nome" class="form-control required" id="inputNomeServico"
-                                    oninput="nameValidate()" />
-                                <span class="span-required">
+                                    oninput="nameValidate()" onblur="nameValidate()" />
+                                <span class="span-required" id="mensagemErroNome">
                                     <p>O nome deve ter no mínimo 4 caracteres</p>
                                 </span>
                             </div>
-                            <div class="col-md-4">
+
+                            <div class="col-md-6 col-sm-6">
                                 <label name="categoria" for="inputOpcoes" class="form-label ">Categoria</label>
-                                <div class="col-md-6">
-                                    <select id="inputOpcoes" class="form-select inputOpcoes required" required
-                                        onchange="categoriaValidate()">
-                                        <option value="" selected></option>
-                                        <option>Babá Cuidados com Crianças</option>
-                                        <option>Cozinha e Culinária</option>
-                                        <option>Cuidados com Animais de Estimação</option>
-                                        <option>Jardinagem</option>
-                                        <option>Limpeza</option>
-                                        <option>Manutenção Residencial</option>
-                                        <option>Motorista Particular</option>
-                                        <option>Organização de Espaços</option>
-                                        <option>Serviços de Lavanderia</option>
-                                        <option>Tutoria Acadêmica</option>
-                                        <option>Outro</option>
+                                <select id="inputOpcoes" class="form-select inputOpcoes required" required
+                                    onchange="categoriaValidate()" onblur="categoriaValidate()">
+                                    <option value="" selected></option>
+                                    <option>Babá Cuidados com Crianças</option>
+                                    <option>Cozinha e Culinária</option>
+                                    <option>Cuidados com Animais de Estimação</option>
+                                    <option>Jardinagem</option>
+                                    <option>Limpeza</option>
+                                    <option>Manutenção Residencial</option>
+                                    <option>Motorista Particular</option>
+                                    <option>Organização de Espaços</option>
+                                    <option>Serviços de Lavanderia</option>
+                                    <option>Tutoria Acadêmica</option>
+                                    <option>Outro</option>
 
-                                    </select>
-
-                                </div>
-                                <span class="span-required">
+                                </select>
+                                <span class="span-required" id="mensagemErroOpcoes">
                                     <p>É necessário escolher uma opção</p>
                                 </span>
                             </div>
-                            <div class="col-md-12 mt-2 col-sm-6 "> <!-- confirma senha -->
+
+
+                            <div class="col-md-12 mt-2 col-sm-4 "> <!-- descricao -->
+
                                 <label for="inputDescricaoServico" class="form-label ">Descrição do serviço</label>
                                 <textarea name="descricao" class="form-control required" id="inputDescricaoServico"
-                                    cols="25" rows="4" required oninput="descricaoValidate()"></textarea>
-                                <span class="span-required">
+                                    cols="25" rows="4" required oninput="descricaoValidate()"
+                                    onblur="descricaoValidate()"></textarea>
+                                <span class="span-required" id="mensagemErroDescricao">
                                     <p>A descrição deve ter no mínimo 20 caracteres</p>
                                 </span>
                             </div>
 
-                            <div class="col-md-6 mt-3 ml-1">
+                            <div class="col-md-6 mt-3 ">
                                 <label for="inputFotos" class="form-label">Fotos(opcional)</label>
                                 <input name="foto" type="file" class="form-control" id="inputFotos" accept="image/*"
                                     style="resize: vertical;" rows="4" required />
                             </div>
 
+                            <div class="col-md-6 mt-3">
+                                <label for="inputDisponibilidade" class="form-label">Horário estimado</label>
+                                <input name="disponibilidade" type="time" class="form-control required"
+                                    id="inputDisponibilidade" required style="width: 100%;"
+                                    onchange="disponibilidadeValidate()" onblur="disponibilidadeValidate()" />
+                                <span class="span-required" id="mensagemErroDisponinbilidade">
+                                    <p>Horário minímo 30min</p>
+                                </span>
+                            </div>
 
-                            <div class="row mt-3">
-                                <!-- Coluna do endereço à esquerda -->
-                                <div class="col-md-4 col-sm-6">
+
+                            <div class="col-md-6 mt-1">
+                                <label for="inputData" class="form-label">Data de previsão</label>
+                                <input name="data" type="date" class="form-control required" id="inputData"
+                                    pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" max="9999-12-31" required
+                                    onchange="dataValidate()" onblur="dataValidate()" />
+                                <span class="span-required" id="mensagemErroData">
+                                    <p></p>
+                                </span>
+                            </div>
+
+
+
+                            <div class="col-md-6 mt-1">
+                                <label for="inputPreco" class="form-label">Valor</label>
+                                <input name="preco" type="text" class="form-control required" id="inputPreco"
+                                    step="000.01" placeholder="R$:" style="width: 100%" required
+                                    onblur="precoValidate()" oninput="precoValidate()" />
+                                <span class="span-required" id="mensagemErroPreco">
+                                    <p>Mensagem de validação para valor</p>
+                                </span>
+                            </div>
+
+
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+
                                     <label for=" " class="form-label">Endereço</label>
-
-
                                     <label for="inputLocal" class="txt-s txt-bold color-gray mb-0 mt-0">(Rua)</label>
                                     <input class="input mb-3 form-control required" placeholder="Escreva seu endereco"
                                         autocomplete="address-line1" id="inputLocal" style="resize: vertical;" rows="2"
-                                        oninput="enderecoValidate()">
-                                    <span class="span-required">
+                                        oninput="enderecoValidate()" onblur="enderecoValidate()">
+                                    <span class="span-required" id="mensagemErroEndereco">
                                         <p>O endereço deve ter no mínimo 3 caracteres</p>
                                     </span>
 
@@ -207,105 +317,59 @@
                                         <label class="txt-s txt-bold color-gray mb3 md-1">Estado / Região</label>
                                         <input class="input mb12 form-control" placeholder="Estado / Região"
                                             autocomplete="address-level1" id="stateInput" readonly>
+
+
+                                        <div class="col-md-1">
+                                            <!-- Visual confirmation map -->
+                                            <div id="minimap-container" class="none h240 w360 relative mt18"></div>
+                                        </div>
+
+                                        <div id="validation-msg" class="mt24 txt-m txt-bold none"></div>
                                     </div>
-                                </div>
-
-
-
-                                <!-- Coluna dos demais elementos à direita -->
-                                <div class="row mt-8 ml-5">
-                                    <div class="col-md-12" onchange="disponibilidadeValidate()">
-                                        <div class="row mb-8 ml-0">
-                                            <div class="col-md-12 col-sm-12 ml-5">
-                                                <label for="inputDisponibilidade" class="form-label">Horário
-                                                    estimado</label>
-                                                <input name="disponibilidade" type="time" class="form-control required"
-                                                    id="inputDisponibilidade" required style="width: 100%;" />
-                                                <span class="span-required">
-                                                    <p>Horário minímo 30min</p>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                        <div class="row mb-8 ml-0">
-                                            <div class="col-md-12 col-sm-12 ml-5 mt-3">
-                                                <label for="inputData" class="form-label">Data de previsão</label>
-                                                <input name="data" type="date" class="form-control required"
-                                                    id="inputData" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" max="9999-12-31"
-                                                    required onchange="dataValidate()" />
-                                                <span class="span-required">
-                                                    <p>Insira uma data posterior à atual</p>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                        <div class="row mt-8 ml-0 mt-1">
-                                            <div class="col-md-12 col-sm-12 ml-5">
-                                                <label for="inputPreco" class="form-label">Valor</label>
-                                                <input name="preco" type="text" class="form-control required"
-                                                    id="inputPreco" step="000.01" placeholder="R$:" style="width: 100%"
-                                                    required onblur="precoValidate()" />
-                                                <span class="span-required">
-                                                    <p>Mensagem de validação para valor</p>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="col-md-2">
-                                    <!-- Visual confirmation map -->
-                                    <div id="minimap-container" class="none h240 w360 relative mt18"></div>
                                 </div>
                             </div>
-                            <div id="validation-msg" class="mt24 txt-m txt-bold none"></div>
 
-                            <div class="container mt-5">
-                                <div class="row">
-                                    <div class="col"></div>
-                                    <div class="col-md-5">
-                                        <div class="form-check">
-                                            <input name="contato" class="form-check-input" type="checkbox"
-                                                id="gridCheck" />
-                                            <label class="form-check-label" for="gridCheck">
-                                                Mostrar meu número de contato
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-auto">
-                                        <button id="postarBtn" type="submit" class="btn btn-primary">
+
+
+                            <div class="col-md-6 mt-5">
+                                <div class="form-check">
+                                    <input name="contato" class="form-check-input" type="checkbox" id="gridCheck" />
+                                    <label class="form-check-label" for="gridCheck">
+                                        Mostrar meu número de contato
+                                    </label>
+
+
+
+                                    <div class="col-md-12 mt-5 pt-4">
+                                        <button id="postarBtn" type="submit" class="btn btn-primary" href="listademandascandidato.html">
                                             Postar
                                         </button>
                                     </div>
                                 </div>
                             </div>
+
                         </form>
-
-
-
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 
-    <footer class="text-light mt-5" style="
-        background-color: rgb(58, 50, 77);
-       
-        bottom: 0;
-        width: 100%;
-        margin-top: 20px;
-      ">
-        <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important">
-            <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="" style="width: 100px" /></a>
+
+    <footer class="text-light mt-1" style="background-color: rgb(58, 50, 77); position: fixed; bottom: 0; width: 100%;">
+        <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
+            <a class="navbar-brand" href="index.html"><img src="../img/Logo.png" alt="" style="width: 100px;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav">
                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="ajuda.html">Ajuda</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" id="termosDeUso">Termos de Uso</a>
                     </li>
@@ -316,213 +380,25 @@
             </div>
         </div>
         <div class="container text-center mt-1">
-            <p>Contato: contato@fromhome.com<br />Telefone: (11) 1234-5678</p>
+            <p>Contato: contato@fromhome.com<br>Telefone: (11) 1234-5678</p>
         </div>
-        <p class="text-center small">
-            &copy; 2023 FromHome. Todos os direitos reservados.
-        </p>
+        <p class="text-center small">&copy; 2023 FromHome. Todos os direitos reservados.</p>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/modais.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://api.mapbox.com/search-js/v1.0.0-beta.18/web.js" defer></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.js"></script>
     <script src="server.js"></script>
-
-</body>
-
-</html>
-    <script> //para validar o formulario
-        const form = document.querySelector('.row.g-3');
-        const campos = document.querySelectorAll('.required');
-        const span = document.querySelectorAll('.span-required');
-
-
-
-        function setError(index) {
-            campos[index].style.border = '2px solid #ff0000';
-            span[index].style.display = 'block';
-        }
-
-        function removeError(index) {
-            campos[index].style.border = '2px solid #652b77 ';
-            span[index].style.display = 'none';
-        }
-
-
-        //validar os campos
-
-        //nome
-        function nameValidate() {
-            if (campos[0].value.length < 4) {
-                setError(0);
-                return false;
-            }
-            else {
-                removeError(0);
-                return true;
-            }
-
-        }
-
-
-        //categoria
-        function categoriaValidate() {
-            const selectElement = document.getElementById('inputOpcoes');
-            const selectedOption = selectElement.options[selectElement.selectedIndex].value;
-
-            if (selectedOption === '') {
-                console.log('Você não selecionou nada');
-                setError(1);
-                return false;
-            } else {
-                console.log('Você selecionou: ' + selectedOption);
-                removeError(1);
-                return true;
-            }
-        }
-
-        // Adicionando um ouvinte de evento para escutar o clique no menu de opções
-        document.getElementById('inputOpcoes').addEventListener('click', () => {
-            const selectedOption = document.getElementById('inputOpcoes').value;
-            if (selectedOption === '') {
-                console.log('Você não selecionou nada');
-                setError(1);
-            }
-        });
-
-        // Adicionando um ouvinte de evento para reverter a borda quando o usuário interagir novamente com o select
-
-
-        function descricaoValidate() {
-            if (campos[2].value.length < 20) {
-                setError(2);
-                return false;
-            }
-            else {
-                removeError(2);
-                return true;
-            }
-
-        }
-
-
-
-        function enderecoValidate() {
-            const enderecoIndex = 3; // Índice correspondente ao campo de endereço
-            if (campos[enderecoIndex].value.length < 4) {
-
-                setError(enderecoIndex);
-                return false;
-            } else {
-                removeError(enderecoIndex);
-                return true;
-            }
-        }
-
-
-
-
-
-        function disponibilidadeValidate() {
-            const disponibilidadeIndex = 4; // Índice correspondente ao campo de horário estimado
-            const valor = campos[disponibilidadeIndex].value;
-
-            // Convertendo o valor para um objeto Date
-            const timeValue = new Date(`2000-01-01T${valor}`);
-
-            // Criando um objeto Date representando 30 minutos após a meia-noite
-            const thirtyMinutesAfterMidnight = new Date(`2000-01-01T00:30:00`);
-
-            // Verificando se o valor é maior ou igual a 30 minutos após a meia-noite
-            if (timeValue.getTime() < thirtyMinutesAfterMidnight.getTime()) {
-                console.log('O horário deve ser maior que 00:30');
-                setError(disponibilidadeIndex);
-                return false;
-            } else {
-                removeError(disponibilidadeIndex);
-                return true;
-            }
-        }
-
-        function dataValidate() {
-            const dataIndex = 5; // Índice correspondente ao campo de data
-            const inputDate = document.getElementById('inputData');
-            const valor = inputDate.value;
-
-            // Obtendo a data e hora atual
-            const dataAtual = new Date();
-
-            // Convertendo o valor para um objeto Date
-            const dataSelecionada = new Date(`${valor}T00:00:00`);
-
-            // Ajustando o valor para garantir o formato desejado (DD/MM/YYYY)
-            const formattedDate = `${dataSelecionada.getFullYear()}-${String(dataSelecionada.getMonth() + 1).padStart(2, '0')}-${String(dataSelecionada.getDate()).padStart(2, '0')}`;
-
-            // Definindo o valor ajustado de volta no campo
-            inputDate.value = formattedDate;
-
-            // Verificando se a data selecionada é posterior à data atual
-            if (dataSelecionada <= dataAtual) {
-                console.log('A data deve ser posterior à data atual');
-                setError(dataIndex);
-                return false;
-            } else {
-                removeError(dataIndex);
-                return true;
-            }
-        }
-
-
-
-
-        function precoValidate() {
-            const precoIndex = 6; // Índice correspondente ao campo de preço
-            const inputPreco = campos[precoIndex];
-
-            // Obter o valor atual do campo sem remover formatação
-            const valorAtual = inputPreco.value;
-
-            // Verificar se o valor atual já contém uma vírgula
-            const contemVirgula = valorAtual.includes(',');
-
-            // Remover qualquer formatação de moeda antes de converter para número
-            const valorStr = valorAtual.replace(/[^\d,]/g, '');
-
-            // Verificar se a string contém notação científica
-            const isScientificNotation = valorStr.toLowerCase().includes('e');
-
-            // Se não for notação científica, converter para número
-            const valorNumerico = isScientificNotation ? 0 : parseFloat(valorStr.replace(',', '.'));
-
-            if (isNaN(valorNumerico) || valorNumerico <= 0) {
-                console.log('O valor deve ser maior que zero');
-                setError(precoIndex);
-                return false;
-            } else {
-                removeError(precoIndex);
-
-                // Atualizar o valor do campo sem formatação durante a entrada
-                inputPreco.value = valorNumerico.toFixed(2);
-
-                // Adicionar ",00" ao valor para garantir duas casas decimais com vírgula
-                const valorFormatado = contemVirgula
-                    ? valorNumerico.toLocaleString('pt-BR', {
-                        minimumFractionDigits: 2,
-                        maximumFractionDigits: 2,
-                    })
-                    : valorNumerico.toFixed(2).replace('.', ',');
-
-                // Atualizar o valor do campo com a versão formatada
-                inputPreco.value = valorFormatado;
-                return true;
-            }
-        }
-
-        // Adicionar um ouvinte de evento 'blur' para chamar precoValidate quando o foco é retirado do campo
-        document.getElementById('inputPreco').addEventListener('blur', precoValidate);
+    
+  
 
     
+
+    <script>
         const ACCESS_TOKEN = 'pk.eyJ1Ijoid2FuZXNzYWNyaXN0aW5hIiwiYSI6ImNscHBmeDN3bDBwNXoyanBwNDd1NHdjbWoifQ.mn9RiaWKROJGkiLQynhltg';
 
         let autofillCollection;
@@ -646,7 +522,303 @@
         }
 
 
-     
+
+
+    </script>
+
+    <script> //para validar o formulario
+        const form = document.querySelector('.row.g-3');
+        const campos = document.querySelectorAll('.required');
+        const span = document.querySelectorAll('.span-required');
+
+
+
+        function setError(index) {
+            campos[index].style.border = '2px solid #ff0000';
+            span[index].style.display = 'block';
+        }
+
+        function removeError(index) {
+            campos[index].style.border = '2px solid #652b77 ';
+            span[index].style.display = 'none';
+        }
+
+
+
+
+
+        //validar os campos
+
+        function nameValidate() {
+            const usernameInput = document.getElementById("inputNomeServico");
+            const mensagemErroUsername = document.getElementById("mensagemErroNome");
+
+            const setError = (errorMessage) => {
+                usernameInput.style.border = '2px solid #ff0000';
+                mensagemErroUsername.style.display = 'block';
+                mensagemErroUsername.textContent = errorMessage;
+            };
+
+            const removeError = () => {
+                usernameInput.style.border = '2px solid #652b77';
+                mensagemErroUsername.style.display = 'none';
+            };
+
+            if (usernameInput.value.trim().length === 0) {
+                setError("Este campo é obrigatório.");
+                return false;
+            } else if (usernameInput.value.length < 4) {
+                setError("O nome deve ter pelo menos 4 caracteres.");
+                return false;
+            } else {
+                removeError();
+                return true;
+            }
+        }
+
+
+        //categoria
+        function categoriaValidate() {
+            const selectElement = document.getElementById('inputOpcoes');
+            const selectedOption = selectElement.options[selectElement.selectedIndex].value;
+
+            if (selectedOption === '') {
+                console.log('Você não selecionou nada');
+                setError(inputOpcoes, mensagemErroOpcoes, 'Campo obrigatório');
+                return false;
+            } else {
+                console.log('Você selecionou: ' + selectedOption);
+                removeError(inputOpcoes, mensagemErroOpcoes,);
+                return true;
+            }
+        }
+
+
+        function setError(element, errorMessageElement, errorMessage) {
+            element.classList.add('error');
+            errorMessageElement.style.display = 'block';
+            element.style.border = '2px solid #ff0000';
+            errorMessageElement.textContent = errorMessage;
+            console.log('Erro: Implemente a lógica para exibir um erro aqui.');
+        }
+
+        function removeError(element, errorMessageElement) {
+            element.classList.remove('error');  // Remova a classe de erro
+            errorMessageElement.style.display = 'none';
+            console.log('Removendo erro: Implemente a lógica para remover o erro aqui.');
+        }
+
+
+        // Adicionando um ouvinte de evento para reverter a borda quando o usuário interagir novamente com o select
+
+        function descricaoValidate() {
+            const usernameInput = document.getElementById("inputDescricaoServico");
+            const mensagemErroUsername = document.getElementById("mensagemErroDescricao");
+
+            const setError = (errorMessage) => {
+                usernameInput.style.border = '2px solid #ff0000';
+                mensagemErroUsername.style.display = 'block';
+                mensagemErroUsername.textContent = errorMessage;
+            };
+
+            const removeError = () => {
+                usernameInput.style.border = '2px solid #652b77';
+                mensagemErroUsername.style.display = 'none';
+            };
+
+            if (usernameInput.value.trim().length === 0) {
+                setError("Este campo é obrigatório.");
+                return false;
+            } else if (usernameInput.value.length < 20) {
+                setError("A descrição deve ter no mínimo 20 caracteres");
+                return false;
+            } else {
+                removeError();
+                return true;
+            }
+        }
+
+
+
+        function enderecoValidate() {
+            const usernameInput = document.getElementById("inputLocal");
+            const mensagemErroUsername = document.getElementById("mensagemErroEndereco");
+
+            const setError = (errorMessage) => {
+                usernameInput.style.border = '2px solid #ff0000';
+                mensagemErroUsername.style.display = 'block';
+                mensagemErroUsername.textContent = errorMessage;
+            };
+
+            const removeError = () => {
+                usernameInput.style.border = '2px solid #652b77';
+                mensagemErroUsername.style.display = 'none';
+            };
+
+            if (usernameInput.value.trim().length === 0) {
+                setError("Este campo é obrigatório.");
+                return false;
+            } else if (usernameInput.value.length < 4) {
+                setError("o endereço deve ter no mínimo 4 caracteres");
+                return false;
+            } else {
+                removeError();
+                return true;
+            }
+        }
+
+
+
+
+        document.getElementById('inputDisponibilidade').addEventListener('focusout', disponibilidadeValidate);
+
+        function disponibilidadeValidate() {
+            const inputDisponibilidade = document.getElementById('inputDisponibilidade');
+            const mensagemErroDisponibilidade = document.getElementById('mensagemErroDisponinbilidade');
+            const valor = inputDisponibilidade.value;
+
+            // Verificar se o valor é vazio
+            if (valor.trim() === '') {
+                console.log('Campo obrigatório');
+                setError(inputDisponibilidade, mensagemErroDisponibilidade, 'Campo obrigatório');
+                return false;
+            } else {
+                removeError(inputDisponibilidade, mensagemErroDisponibilidade);
+                return true;
+            }
+        }
+
+        function setError(element, errorMessageElement, errorMessage) {
+            element.classList.add('error');
+            errorMessageElement.style.display = 'block';
+            element.style.border = '2px solid #ff0000';
+            errorMessageElement.textContent = errorMessage;
+            console.log('Erro: Implemente a lógica para exibir um erro aqui.');
+        }
+
+        function removeError(element, errorMessageElement) {
+            element.classList.remove('error');  // Remova a classe de erro
+            errorMessageElement.style.display = 'none';
+            console.log('Removendo erro: Implemente a lógica para remover o erro aqui.');
+        }
+
+
+        function dataValidate() {
+            console.log('Função dataValidate chamada.');
+            const inputData = document.getElementById('inputData');
+            const mensagemErroData = document.getElementById('mensagemErroData');
+            const valor = inputData.value;
+
+            // Verifica se a data selecionada foi preenchida
+            if (valor === '') {
+                console.log('Campo de data selecionada não preenchido');
+                setError(inputData, mensagemErroData, 'Campo obrigatório');
+                return false;
+            }
+
+            // Obtendo a data e hora atual
+            const dataAtual = new Date();
+
+            // Convertendo o valor para um objeto Date
+            const dataSelecionada = new Date(valor);
+
+            console.log('Data atual:', dataAtual);
+            console.log('Data selecionada:', dataSelecionada);
+
+            // Verificando se a data selecionada é posterior à data atual
+            if (dataSelecionada <= dataAtual) {
+                console.log('A data selecionada deve ser posterior à data atual');
+                setError(inputData, mensagemErroData, 'A data deve ser posterior à data atual');
+                return false;
+            }
+            removeError(inputData, mensagemErroData);
+
+            console.log('A data selecionada é válida.');
+            // Se chegou até aqui, a data selecionada é válida.
+            return true;
+        }
+
+        function removeError(element, errorMessageElement) {
+            element.classList.remove('error');  // Remova a classe de erro
+            errorMessageElement.style.display = 'none';
+            inputData.style.border = '1px solid #652b77'; // Oculte a mensagem de erro
+            console.log('Erro removido.');
+        }
+
+        function setError(element, errorMessageElement, errorMessage) {
+            element.classList.add('error');
+            errorMessageElement.style.display = 'block';
+            inputData.style.border = '2px solid #ff0000';
+            errorMessageElement.textContent = errorMessage;
+            console.log('Erro: Implemente a lógica para exibir um erro aqui.');
+        }
+
+        function precoValidate() {
+
+            const inputPreco = document.getElementById('inputPreco');
+            const mensagemErroPreco = document.getElementById('mensagemErroPreco');
+            const valor = inputPreco.value;
+
+            // Obter o valor atual do campo sem remover formatação
+            const valorAtual = inputPreco.value;
+
+
+            if (valorAtual.trim() === '') {
+                console.log('Campo obrigatório');
+                setError(inputPreco, mensagemErroPreco, 'Campo obrigatório');
+                return false;
+            }
+            // Verificar se o valor atual já contém uma vírgula
+            const contemVirgula = valorAtual.includes(',');
+
+            // Remover qualquer formatação de moeda antes de converter para número
+            const valorStr = valorAtual.replace(/[^\d,]/g, '');
+
+            // Verificar se a string contém notação científica
+            const isScientificNotation = valorStr.toLowerCase().includes('e');
+
+            // Se não for notação científica, converter para número
+            const valorNumerico = isScientificNotation ? 0 : parseFloat(valorStr.replace(',', '.'));
+
+            if (isNaN(valorNumerico) || valorNumerico <= 0) {
+                console.log('O valor deve ser maior que zero');
+                setError(inputPreco, mensagemErroPreco, 'O valor deve ser maior que zero');
+                return false;
+            } else {
+                removeError(inputPreco, mensagemErroPreco);
+
+                // Atualizar o valor do campo sem formatação durante a entrada
+                inputPreco.value = valorNumerico.toFixed(2);
+
+                // Adicionar ",00" ao valor para garantir duas casas decimais com vírgula
+                const valorFormatado = contemVirgula
+                    ? valorNumerico.toLocaleString('pt-BR', {
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2,
+                    })
+                    : valorNumerico.toFixed(2).replace('.', ',');
+
+                // Atualizar o valor do campo com a versão formatada
+                inputPreco.value = valorFormatado;
+                return true;
+            }
+        }
+        function removeError(element, errorMessageElement) {
+            element.classList.remove('error');  // Remova a classe de erro
+            errorMessageElement.style.display = 'none';
+            element.style.border = '1px solid #652b77'; // Oculte a mensagem de erro
+            console.log('Erro removido.');
+        }
+
+        function setError(element, errorMessageElement, errorMessage) {
+            element.classList.add('error');
+            errorMessageElement.style.display = 'block';
+            element.style.border = '2px solid #ff0000';
+            errorMessageElement.textContent = errorMessage;
+            console.log('Erro: Implemente a lógica para exibir um erro aqui.');
+        }
+        // Adicionar um ouvinte de evento 'blur' para chamar precoValidate quando o foco é retirado do campo
+        document.getElementById('inputPreco').addEventListener('blur', precoValidate);
 
     </script>
 
@@ -655,3 +827,6 @@
 
 
 
+</body>
+
+</html>
