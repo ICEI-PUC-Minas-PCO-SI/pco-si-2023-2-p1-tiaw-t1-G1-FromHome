@@ -61,5 +61,5 @@
 
 **Miriam Cristina Alves de Jesus** : front-end paginas, foco nas paginas de avaliacao e lista de perfil(ambas deram errado), subi o pitch inicial.
 
-**Wanessa Cristina Ribeiro de Paula**:
+**Wanessa Cristina Ribeiro de Paula**: Auxílio no front-end
 
