@@ -26,7 +26,15 @@
         }
         body {
     font-family: 'Poppins';
-}
+    padding-bottom: 120px;
+    }
+    .poppins-text {
+            font-family: 'Poppins', sans-serif;
+        }
+        h6 {
+        font-weight: bold; 
+        color: #801CEB;
+        }
     </style>
 </head>
 <body>
@@ -63,15 +71,29 @@
                 style="background-color: rgb(229, 216, 255); color: rgb(0, 0, 0); border: 3px;">
                 <a class="dropdown-item" href="perfilindividual.html">Perfil</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Sair</a>
+                <a class="dropdown-item" href="index.html">Sair</a>
             </div>
         </div>
     
     </header>
 
     <!-- Conteúdo principal da página -->
-    <div class="content" style="margin-bottom: 60px;">
-        <!-- conteúdo principal -->
+    <div class="content my-3 mx-auto" style="max-width: 800px; margin-bottom: 60px;">
+            <!-- conteúdo principal -->
+            <div class="content">
+                <div class="container">
+                    <div class="row mt-5 justify-content-center">
+                        <div class="text-center poppins-text mt-5 mb-5">
+                            <div class="col-12">
+                            <img src="../img/obrigada_fromhome.png" alt="Obrigada por utilizar a plataforma" class="img-fluid mw-100" style="max-width: 80%; height: 30%;">
+    
+                            <button type="button" class="btn btn-primary btn-lg d-block mx-auto mb-5" style="background-color: #801CEB" onclick="window.location.href='registroservicos.html'">
+                                Fazer Nova Demanda
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <div class="modal fade" id="confirmarPagamentoModal" tabindex="-1" role="dialog" aria-labelledby="confirmarPagamentoModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
             <div class="modal-dialog modal-lg" style="margin-top: 80px;">
               <div class="modal-content"  style="width: 100%; height: 100%;">
@@ -110,7 +132,7 @@
 
     <footer class="text-light mt-1" style="background-color: rgb(58, 50, 77); position: fixed; bottom: 0; width: 100%;">
         <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
-            <a class="navbar-brand" href="#"><img src="../img/Logo.png" alt="" style="width: 100px;"></a>
+            <a class="navbar-brand" href="index.html"><img src="../img/Logo.png" alt="" style="width: 100px;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -137,7 +159,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="modais.js"></script>
+    <script src="../js/modais.js"></script>
     <script>
         function avaliar(){
             window.location.href = "telaAvaliacaoCliente.html";
