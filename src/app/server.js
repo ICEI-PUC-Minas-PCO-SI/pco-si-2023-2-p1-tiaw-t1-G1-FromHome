@@ -4,6 +4,7 @@ const express = require("express")
 const crypto = require("crypto")
 const bcrypt = require("bcrypt")
 const path = require("path")
+const { request } = require("http")
 
 
 const Application = express()
@@ -53,6 +54,9 @@ function UserDataFromToken(Token) {
   return User.id && User || null
 }
 
+function ServiceFromIdentifier(Identifier) {
+  return JSONRouter.db.get("services").find((V) => V.service_id == Identifier)
+}
 
 Application.post("/api/account", (Request, Response) => {
   DBG(Request.body)
@@ -139,10 +143,58 @@ Application.post("/api/rate", (Request, Response) => {
   }
 })
 
+Application.use("/api/register_service", (Request, Response) => {
+  let User = UserDataFromToken((new cookies(Request, Response)).get("token"))
+  if (!User) { return Send403(Response) }
+  
+  JSONRouter.db.get("services").push({
+    ...Request.body,
+    service_id: crypto.createHash("sha256").update(`${User.id}|${Request.body.name}`).digest("hex"),
+    requester: User.id,
+    candidates: []
+  }).write()
+  Response.json({ success: true, message: "Serviço registrado com sucesso" })
+})
+
+Application.use("/api/list_services", (Request, Response) => {
+  let Services = []
+  let query = Request.query.query
+  if (query.length > 0) {
+    Services = JSONRouter.db.get("services").filter((V) => V.description.includes(query) || V.name.includes(query) || V .category.includes(query) )
+  }
+  else {
+    Services = JSONRouter.db.get("services")
+  }
+  
+  return Response.json(Services)
+})
+
+Application.use("/api/list_own_services", (Request, Response) => {
+  let User = UserDataFromToken((new cookies(Request, Response)).get("token"))
+  if (!User) { return Send403(Response) }
+
+  return Response.json(JSONRouter.db.get("services").filter((V) => V.requester == User.id))  
+})
+
+Application.use("/api/submit", (Request, Response) => {
+  let User = UserDataFromToken((new cookies(Request, Response)).get("token"))
+  if (!User) { return Send403(Response) } //  User.user_type != "prestador"
+  
+
+  let Service = ServiceFromIdentifier(Request.body.service_id)
+  Service.get("candidates").push(User.id).write()
+
+  return Response.sendStatus(200)
+})
+
+Application.use("/api/user", (Request, Response) => {
+  return Response.json(JSONRouter.db.get("users").filter((V) => V.id == Request.body.id))  
+})
+
 
 Application.use("/api", json_server.defaults())
 Application.use("/api", JSONRouter)
-
+/*
 Application.use((Request, Response, NextHandles) => {
   let Cookies = new cookies(Request, Response)
   if(["/", "/index.html", "/login.html", "/registroUsuario.html", "/escolhaFuncaoCadastro.html", "/escolhaFuncaoLogin.html"].find((V) => (V == Request.path))){
@@ -150,12 +202,12 @@ Application.use((Request, Response, NextHandles) => {
   }
   let User = UserDataFromToken(Cookies.get("token"))
   if(!User) Send403(Response)
-  if(User.user_type == "prestador" && ["/buscarVagas.html", "/confirmarpagamentocliente.html","/resultadopesquisa.html", "/servicoEmAndamento.html", "/telaAvaliacaoCliente.html"].find((V) => (V == Request.path))) return NextHandles();
-  else if(User.user_type == "contratante" && ["/confirmarpagamentocliente.html","/listaperfil.html", "/registroservicos.html","/telapesquisacliente.html", "/telaAvaliacaoPrestador.html"].find((V) => (V == Request.path))) return NextHandles();
+  DBG(Request.path)
+  if(User.user_type == "prestador" && ["/buscarVagas.html", "/confirmarpagamentocliente.html","/resultadopesquisa.html", "/servicoEmAndamento.html", "/telaAvaliacaoCliente.html","/listademandascandidato.html"].find((V) => (V == Request.path))) return NextHandles();
+  else if(User.user_type == "contratante" && ["/confirmarpagamentocliente.html","/listaperfil.html", "/registroservicos.html","/telapesquisacliente.html", "/telaAvaliacaoPrestador.html","/listademandacliente.html"].find((V) => (V == Request.path))) return NextHandles();
   else return Send403(Response)
 })
-
-
+*/
 Application.use(express.static(path.join(__dirname, "../public/pages")))
 Application.use("/pages", express.static(path.join(__dirname, "../public/pages")))
 
