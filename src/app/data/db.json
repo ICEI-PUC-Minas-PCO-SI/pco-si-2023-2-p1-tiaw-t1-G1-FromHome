@@ -173,6 +173,81 @@
       "city": "pso",
       "ratings": [],
       "id": 1702736171354
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "111111-02-22",
+      "password": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+      "username": "aaaa",
+      "gender": "female",
+      "email": "aaaa@aa.bc",
+      "phone": "213333333",
+      "address": "22",
+      "country": "4",
+      "state": "3",
+      "city": "5",
+      "ratings": [],
+      "id": 1702751672467
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "0555-01-15",
+      "password": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+      "username": "a",
+      "gender": "male",
+      "email": "a@b",
+      "phone": "a",
+      "address": "a",
+      "country": "aa",
+      "state": "a",
+      "city": "a",
+      "ratings": [],
+      "id": 1702754057218
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "0555-01-15",
+      "password": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+      "username": "a",
+      "gender": "male",
+      "email": "a@a.c",
+      "phone": "a",
+      "address": "a",
+      "country": "aa",
+      "state": "a",
+      "city": "a",
+      "ratings": [],
+      "id": 1702754077161
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "5555-05-05",
+      "password": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
+      "username": "b",
+      "gender": "male",
+      "email": "b@b.c",
+      "phone": "b",
+      "address": "b",
+      "country": "b",
+      "state": "b",
+      "city": "b",
+      "ratings": [],
+      "id": 1702755190335
+    },
+    {
+      "user_type": "contratante",
+      "birthdate": "1112-11-11",
+      "password": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
+      "username": "c",
+      "gender": "other",
+      "email": "c@c.c",
+      "phone": "c",
+      "address": "cc",
+      "country": "c",
+      "state": "cc",
+      "city": "c",
+      "ratings": [],
+      "id": 1702779260553
     }
   ],
   "tokens": [
@@ -205,46 +280,129 @@
       "id": 1702669558691
     },
     {
-      "token": "$2b$10$gVOUq0RAFwSoBiaoO.LNEepCAkkzkpU0Pb5LFQqZ0ROtxVhT0HnzC",
+      "token": "$2b$10$bJgcK0cLiyIF3mBxlkvQje7p9oEA3YMUjscilvSYzh7BQYDnY.r/.",
+      "id": 1702751672467
+    },
+    {
+      "token": "$2b$10$LgnY8Ty72AKe82XDx063kuSkZfwkdagRVX9Wv8maHRi/WxSTzyIDm",
+      "id": 1702754057218
+    },
+    {
+      "token": "$2b$10$cqOCeNd6jHVnLnOWGaIDEuYiae6yRI2ioT5KgtbUpY9Go4vJFmdAm",
+      "id": 1702755190335
+    },
+    {
+      "token": "$2b$10$4V9qGw2PZSdbKNmgPyMuVe70xnOQ61jR51/HQ8.vcLpPxsF7A3mGe",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$QciORUtdp3mQTiFmLftY5OYVYc/3J.bDSIm5vjQNhGaDOAErFYgSO",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$s/GPO7LKm60CGFFV7gyLTOpgREZWdJEKlVkDJwfRGDjJlTXDx3E4.",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$4hytcLiaDQIYdGFT0UunounAGVjCCp.P/b0TPGQRFDkg98EsdGN1e",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$2wmNiU590J9Tfdpaf5.T/Oox44InhhelQSw4IYNhYVcGONcRmS9yK",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$gCRQ/VRmA0.n0.UnrLvClO3jS.E/9cy/fKgND.sXeK.L4XhGbDJbO",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$Lh/b8Rfl92M7jVk6SY0Ft.jGMkDEKeD5QMRe3.aqeT1GM6xf7PKPC",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$CS88X3wTFu90qUcJI5duOuiBOOjDrArPChCI2Ty814BPONfBlRe/K",
       "id": 1702669630842
     },
     {
-      "token": "$2b$10$aMXLQp2n2slbpmFRJ0v5VOyZY8uZzuz4cTuoiqyv1romzbaV0wLya",
+      "token": "$2b$10$n3Gtwyj.KO.azua0kdcitOT0BWN1A8p76.X2ED1exrAf.cUziCJ3a",
+      "id": 1702669630842
+    },
+    {
+      "token": "$2b$10$78BcGCTkaY5iM0rTDoqRSuZP3Hb.WfoaDILtd1EdTru7KNc3d8vDy",
       "id": 1702669558691
     },
     {
-      "token": "$2b$10$q63PVfUzmbjEdj9GZFYyZeejM2Z5BKB7T9ul6e.uHOkHeEpSL/xt6",
-      "id": 1702669558691
+      "token": "$2b$10$uXyVdqcLV1OO4NMlYxUO1eJKl1UnBUKDW/7jsW81PFPIG1ZdGTS6S",
+      "id": 1702669630842
+    },
+    {
+      "token": "$2b$10$jH6eiy8GrMoZj14FGRjA1O0JVJqDbPWIlpM5O9l1C3R4sq/GpbfmC",
+      "id": 1702736171354
+    },
+    {
+      "token": "$2b$10$MdpdXXlEMysalpXIM0ptAu8QuvbSb9UbV8WAU.P7dK4GEOZkNp0T.",
+      "id": 1702779260553
+    },
+    {
+      "token": "$2b$10$o9foX4MK11t0nVFssdpCCeqfbSHYBlpgDXtQxwwSDc8fUl5P/LNo.",
+      "id": 1702669630842
+    },
+    {
+      "token": "$2b$10$Nop131UQ6o7l197AmXTMtO3haUmx7zDX6ZhI9sEiZBESzP83j9zxG",
+      "id": 1702669630842
+    },
+    {
+      "token": "$2b$10$Y5mDpGjpmOZlmgdXov/2N.OmqW/cyc9ORfWVuc4EHDY5CifStaUn.",
+      "id": 1702669630842
     }
   ],
-  "servicos": [
+  "services": [
     {
-      "id": 1,
-      "nome": "Cuidador de idoso",
-      "categoria": "Outros",
-      "descricao": "Procuramos um profissional comprometido em fornecer um ambiente seguro e carinhoso para idosos",
-      "localizacao": "marimba",
-      "cidade": "Contagem",
-      "estado": "Minas Gerais",
-      "foto": "img/usuario.png",
-      "disponibilidade": "12:00",
-      "preco": 50,
-      "data": "2023-12-31",
-      "contato": true
+      "name": "teste",
+      "category": "Babá Cuidados com Crianças",
+      "description": "segundo teste de escriçao manual e de tags ",
+      "location": "56",
+      "city": "",
+      "region": "",
+      "photo": "C:\\fakepath\\Screenshot_2023-04-13-23-26-26-922-.jpg",
+      "availability": "18:21",
+      "price": "0.0000000000000000000005",
+      "date": "1555-11-11",
+      "contact": true,
+      "requester": 1702755190335,
+      "candidates": []
     },
     {
-      "nome": "Babá",
-      "categoria": "Babá Cuidados com Crianças",
-      "descricao": "Procuro alguém responsável para olhar meus 2 filhos em horário integral de 8hrs às 15hrs. Pago por dia",
-      "localizacao": "Rua Nova Canaã ",
-      "cidade": "Betim",
-      "estado": "Minas Gerais",
-      "foto": "",
-      "disponibilidade": "07:00",
-      "preco": "50,00",
-      "data": "2023-12-20",
-      "contato": true,
-      "id": 2
+      "name": "c",
+      "category": "Jardinagem",
+      "description": "omten",
+      "location": "Rua Varginha ",
+      "city": "Belo Horizonte",
+      "region": "Minas Gerais",
+      "photo": "",
+      "availability": "12:12",
+      "price": "1212",
+      "date": "1212-12-12",
+      "contact": false,
+      "service_id": "49911c31c594335e678c88f231ae8b489513ac338b390e612d8603cfdfa16661",
+      "requester": 1702779260553,
+      "candidates": []
+    },
+    {
+      "name": "c",
+      "category": "Jardinagem",
+      "description": "omten",
+      "location": "Rua Varginha ",
+      "city": "Belo Horizonte",
+      "region": "Minas Gerais",
+      "photo": "",
+      "availability": "12:12",
+      "price": "1212",
+      "date": "0012-12-12",
+      "contact": false,
+      "service_id": "49911c31c594335e678c88f231ae8b489513ac338b390e612d8603cfdfa16661",
+      "requester": 1702779260553,
+      "candidates": []
     }
   ]
 }
