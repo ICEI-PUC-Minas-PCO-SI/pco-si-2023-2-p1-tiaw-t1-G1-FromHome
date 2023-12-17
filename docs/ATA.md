@@ -59,7 +59,7 @@
 
 **João Vitor Silva Barbosa** : 
 
-**Miriam Cristina Alves de Jesus** : front-end paginas, foco nas paginas de avaliacao e lista de perfil(ambas deram errado), subi o pitch inicial.
+**Miriam Cristina Alves de Jesus** : front-end, atualizar kanbam, criação dos slides, subi o pitch inicial.
 
-**Wanessa Cristina Ribeiro de Paula**: Auxílio no front-end
+**Wanessa Cristina Ribeiro de Paula**: Auxílio no front-end, criação dos slides.
 
