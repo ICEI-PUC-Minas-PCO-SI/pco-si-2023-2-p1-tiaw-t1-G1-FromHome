@@ -93,7 +93,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 
 |ID     | Descrição do Requisito  |Prioridade | Artefato Criado | Criador            |
 |-------|-------------------------|-----------|-----------------|--------------------|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | Gustavo Miriam Wanessa 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| Definir o tempo que o sistema ficará no ar |  ALTA | 
 |RNF-004| O sistema deve conter criptografia de senhas |  ALTA | login.Html | Gustavo
