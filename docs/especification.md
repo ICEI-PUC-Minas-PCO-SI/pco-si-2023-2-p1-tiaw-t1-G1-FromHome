@@ -28,10 +28,8 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 - HTML e CSS
 - Bootstrap
 - JQuery(editor)
+- API'S: MapBox e Bcrypt
   
-**Back-end** 
-  - API'S: MapBox e Bcrypt
-  - JSon
 
 ## Personas
 
@@ -82,7 +80,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 |RF-006|  O sistema deve exibir uma tela de configuração | ALTA | index.html |  Gustavo |
 |RF-007|  O sistema deve exibir uma tela de login | ALTA | cadastro-noticia.html |  Gustavo |
 |RF-008| Usuários prestadores de serviço podem visualizar e se candidatar a vagas | ALTA | listademandacandidato.html | Wanessa |
-|RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | listademandacliente.html| Wanessa |
+|RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | listademandacliente.html| Wanessa | Miriam
 |RF-010| Usuários prestadores de serviço podem realizar a avaliação do contratante | ALTA | telaAvaliacaoCliente.html | Miriam |
 |RF-011| Usuários contratantes de serviço podem realizar a avaliação do prestador | ALTA | telaAvaliacaoPrestador.html | Miriam |
 |RF-012| O sistema deve exibir uma tela de confirmar pagamentos | ALTA | confirmar pagamento.html |
