@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Ajuda</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
     <style>
         /* Estilos personalizados para o cabeçalho fixo */
         .fixed-header {
@@ -49,26 +53,25 @@
             width: 100%;
         }
         body{
-            font-family: "Poppins";
+            
             padding-bottom: 120px;
-            font-size: 1em; /* Defina a fonte base */
+            font-size: 1em; 
         }
         h1, h2, h3, h4, h5 {
-        font-size: 2em; /* Exemplo de tamanho de fonte para cabeçalhos */
+        font-size: 2em; 
         }
 
         p {
-        font-size: 1em; /* Exemplo de tamanho de fonte para parágrafos */
-        }
-        
-        h1 {
-        font-weight: bold; 
+        font-size: 1em; 
         }
         h6 {
         font-weight: bold; 
         color: #801CEB;
         }
-      
+        .poppins-text 
+            {
+            font-family: 'Poppins', sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -92,16 +95,16 @@
                     <img src="img/foto_perfil.jpg" alt="Sua Foto de Perfil" class="rounded-circle" width="40" height="40">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown" style="background-color: rgb(229, 216, 255); color: rgb(0, 0, 0); border: 3px;">
-                    <a class="dropdown-item" href="#">Perfil</a>
+                    <a class="dropdown-item" href="perfilindividual.html">Perfil</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Sair</a>
+                    <a class="dropdown-item" href="index.html">Sair</a>
                 </div>
             </div>
 
     </header>
 
   <!-- Conteúdo principal da página -->
-<div class="content" style="font-family: 'Poppins';">
+<div class="content poppins-text" style="font-family: 'Poppins';">
     <div class="container-fluid">
         <header class="text-center mt-5">
             <h1>Ajuda</h1>
@@ -109,42 +112,46 @@
 
         <div class="row mt-4">
             <div class="col-md-6">
-                <h2>Criar conta:</h2>
+                <h5>Criar conta:</h5>
                 <p>No menu superior clique em Cadastre-se, escolha uma das duas opções, preencha os campos do registro do usuário, clique em registrar, ok, faça seu login.</p>
             </div>
             <div class="col-md-6">
                 <h2>Fazer login:</h2>
-                <p>Clique em login, escreva seu email e sua senha, clique em entrar. Caso não tenha conta, clique em Cadastre-se aqui.</p>
+                <p>Clique em login, escolha se é prestador ou contratante. Escreva seu email e sua senha, clique em entrar. Caso não tenha conta, clique em Cadastre-se aqui.</p>
             </div>
        
     
         <div class="col-md-6">
-            <h2>Editar informações:</h2>
-            <h6>Perfil:</h6>
-            <p>Após ter feito seu login, clique na imagem superior ao lado direito. No menu lateral clique em perfil, onde estiver escrito "editar perfil" clique e edite o campo que deseja.(só é possível editar os campos com esta mensagem). Clique em salvar. Pronto! Seu perfil foi editado!</p>
+            <h5>Navegação</h5>
+            <h6>Contratante:</h6>
+            <p>No cabeçalho há tres opções: Sobre, Suas Demandas e Criar Demanda.<br>
+            Sobre: você será redirecionado para a página principal.<br>
+            Suas Demandas: você será irá para tela que contém vagas para se candidatar. <br>
+            Criar Demanda: você poderá criar um novo serviço. </p>
+            <h6>Prestador:</h6>
+            <p>No cabeçalho há tres opções: Sobre,Vagas e Criar Demanda.<br>
+            Sobre: você será redirecionado para a página principal.<br>
+            </p>
+            <h5>Editar informações:</h5>
             <h6>Registrar Serviços:</h6>
             <p>Caso deseja alterar algum registro de serviço, volte para a página e atualize as informações que deseja mudar.</p>
-            <h6>Avaliação:</h6>
-            <p>Voce não é obrigado a avaliar o profissional, nós pedimos esta gentiliza para filtrarmos a seleção de profssionais.(O avaliado não tem acesso a pessoa que o avaliou, fique tranquilo!).
-                <br>Se quiser alterar alguma avaliação va no perfil da pessoa e clique na quantidade de estrelas desejaadas.</p>
         </div>
     
         <div class="col-md-6 mb-3 mb-md-0">
-            <h2>Uso da aplicação:</h2>
+            <h5>Uso da aplicação:</h5>
             <p>Caso tenha dúvidas a respeito dos Termos de Uso, basta clicar em  Termos de Uso ao lado de Ajuda no rodapé.</p>
-
-            <h2>Outras dúvidas:</h2>
+            <h5>Políticas de Privacidade:</h5>
+            <p>Caso tenha dúvidas a respeito das Politicas de Privacidade, basta clicar em Politicas de Privacidade ao lado do Termos de Uso no rodapé.</p>
+            <h5>Outras dúvidas:</h5>
             <p>Caso tenha dúvidas que não estejam nestes tópicos, entre em contato conosco, email: <a href="mailto:someone@example.com?subject=Questions" class="text-purple" style="text-decoration: none; color:#801CEB;font-size: 16px;" title=""><strong>contato@fromhome.com</strong></a>, telefone: (11) 1234-5678.</p>
     
-            <h2>Políticas de Privacidade:</h2>
-            <p>Caso tenha dúvidas a respeito das Politicas de Privacidade, basta clicar em Politicas de Privacidade ao lado do Termos de Uso no rodapé.</p>
         </div>
     </div>
     </div>
 </div>
         <footer class="text-light" style="background-color: rgb(58, 50, 77); position: fixed; bottom: 0; width: 100%;">
             <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
-                <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="" style="width: 100px;"></a>
+                <a class="navbar-brand" href="index.html"><img src="img/Logo.png" alt="" style="width: 100px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -173,7 +180,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="server.js"></script>
-        <script src="modais.js"></script>
-        <srcipt src="perfil.js"></srcipt>
+        <script src="../js/modais.js"></script>
+        
 </body>
 </html>
