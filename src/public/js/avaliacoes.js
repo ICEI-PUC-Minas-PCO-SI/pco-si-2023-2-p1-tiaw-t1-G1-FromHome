@@ -1,4 +1,5 @@
 //cliente
+
 function processarDadosContratante(contratanteId) {
     $.ajax({
         type: "GET",
