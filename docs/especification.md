@@ -81,8 +81,8 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 |RF-005| O sistema deve exibir uma tela de apresentação | ALTA | index.html |  Gustavo |
 |RF-006|  O sistema deve exibir uma tela de configuração | ALTA | index.html |  Gustavo |
 |RF-007|  O sistema deve exibir uma tela de login | ALTA | cadastro-noticia.html |  Gustavo |
-|RF-008| Usuários prestadores de serviço podem visualizar e se candidatar a vagas | ALTA | resultadopesquisa.html | Wanessa |
-|RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | resultadopesquisacliente.html| Wanessa |
+|RF-008| Usuários prestadores de serviço podem visualizar e se candidatar a vagas | ALTA | listademandacandidato.html | Wanessa |
+|RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | listademandacliente.html| Wanessa |
 |RF-010| Usuários prestadores de serviço podem realizar a avaliação do contratante | ALTA | telaAvaliacaoCliente.html | Miriam |
 |RF-011| Usuários contratantes de serviço podem realizar a avaliação do prestador | ALTA | telaAvaliacaoPrestador.html | Miriam |
 |RF-012| O sistema deve exibir uma tela de confirmar pagamentos | ALTA | confirmar pagamento.html |
