@@ -152,14 +152,14 @@
             </div>
             <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 g-4">
                 <div class="col-md-6 mb-3 mb-md-0">
-                    <img id="imagemProfissional" class="img-fluid" alt="Figura Profissional">
+                    <img id="imagemPrestador" class="img-fluid" alt="Figura Profissional">
                 </div>
                 <div class="col-md-6 mb-3 mb-md-0">
-                    <h4 class="nome-text " id="nomeProfissional" style="color:black;"></h4>
+                    <h4 class="nome-text " id="nomePerfilPrestador" style="color:black;"></h4>
                     <p class="descricao-text" id="descricaoCategoria"></p>
                 </div>
             </div>
-            <div class="avaliacao" id="avaliacaoProfissionalSection">
+            <div class="avaliacao" id="avaliacaoPrestadorSection">
             </div>
                 <div>
                     <button type="submit" class="btn button-primary" id="enviarAvaliacao" onclick="buscarVaga()" >Enviar</button>
@@ -195,14 +195,14 @@
     </footer>
 
     <script>
-        var starC = document.querySelectorAll('.starC-icon');
+        var starC = document.querySelectorAll('.starPre-icon');
         document.addEventListener('click', function (e) {
-            var classStarC = e.target.classList;
-            if (!classStar.contains('ativo')) {
-                starC.forEach(function (starC) {
-                    starC.classList.remove('ativo');
+            var classStarPre = e.target.classList;
+            if (!classStarPre.contains('ativo')) {
+                starPre.forEach(function (starPre) {
+                    starPre.classList.remove('ativo');
                 });
-                classStarC.add('ativo');
+                classStarPre.add('ativo');
                 console.log(e.target.getAttribute('data-avaliacao'));
             }
         });
