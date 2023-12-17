@@ -15,7 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,400;1,500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="tabelaDeRegistro.css" />
+ 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 
@@ -329,7 +329,9 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="server.js"></script>
 
+</body>
 
+</html>
     <script> //para validar o formulario
         const form = document.querySelector('.row.g-3');
         const campos = document.querySelectorAll('.required');
@@ -346,17 +348,6 @@
             campos[index].style.border = '2px solid #652b77 ';
             span[index].style.display = 'none';
         }
-
-
-
-
-
-
-
-
-
-
-
 
 
         //validar os campos
@@ -531,9 +522,7 @@
         // Adicionar um ouvinte de evento 'blur' para chamar precoValidate quando o foco é retirado do campo
         document.getElementById('inputPreco').addEventListener('blur', precoValidate);
 
-    </script>
-
-    <script>
+    
         const ACCESS_TOKEN = 'pk.eyJ1Ijoid2FuZXNzYWNyaXN0aW5hIiwiYSI6ImNscHBmeDN3bDBwNXoyanBwNDd1NHdjbWoifQ.mn9RiaWKROJGkiLQynhltg';
 
         let autofillCollection;
@@ -623,87 +612,46 @@
             document.addEventListener("DOMContentLoaded", () => {
                 const form = document.forms.checkoutForm;
 
-                const button = document.querySelector("#postarBtn");
-const nameInput = document.querySelector("#inputNomeServico");
-const opcoesInput = document.querySelector("#inputOpcoes");
-const LocalInput = document.querySelector("#inputLocal");
-const cidadeInput = document.querySelector("#cityInput");
-const estadoInput = document.querySelector("#stateInput");
-const FotoInput = document.querySelector("#inputFotos");
-const descricaoServicoInput = document.querySelector("#inputDescricaoServico");
-const disponibilidadeInput = document.querySelector("#inputDisponibilidade");
-const precoInput = document.querySelector("#inputPreco");
-const dataInput = document.querySelector("#inputData");
-const checkbox = document.querySelector("#gridCheck");
+                form.addEventListener("submit", async (e) => {
+                    e.preventDefault();
 
-button.addEventListener("click", async (e) => {
-  e.preventDefault();
 
-  const dados = {
-    name: nameInput.value,
-    category: opcoesInput.value,
-    description: descricaoServicoInput.value,
-    location: LocalInput.value,
-    city: cidadeInput.value,
-    region: estadoInput.value,
-    photo: FotoInput.value,
-    availability: disponibilidadeInput.value,
-    price: precoInput.value,
-    date: dataInput.value,
-    contact: checkbox.checked,
-  };
+                    // Obtendo dados do formulário
+                    const addressInput = document.getElementById("inputLocal");
+                    const cityInput = document.getElementById("cityInput");
+                    const stateInput = document.getElementById("stateInput");
 
-  await fetch("/api/register_service", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(dados),
-  });
-});
+                    // Obtendo dados da biblioteca Mapbox Search
+                    const address = autofillCollection.get("address-line1");
 
+                    // Criando um objeto com os dados do formulário
+                    const formData = {
+                        address: addressInput.value,
+                        city: cityInput.value,
+                        state: stateInput.value,
+                        mapboxAddress: address,
+                        // Adicione mais campos conforme necessário
+                    };
+
+                    // Convertendo para JSON
+                    const jsonData = JSON.stringify(formData);
+
+                    // Exibindo os dados em JSON no console (você pode enviar ou processar conforme necessário)
+                    console.log(jsonData);
+
+                    // Restante do seu código...
+                });
             }
             )
         }
 
 
-        function dataValidate() {
-            const dataIndex = 5; // Índice correspondente ao campo de data
-            const inputDate = document.getElementById('inputData');
-            const mensagemErroData = document.getElementById('mensagemErroData');
-            const valor = inputDate.value;
-
-            // Obtendo a data e hora atual
-            const dataAtual = new Date();
-
-            // Convertendo o valor para um objeto Date
-            const dataSelecionada = new Date(valor);
-
-            // Calculando a diferença em anos
-            const diffAnos = Math.floor((dataAtual - dataSelecionada) / (365.25 * 24 * 60 * 60 * 1000));
-
-            // Verificando se a idade é menor que 18 anos
-            if (diffAnos < 18) {
-                console.log('O usuário deve ter mais de 18 anos');
-                setError(inputDate, mensagemErroData);
-                return false;
-            } else {
-                removeError(inputDate, mensagemErroData);
-                return true;
-            }
-        }
-
-        function setError(inputElement, errorSpan) {
-            inputElement.style.border = '2px solid #ff0000';
-            errorSpan.style.display = 'block';  // Exibe a mensagem de erro
-        }
-
-        function removeError(inputElement, errorSpan) {
-            inputElement.style.border = '2px solid #652b77';
-            errorSpan.style.display = 'none';  // Oculta a mensagem de erro
-        }
+     
 
     </script>
-</body>
 
-</html>
+
+
+
+
+
