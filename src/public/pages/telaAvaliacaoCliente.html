@@ -9,8 +9,11 @@
     <title>Tela Avalilar Cliente</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
@@ -18,8 +21,8 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <style>
-        /* Estilos personalizados para o cabeçalho fixo */
-        .fixed-header {
+       /* Estilos personalizados para o cabeçalho fixo */
+       .fixed-header {
             position: fixed;
             top: 0;
             left: 0;
@@ -38,7 +41,7 @@
             max-width: 100%;
             height: auto;
         }
-        .star-icon {
+        .starPre-icon {
             list-style-type: none;
             border: 1px solid #fff;
             cursor: pointer;
@@ -46,19 +49,19 @@
             font-size: 40px;
         }
 
-        .star-icon::before {
+        .starPre-icon::before {
             content: "\2605";
         }
 
-        .star-icon.ativo ~ .star-icon::before {
+        .starPre-icon.ativo ~ .starPre-icon::before {
             content: "\2606";
         }
 
-        .avaliacao:hover .star-icon::before {
+        .avaliacao:hover .starPre-icon::before {
             content: "\2605";
         }
 
-        .star-icon:hover ~ .star-icon::before {
+        .starPre-icon:hover ~ .starPre-icon::before {
             content: "\2606";
         }
         .button-primary {
@@ -73,12 +76,14 @@
             width: 100%;
         }
         body {
-            font-family: "Poppins";
-            font-weight: bold;
             padding-top: 100px;
             padding-bottom: 140px; /* Espaço para o footer */
             transition: padding-top 0.3s ease; 
             margin: 0;
+        }
+        .poppins-text 
+            {
+            font-family: 'Poppins', sans-serif;
         }
         h6 {
         font-weight: bold; 
@@ -119,7 +124,6 @@
         width: 100%; /* Ocupar a largura total */
     }
 }
-
     </style>
 </head>
 <body>
@@ -135,13 +139,13 @@
         <div class="collapse navbar-collapse justify-content-center" style="margin-right: 100px" id="navbarNav" id="navbarNav">
             <ul class="navbar-nav text-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="src/public/pages/index.html">Sobre</a>
+                    <a class="nav-link" href="index.html">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="src/public/pages/listademandacliente.html">Suas Demandas</a>
+                    <a class="nav-link" href="listademandacliente.html">Suas Demandas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="src/public/pages/registroservicos.html">Criar Demanda</a>
+                    <a class="nav-link" href="registroservicos.html">Criar Demanda</a>
                 </li>
             </ul>
         </div>
@@ -150,42 +154,41 @@
                     <img src="../img/foto_perfil.jpg" alt="Sua Foto de Perfil" class="rounded-circle img-fluid" width="40" height="40">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown" style="background-color: rgb(229, 216, 255); color: rgb(0, 0, 0); border: 3px;">
-                    <a class="dropdown-item" href="#">Perfil</a>
+                    <a class="dropdown-item" href="perfilindividual.html">Perfil</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Sair</a>
+                    <a class="dropdown-item" href="index.html">Sair</a>
                 </div>
             </div>
 
     </header>
 
    <!-- Conteúdo principal da página -->
-   <div class="content" style="margin-bottom: 60px">
+   <div class="content poppins-text" style="font-family: 'Poppins'; margin-bottom: 60px">
     <div class="container mt-4">
         <div class="text-center">
-            <h1 class="titulo"><b>Avalie sua experiência com</b></h1>
+            <h1 class="titulo">Avalie sua experiência com</h1>
             </div>
         <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 g-4">
             <div class="col-md-6 mb-3 mb-md-0">
-                <img id="imagemContratante" class="img-fluid" alt="Figura Cliente">
+                <img src="../img/MARIA_PRESTADORA.jpg" class="img-fluid" alt="Figura Cliente">
             </div>
             <div class="col-md-6 mb-3 mb-md-0">
-                <h4 class="nome-text " id="nomePerfilContratante" style="color:black;"></h4>
-                <p class="descricao-text" id="descricaoServicoSolicitado"></p>
+                <h4 class="nome-text " id="nomePerfilPrestador"> Maria</h4>
+                <p class="descricao-text" id="descricaoServicoCadastrado">Faço limpezas em apartamentos e casas(freelancer).</p>
             </div>
         </div>
-        <div class="avaliacao" id="avaliacaoContratanteSection">
-            <span class="starC-icon" data-value="1"></span>
-            <span class="starC-icon" data-value="2"></span>
-            <span class="starC-icon" data-value="3"></span>
-            <span class="starC-icon" data-value="4"></span>
-            <span class="starC-icon" data-value="5"></span>
+        <div class="avaliacao" id="avaliacaoPrestadorSection">
+            <span class="starPre-icon" data-value="1"></span>
+            <span class="starPre-icon" data-value="2"></span>
+            <span class="starPre-icon" data-value="3"></span>
+            <span class="starPre-icon" data-value="4"></span>
+            <span class="starPre-icon" data-value="5"></span>
              </div>
             <div>
-                <button type="button" class="btn button-primary"  id="enviarAvaliacaoCliente" onclick="perfilCliente()">Enviar</button>
+                <button type="button" class="btn button-primary"  id="enviarAvaliacaoPrestador" onclick="perfilPrestador()">Enviar</button>
             </div>
         </div>
     </div>
-
 
     <footer class="text-light mt-1" style="background-color: rgb(58, 50, 77); position: fixed; bottom: 0; width: 100%;">
         <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
@@ -215,29 +218,23 @@
     </footer>
 
     <script>
-        var starsC = document.querySelectorAll('.starC-icon');
-    
-        document.addEventListener('click', function (e) {
-            var classStarC = e.target.classList;
-            if (classStarC.contains('starC-icon')) {
-                const clickedValue = parseInt(e.target.dataset.value);
-    
-                // Remover a classe 'ativo' de todas as estrelas
-                starsC.forEach(starC => starC.classList.remove('ativo'));
-    
-                // Adicionar a classe 'ativo' às estrelas até o valor clicado
-                for (let i = 1; i <= clickedValue; i++) {
-                    starsC[i - 1].classList.add('ativo');
-                }
-    
-                // Log do número clicado (pode ser removido na versão final)
-                console.log('Número clicado:', clickedValue);
-            }
-        });
-    
-        function buscarVaga() {
-            window.location.href = "buscarVagas.html";
+       var starsPre = document.querySelectorAll('.avaliacao .starPre-icon');
+
+    document.addEventListener('click', function (e) {
+    var classStarPre = e.target.classList;
+    if (classStarPre.contains('starPre-icon')) {
+        const clickedValue = parseInt(e.target.dataset.value);
+
+        starsPre.forEach(starPre => starPre.classList.remove('ativo'));
+        e.target.classList.add('ativo');
+
+        console.log('Número clicado:', clickedValue);
         }
+    });
+
+function buscarVaga() {
+    window.location.href = "buscarVagas.html";
+}
     </script>
     
     </script>
