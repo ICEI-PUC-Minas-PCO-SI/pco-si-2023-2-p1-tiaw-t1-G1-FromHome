@@ -3,7 +3,7 @@ $(document).ready(function(){
     $("#loginForm").submit(function(event){
       event.preventDefault();
   
-      const formData = [$("#emailOrPhone").val(), $("#password").val()]
+      const formData = [localStorage.getItem("varFuncao"), $("#emailOrPhone").val(), $("#password").val()]
       
       //$("#rememberMe").val()
       $.ajax({
@@ -15,6 +15,7 @@ $(document).ready(function(){
           //$('#cadastroConcluidoMessage').text('Login realizado com sucesso!');
           //$('#confirmacaoModal').modal('show');
           console.log(response);
+          window.location = "/listademandascandidato.html"
         },
         error: function(error) {
           console.error(error);

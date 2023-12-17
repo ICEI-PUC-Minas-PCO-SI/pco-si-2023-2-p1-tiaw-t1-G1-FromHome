@@ -10,67 +10,432 @@
       "address": "666",
       "country": "landia",
       "state": "FU",
-      "city": "inferno",
+      "city": "inno",
       "ratings": [
         {
           "uid": 1702401343055,
           "rating": 69,
-          "reason": "riadnv"
+          "reason": "gonv"
         }
       ],
       "id": 1702401343055
+    },
+    {
+      "birthdate": "1212-02-21",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "Miriam",
+      "gender": "male",
+      "email": "miriam@gmail.com",
+      "phone": "31894389438",
+      "address": "Rua pão",
+      "country": "Brasil",
+      "state": "MG",
+      "city": "Contagem",
+      "ratings": [],
+      "id": 1702594122325
+    },
+    [
+      "miriam@gmaill.com",
+      "123456",
+      "on"
+    ],
+    [
+      "miriam@gmaill.com",
+      "123456",
+      "on"
+    ],
+    {
+      "birthdate": "1212-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "Emy",
+      "gender": "male",
+      "email": "emy@gmail.com",
+      "phone": "31987675643",
+      "address": "rua pinto",
+      "country": "Brasil",
+      "state": "MG",
+      "city": "camarões",
+      "ratings": [],
+      "id": 1702650882356
+    },
+    [
+      "emy@gmail.com",
+      "123456",
+      "on"
+    ],
+    {
+      "user_type": "prestador",
+      "birthdate": "2003-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "asdf",
+      "gender": "male",
+      "email": "joaovsbarbosa8@gmail.com",
+      "phone": "31987876564",
+      "address": "asdfsadf",
+      "country": "sadf",
+      "state": "asdf",
+      "city": "asdfsadf",
+      "ratings": [],
+      "id": 1702669558691
+    },
+    {
+      "user_type": "contratante",
+      "birthdate": "1212-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "asdfkjah'",
+      "gender": "male",
+      "email": "joaovsbarbosa8@gmail.com",
+      "phone": "23948239487293",
+      "address": "asdjjdsn",
+      "country": "Brasil",
+      "state": "HG",
+      "city": "asdisdnk",
+      "ratings": [],
+      "id": 1702669630842
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "2004-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "rafafa",
+      "gender": "male",
+      "email": "joaovsbarbosa8@gmail.com",
+      "phone": "31988667755",
+      "address": "asdfas",
+      "country": "asdf",
+      "state": "as",
+      "city": "asdf",
+      "ratings": [],
+      "id": 1702672703214
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "2004-12-12",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "rafa",
+      "gender": "male",
+      "email": "raffaa@gmail.com",
+      "phone": "3124343434",
+      "address": "gdsfr",
+      "country": "gfsdr",
+      "state": "sd",
+      "city": "sdfgr",
+      "ratings": [],
+      "id": 1702675657250
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "2005-12-12",
+      "password": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e",
+      "username": "SadBox",
+      "gender": "male",
+      "email": "sad@gmail.com",
+      "phone": "31987654635",
+      "address": "Gusst",
+      "country": "Piitn",
+      "state": "MG",
+      "city": "Contato",
+      "ratings": [],
+      "id": 1702681218098
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "2004-01-24",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "username": "Gustavo",
+      "gender": "male",
+      "email": "gustavom@gmail.com",
+      "phone": "31985382572",
+      "address": "sdljfasdlkfj",
+      "country": "Brasil",
+      "state": "kj",
+      "city": "fdlksj",
+      "ratings": [],
+      "id": 1702682201398
+    },
+    {
+      "id": 1702682201399
+    },
+    {
+      "id": 1702682201400
+    },
+    {
+      "user_type": "contratante",
+      "birthdate": "2004-12-12",
+      "password": "3ee63c72f8e379ca3e5b43156a2dd411e8d58256fe9444757f0d91df58b1f996",
+      "username": "Guxtaus",
+      "gender": "male",
+      "email": "gustavomedeiros.c451@gmail.com",
+      "phone": "31987654563",
+      "address": "pao",
+      "country": "pao",
+      "state": "pso",
+      "city": "pso",
+      "ratings": [],
+      "id": 1702736171354
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "111111-02-22",
+      "password": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+      "username": "aaaa",
+      "gender": "female",
+      "email": "aaaa@aa.bc",
+      "phone": "213333333",
+      "address": "22",
+      "country": "4",
+      "state": "3",
+      "city": "5",
+      "ratings": [],
+      "id": 1702751672467
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "0555-01-15",
+      "password": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+      "username": "a",
+      "gender": "male",
+      "email": "a@b",
+      "phone": "a",
+      "address": "a",
+      "country": "aa",
+      "state": "a",
+      "city": "a",
+      "ratings": [],
+      "id": 1702754057218
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "0555-01-15",
+      "password": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+      "username": "a",
+      "gender": "male",
+      "email": "a@a.c",
+      "phone": "a",
+      "address": "a",
+      "country": "aa",
+      "state": "a",
+      "city": "a",
+      "ratings": [],
+      "id": 1702754077161
+    },
+    {
+      "user_type": "prestador",
+      "birthdate": "5555-05-05",
+      "password": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
+      "username": "b",
+      "gender": "male",
+      "email": "b@b.c",
+      "phone": "b",
+      "address": "b",
+      "country": "b",
+      "state": "b",
+      "city": "b",
+      "ratings": [],
+      "id": 1702755190335
+    },
+    {
+      "user_type": "contratante",
+      "birthdate": "1112-11-11",
+      "password": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
+      "username": "c",
+      "gender": "other",
+      "email": "c@c.c",
+      "phone": "c",
+      "address": "cc",
+      "country": "c",
+      "state": "cc",
+      "city": "c",
+      "ratings": [],
+      "id": 1702779260553
     }
   ],
   "tokens": [
     {
       "token": "$2b$10$x/u3HeppGFuOiogGSECIau7S80uN3bgcYte0Cbyjstqs/Xu1LtSwK",
       "id": 1702401343055
+    },
+    {
+      "token": "$2b$10$gP1OulsAzB6ammPXO1kJDOG99i42Gy9zrqK1N1LGwyzPjujLJLVn2",
+      "id": 1702594122325
+    },
+    {
+      "token": "$2b$10$qerOgtosoGQ0oGXRvylmbOf.DJO4PYVqaFRJh4EHoOyX9juJv.dAO",
+      "id": 1702650882356
+    },
+    {
+      "token": "$2b$10$TDBelDv159Ucu9ic/F3TuOunCng/z2yiFnF.z.maNEykHTF04DvSW",
+      "id": 1702675657250
+    },
+    {
+      "token": "$2b$10$GLvp.4rRw8.pHq/Kpal9peiqlMhz8yiTVL6ra2FeZ70VUTrhgllvK",
+      "id": 1702681218098
+    },
+    {
+      "token": "$2b$10$FMQEUevJOurJGIleVHngqebzSb3FlJCMj80UB981JESHcOPrZG4nm",
+      "id": 1702682201398
+    },
+    {
+      "token": "$2b$10$zx9X6wV2.e/5dAdgzRsFqe1Y9Q7ufBDALxWr2Kw71LjA.TMdnqgOq",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$bJgcK0cLiyIF3mBxlkvQje7p9oEA3YMUjscilvSYzh7BQYDnY.r/.",
+      "id": 1702751672467
+    },
+    {
+      "token": "$2b$10$LgnY8Ty72AKe82XDx063kuSkZfwkdagRVX9Wv8maHRi/WxSTzyIDm",
+      "id": 1702754057218
+    },
+    {
+      "token": "$2b$10$cqOCeNd6jHVnLnOWGaIDEuYiae6yRI2ioT5KgtbUpY9Go4vJFmdAm",
+      "id": 1702755190335
+    },
+    {
+      "token": "$2b$10$4V9qGw2PZSdbKNmgPyMuVe70xnOQ61jR51/HQ8.vcLpPxsF7A3mGe",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$QciORUtdp3mQTiFmLftY5OYVYc/3J.bDSIm5vjQNhGaDOAErFYgSO",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$s/GPO7LKm60CGFFV7gyLTOpgREZWdJEKlVkDJwfRGDjJlTXDx3E4.",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$4hytcLiaDQIYdGFT0UunounAGVjCCp.P/b0TPGQRFDkg98EsdGN1e",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$2wmNiU590J9Tfdpaf5.T/Oox44InhhelQSw4IYNhYVcGONcRmS9yK",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$gCRQ/VRmA0.n0.UnrLvClO3jS.E/9cy/fKgND.sXeK.L4XhGbDJbO",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$Lh/b8Rfl92M7jVk6SY0Ft.jGMkDEKeD5QMRe3.aqeT1GM6xf7PKPC",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$CS88X3wTFu90qUcJI5duOuiBOOjDrArPChCI2Ty814BPONfBlRe/K",
+      "id": 1702669630842
+    },
+    {
+      "token": "$2b$10$n3Gtwyj.KO.azua0kdcitOT0BWN1A8p76.X2ED1exrAf.cUziCJ3a",
+      "id": 1702669630842
+    },
+    {
+      "token": "$2b$10$78BcGCTkaY5iM0rTDoqRSuZP3Hb.WfoaDILtd1EdTru7KNc3d8vDy",
+      "id": 1702669558691
+    },
+    {
+      "token": "$2b$10$uXyVdqcLV1OO4NMlYxUO1eJKl1UnBUKDW/7jsW81PFPIG1ZdGTS6S",
+      "id": 1702669630842
+    },
+    {
+      "token": "$2b$10$jH6eiy8GrMoZj14FGRjA1O0JVJqDbPWIlpM5O9l1C3R4sq/GpbfmC",
+      "id": 1702736171354
+    },
+    {
+      "token": "$2b$10$MdpdXXlEMysalpXIM0ptAu8QuvbSb9UbV8WAU.P7dK4GEOZkNp0T.",
+      "id": 1702779260553
+    },
+    {
+      "token": "$2b$10$o9foX4MK11t0nVFssdpCCeqfbSHYBlpgDXtQxwwSDc8fUl5P/LNo.",
+      "id": 1702669630842
+    },
+    {
+      "token": "$2b$10$Nop131UQ6o7l197AmXTMtO3haUmx7zDX6ZhI9sEiZBESzP83j9zxG",
+      "id": 1702669630842
+    },
+    {
+      "token": "$2b$10$Y5mDpGjpmOZlmgdXov/2N.OmqW/cyc9ORfWVuc4EHDY5CifStaUn.",
+      "id": 1702669630842
     }
   ],
-    "profissionais": [
-      {
-        "id": 1,
-        "nome": "Maria",
-        "descricao": "Busco trabalhos freelancer em casas de família.",
-        "fotoUrl": "img/MARIA_PRESTADORA.jpg",
-        "avaliacao": "3"
-      },
-      {
-        "id": 2,
-        "nome": "Roberta",
-        "descricao": "Procuro serviços para trabalhar com jardinagem.",
-        "fotoUrl": "img/prestador_2.PNG",
-        "avaliacao": 0
-      },
-      {
-        "id": 3,
-        "nome": "Fernanda",
-        "descricao": "Sou bábá a 15 anos, procuro uma familia com crianças eduacadas e felizes para que eu possa cuidar.",
-        "fotoUrl": "img/IMAGEM_BABA_3.jpg",
-        "avaliacao": 0
-      }
-    ],
-    "clientes": [
-      {
-        "id": 1,
-        "nome": "Augusto",
-        "descricaoServicoSolicitado": "Quero limpar meu apartamento",
-        "fotoUrl": "img/AUGUSTO_CLIENTE.png",
-        "avaliacao": "2"
-      },
-      {
-        "id": 2,
-        "nome": "Leticia",
-        "descricaoServicoSolicitado": "Busco uma baba para cuidar da minha filha e limpar minha casa.",
-        "fotoUrl": "img/LETICIA_CLIENTE.jpg",
-        "avaliacao": 0
-      },
-      {
-        "id": 3,
-        "nome": "Flavio",
-        "descricaoServicoSolicitado": "Procuro alguém que me faça companhia enquanto meu filho trabalha.",
-        "fotoUrl": "img/FLAVIO_CLIENTE.jpg",
-        "avaliacao": 0
-      }
-    ]
-  }
+  "services": [
+    {
+      "requester": 1702736171354,
+      "name": "prazer",
+      "category": "sextou",
+      "description": "sou rei e gostaria de uma rainha :D",
+      "location": "inferno",
+      "city": "queenfurs",
+      "region": "furrylandiry",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Marijuana.jpg/800px-Marijuana.jpg",
+      "availability": "todas",
+      "price": "50,00",
+      "date": "eu sei la",
+      "contact": "9 99 999 9999 69 621 e621",
+      "candidates": []
+    },
+    {
+      "name": "teste",
+      "category": "Babá Cuidados com Crianças",
+      "description": "segundo teste de escriçao manual e de tags ",
+      "location": "56",
+      "city": "",
+      "region": "",
+      "photo": "C:\\fakepath\\Screenshot_2023-04-13-23-26-26-922-.jpg",
+      "availability": "18:21",
+      "price": "0.0000000000000000000005",
+      "date": "1555-11-11",
+      "contact": true,
+      "requester": 1702755190335,
+      "candidates": []
+    },
+    {
+      "name": "cuidar do meu avô",
+      "category": "Limpeza",
+      "description": "matei meu avô preciso de uma faxineira pra tirar o sangue do chão",
+      "location": "Rua Pinto De Alpoim ",
+      "city": "Belo Horizonte",
+      "region": "Minas Gerais",
+      "photo": "",
+      "availability": "12:12",
+      "price": "111111",
+      "date": "0121-12-12",
+      "contact": false,
+      "service_id": "1f8a812f88e4b6a863c0e1e76f087b94acb99023464397ea0576698cf964b52a",
+      "requester": 1702669630842,
+      "candidates": [
+        1702669630842
+      ]
+    },
+    {
+      "name": "c",
+      "category": "Jardinagem",
+      "description": "omten",
+      "location": "Rua Varginha ",
+      "city": "Belo Horizonte",
+      "region": "Minas Gerais",
+      "photo": "",
+      "availability": "12:12",
+      "price": "1212",
+      "date": "1212-12-12",
+      "contact": false,
+      "service_id": "49911c31c594335e678c88f231ae8b489513ac338b390e612d8603cfdfa16661",
+      "requester": 1702779260553,
+      "candidates": []
+    },
+    {
+      "name": "c",
+      "category": "Jardinagem",
+      "description": "omten",
+      "location": "Rua Varginha ",
+      "city": "Belo Horizonte",
+      "region": "Minas Gerais",
+      "photo": "",
+      "availability": "12:12",
+      "price": "1212",
+      "date": "0012-12-12",
+      "contact": false,
+      "service_id": "49911c31c594335e678c88f231ae8b489513ac338b390e612d8603cfdfa16661",
+      "requester": 1702779260553,
+      "candidates": []
+    }
+  ]
+}
