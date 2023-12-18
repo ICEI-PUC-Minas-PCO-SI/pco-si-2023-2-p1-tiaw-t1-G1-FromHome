@@ -218,7 +218,13 @@
                                 <input type="date" class="form-control required" id="inputBirthdate" max="9999-12-31"
                                     required oninput="idadeValidate()" onblur="idadeValidate()">
                                 <span class="span-required" id="mensagemErroIdade">
-                                    <p>Campo obrigatório: O usuário deve ter mais de 18 anos</p>
+                                    <p>O usuário deve ter mais de 18 anos</p>
+                                </span>
+                                <span class="span-required" id="campoIncompleto">
+                                    <p>É necessario preencher todos os campos</p>
+                                </span>
+                                <span class="span-required" id="campoObrigatorio">
+                                    <p>Campo obrigatório</p>
                                 </span>
                             </div>
                             <div class="col-md-6"> <!-- genero -->
@@ -672,41 +678,84 @@
 
 
     function idadeValidate() {
-        const inputDate = document.getElementById('inputBirthdate');
-        const mensagemErroIdade = document.getElementById('mensagemErroIdade');
-        const valor = inputDate.value;
+            const inputDate = document.getElementById('inputBirthdate');
+            const mensagemErroIdade = document.getElementById('mensagemErroIdade');
+            const campoIncompleto = document.getElementById('campoIncompleto');
+            const campoObrigatorio = document.getElementById('campoObrigatorio');
+            const valor = inputDate.value;
 
-        // Verifica se a data de nascimento foi preenchida
-        if (valor === '') {
-            console.log('Campo de data de nascimento não preenchido');
-            setError(inputDate, mensagemErroIdade, 'Campo obrigatório');
-            return false;
+            // Adiciona manipuladores de eventos para foco e saída de foco
+            inputDate.addEventListener('focus', () => {
+                removeError(inputDate, campoObrigatorio);
+                removeError(inputDate, campoIncompleto);
+                removeError(inputDate, mensagemErroIdade);
+            });
+
+            const anoAtual = new Date().getFullYear();
+            const anoInserido = parseInt(valor.substring(0, 4), 10); // Extrai os 4 primeiros dígitos para garantir o ano correto
+
+            if (isNaN(anoInserido) || valor.length !== 10 || anoInserido < 1900 || anoInserido > anoAtual) {
+                console.log('Ano de nascimento inválido');
+                setError(inputDate, campoIncompleto, 'Ano inválido (preencher os 10 dígitos)');
+                return false;
+            }
+
+            inputDate.addEventListener('blur', () => {
+                validateInput();
+            });
+
+            // Função para validar o campo
+            function validateInput() {
+                // Verifica se a data de nascimento foi preenchida
+                if (valor === '') {
+                    console.log('Campo de data de nascimento não preenchido');
+                    setError(inputDate, campoObrigatorio, 'Campo obrigatório');
+                    return false;
+                }
+
+                // Obtendo a data e hora atual
+                const dataAtual = new Date();
+
+                // Convertendo o valor para um objeto Date
+                const dataSelecionada = new Date(valor);
+
+                console.log('Data de nascimento:', dataSelecionada);
+
+                // Calculando a diferença em anos
+                const diffAnos = Math.floor((dataAtual - dataSelecionada) / (365.25 * 24 * 60 * 60 * 1000));
+
+                console.log('Diferença de anos:', diffAnos);
+
+                // Verificando se a idade é menor que 18 anos
+                if (isNaN(dataSelecionada.getTime()) || diffAnos < 18) {
+                    console.log('Data de nascimento inválida ou o usuário deve ter mais de 18 anos');
+                    setError(inputDate, mensagemErroIdade, 'idade mínima é 18 anos');
+                    return false;
+                } else {
+                    removeError(inputDate, mensagemErroIdade);
+                    return true;
+                }
+            }
+
+
+            // Inicialmente, realiza a validação
+            validateInput();
         }
 
-        // Obtendo a data e hora atual
-        const dataAtual = new Date();
-
-        // Convertendo o valor para um objeto Date
-        const dataSelecionada = new Date(valor);
-
-        console.log('Data de nascimento:', dataSelecionada);
-
-        // Calculando a diferença em anos
-        const diffAnos = Math.floor((dataAtual - dataSelecionada) / (365.25 * 24 * 60 * 60 * 1000));
-
-        console.log('Diferença de anos:', diffAnos);
-
-        // Verificando se a idade é menor que 18 anos
-        if (diffAnos < 18) {
-            console.log('O usuário deve ter mais de 18 anos');
-            setError(inputDate, mensagemErroIdade, 'Idade mínima é 18 anos');
-            return false;
-        } else {
-            removeError(inputDate, mensagemErroIdade);
-            return true;
+        function removeError(element, errorMessageElement) {
+            element.classList.remove('error');  // Remova a classe de erro
+            errorMessageElement.style.display = 'none';
+            element.style.border = '1px solid #652b77'; // Oculte a mensagem de erro
+            console.log('Erro removido.');
         }
-    }
 
+        function setError(element, errorMessageElement, errorMessage) {
+            element.classList.add('error');
+            errorMessageElement.style.display = 'block';
+            element.style.border = '2px solid #ff0000';
+            errorMessageElement.textContent = errorMessage;
+            console.log('Erro: Implemente a lógica para exibir um erro aqui.');
+        }
 
 
 
@@ -727,16 +776,31 @@
     }
 
 
+   
     function enderecoValidate() {
         const enderecoInput = document.getElementById("inputAddress");
         const mensagemErroEndereco = document.getElementById("mensagemErroEndereco");
 
         if (enderecoInput.value.length < 3) {
-            setError(enderecoInput, mensagemErroEndereco);
+            setError(enderecoInput, mensagemErroEndereco, 'Insira pelo menos 3 digitos');
             return false;
         } else {
             removeError(enderecoInput, mensagemErroEndereco);
             return true;
+        }
+        function removeError(element, errorMessageElement) {
+            element.classList.remove('error');  // Remova a classe de erro
+            errorMessageElement.style.display = 'none';
+            element.style.border = '1px solid #652b77'; // Oculte a mensagem de erro
+            console.log('Erro removido.');
+        }
+
+        function setError(element, errorMessageElement, errorMessage) {
+            element.classList.add('error');
+            errorMessageElement.style.display = 'block';
+            element.style.border = '2px solid #ff0000';
+            errorMessageElement.textContent = errorMessage;
+            console.log('Erro: Implemente a lógica para exibir um erro aqui.');
         }
     }
 
