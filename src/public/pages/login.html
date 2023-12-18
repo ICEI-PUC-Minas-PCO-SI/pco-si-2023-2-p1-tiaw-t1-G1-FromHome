@@ -323,6 +323,79 @@
 
 
 
+
+    <script>
+
+        const campos = document.querySelectorAll('.required');
+        const span = document.querySelectorAll('.span-required');
+
+        function emailValidate() {
+            const emailInput = document.getElementById("emailOrPhone");
+            const emailValue = emailInput.value.trim();
+            const emailRegex = /[-A-Za-z0-9!#$%&'*+/=?^_`{|}~]+(?:\.[-A-Za-z0-9!#$%&'*+/=?^_`{|}~]+)*@(?:[A-Za-z0-9](?:[-A-Za-z0-9]*[A-Za-z0-9])?\.)+[A-Za-z0-9](?:[-A-Za-z0-9]*[A-Za-z0-9])?/;
+
+            function setError(errorMessage) {
+                emailInput.style.border = '2px solid #ff0000';
+                document.getElementById("mensagemErroEmail").style.display = 'block';
+                document.getElementById("mensagemErroEmail").textContent = errorMessage;
+            }
+
+            function removeError() {
+                emailInput.style.border = '2px solid #652b77';
+                document.getElementById("mensagemErroEmail").style.display = 'none';
+            }
+
+            if (emailValue.length === 0) {
+                setError("Este campo é obrigatório.");
+                return false;
+            } else if (!emailRegex.test(emailValue)) {
+                setError("Por favor, forneça um e-mail válido.");
+                return false;
+            } else {
+                removeError();
+                return true;
+            }
+        }
+
+
+        function senhaValidate() {
+            const senhaInput = document.getElementById("password");
+            const senhaValue = senhaInput.value.trim();
+
+            const setError = (inputElement, errorMessage) => {
+                inputElement.style.border = '2px solid #ff0000';
+                const errorSpan = document.getElementById(inputElement.getAttribute('aria-describedby'));
+
+                if (errorSpan) {
+                    errorSpan.style.display = 'block';
+                    errorSpan.textContent = errorMessage;
+                }
+            };
+
+            const removeError = (inputElement) => {
+                inputElement.style.border = '2px solid #652b77';
+                const errorSpan = document.getElementById(inputElement.getAttribute('aria-describedby'));
+
+                if (errorSpan) {
+                    errorSpan.style.display = 'none';
+                }
+            };
+
+            if (senhaValue.length === 0) {
+                setError(senhaInput, "Este campo é obrigatório.");
+                return false;
+            } else {
+                removeError(senhaInput);
+                return true;
+            }
+        }
+
+
+
+    </script>
+
+
+
 </body>
 
 </html>

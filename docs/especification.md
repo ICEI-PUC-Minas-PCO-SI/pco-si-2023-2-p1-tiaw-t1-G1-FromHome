@@ -28,10 +28,8 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 - HTML e CSS
 - Bootstrap
 - JQuery(editor)
+- API'S: MapBox e Bcrypt
   
-**Back-end** 
-  - API'S: MapBox e Bcrypt
-  - JSon
 
 ## Personas
 
@@ -81,8 +79,8 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 |RF-005| O sistema deve exibir uma tela de apresentação | ALTA | index.html |  Gustavo |
 |RF-006|  O sistema deve exibir uma tela de configuração | ALTA | index.html |  Gustavo |
 |RF-007|  O sistema deve exibir uma tela de login | ALTA | cadastro-noticia.html |  Gustavo |
-|RF-008| Usuários prestadores de serviço podem visualizar e se candidatar a vagas | ALTA | resultadopesquisa.html | Wanessa |
-|RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | resultadopesquisacliente.html| Wanessa |
+|RF-008| Usuários prestadores de serviço podem visualizar e se candidatar a vagas | ALTA | listademandacandidato.html | Wanessa |
+|RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | listademandacliente.html| Wanessa | Miriam
 |RF-010| Usuários prestadores de serviço podem realizar a avaliação do contratante | ALTA | telaAvaliacaoCliente.html | Miriam |
 |RF-011| Usuários contratantes de serviço podem realizar a avaliação do prestador | ALTA | telaAvaliacaoPrestador.html | Miriam |
 |RF-012| O sistema deve exibir uma tela de confirmar pagamentos | ALTA | confirmar pagamento.html |
@@ -93,11 +91,13 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 
 |ID     | Descrição do Requisito  |Prioridade | Artefato Criado | Criador            |
 |-------|-------------------------|-----------|-----------------|--------------------|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | |Gustavo Miriam Wanessa 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| Definir o tempo que o sistema ficará no ar |  ALTA | 
-
-
+|RNF-004| O sistema deve conter criptografia de senhas |  ALTA | login.Html | Gustavo
+|RNF-005| O sistema deve conter "banco de dados" |  ALTA | DB.json | Gustavo
+|RNF-006| O sistema deve informar aos usuários os termos de uso |  ALTA | modais.js | Miriam
+|RNF-007| O sistema deve mostrar ao usuário as políticas de privacidade |  ALTA | modais.js | Miriam
 
 ## Restrições
 
