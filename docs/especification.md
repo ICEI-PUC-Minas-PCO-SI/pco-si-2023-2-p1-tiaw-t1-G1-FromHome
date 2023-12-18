@@ -72,7 +72,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado | Criador                          |
 |------|------------------------|------------|-----------------|----------------------------------|
-|RF-001| O sistema deve exibir o perfil do usuário | ALTA | lista de perfil.html | Gustavo |
+|RF-001| O sistema deve exibir o perfil do usuário | ALTA | perfil.individual.html | Wanessa |
 |RF-002| O sistema deve exibir uma lista dos profissionais | ALTA | lista de perfil.html | Gustavo |
 |RF-003| Usuários podem realizar o cadastro de serviço na plataforma | ALTA | registro de serviços.html | Wanessa |
 |RF-004| Usuários podem realizar o seu registro na plataforma | ALTA | index.html | Gustavo |
@@ -83,7 +83,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 |RF-009| Usuários contratantes de serviço podem visualizar e postar a vaga| ALTA | listademandacliente.html| Wanessa | Miriam
 |RF-010| Usuários prestadores de serviço podem realizar a avaliação do contratante | ALTA | telaAvaliacaoCliente.html | Miriam |
 |RF-011| Usuários contratantes de serviço podem realizar a avaliação do prestador | ALTA | telaAvaliacaoPrestador.html | Miriam |
-|RF-012| O sistema deve exibir uma tela de confirmar pagamentos | ALTA | confirmar pagamento.html |
+|RF-012| O sistema deve exibir uma tela de confirmar pagamentos | ALTA | confirmar pagamento.html | Míriam
 |RF-013| O sistema deve estar hospedado em um servidor web | ALTA |  | João Pedro |
 
 
@@ -95,7 +95,7 @@ Essa seção tem como objetivo apresentar o projeto(definição do problema e id
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| Definir o tempo que o sistema ficará no ar |  ALTA | 
 |RNF-004| O sistema deve conter criptografia de senhas |  ALTA | login.Html | Gustavo
-|RNF-005| O sistema deve conter "banco de dados" |  ALTA | DB.json | Gustavo
+|RNF-005| O sistema deve conter "banco de dados" |  ALTA | db.json | Gustavo
 |RNF-006| O sistema deve informar aos usuários os termos de uso |  ALTA | modais.js | Miriam
 |RNF-007| O sistema deve mostrar ao usuário as políticas de privacidade |  ALTA | modais.js | Miriam
 
