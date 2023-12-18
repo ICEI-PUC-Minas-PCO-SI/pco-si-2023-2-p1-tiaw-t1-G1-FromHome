@@ -85,7 +85,7 @@
                     <div class="row mt-5 justify-content-center">
                         <div class="text-center poppins-text mt-5 mb-5">
                             <div class="col-12">
-                            <img src="../img/obrigada_fromhome.png" alt="Obrigada por utilizar a plataforma" class="img-fluid mw-100" style="max-width: 80%; height: 30%;">
+                            <img src="../img/obrigada_fromhome.png" alt="Obrigada por utilizar a plataforma" class="img-fluid mw-100" style="max-width: 60%; height: 20%;">
     
                             <button type="button" class="btn btn-primary btn-lg d-block mx-auto mb-5" style="background-color: #801CEB" onclick="window.location.href='registroservicos.html'">
                                 Fazer Nova Demanda
@@ -94,40 +94,7 @@
                     </div>
                 </div>
             </div>
-        <div class="modal fade" id="confirmarPagamentoModal" tabindex="-1" role="dialog" aria-labelledby="confirmarPagamentoModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
-            <div class="modal-dialog modal-lg" style="margin-top: 80px;">
-              <div class="modal-content"  style="width: 100%; height: 100%;">
-                <div class="modal-header">
-                    <h1 class="text-center" style="font-size: 28px;"><b>Confirmar Pagamento</b></h1>
-                    <button type="button" class="close d-md-block"  data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                </div>
-                <div class="modal-body d-flex justify-content-center" style=" display: flex;  align-items: center;
-                justify-content: center;
-                min-height: 20px; ">
-                    
-                  <button type="button" class="btn btn-primary mx-2" data-dismiss="modal" style="background-color: #801CEB; font-size: 16px;" onclick="avaliar()">Confirmar</button>
-                    
-                    
-                  <button type="button" class="btn btn-secondary mx-2" data-dismiss="modal" style="background-color: transparent; color: #801CEB; border-color: #801CEB;
-                    font-size: 16px;">Cancelar</button>   
-                
-                </div>
-
-                <div class="modal-footer  d-flex justify-content-center">
-                  <h5 class="text-center" style="font-size: 16px;"><b>Teve algum problema com o pagamento? Entre em contato conosco através do nosso email</b></h5> 
-                  <h6 class= "email"><a href="mailto:someone@example.com?subject=Questions" class="text-purple" style="text-decoration: none; color:#801CEB;font-size: 16px;" title=""><strong>contato@fromhome.com</strong></a></h6> 
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          
-    </div>
-
-    </div>
-
     </div>
 
     <footer class="text-light mt-1" style="background-color: rgb(58, 50, 77); position: fixed; bottom: 0; width: 100%;">
@@ -161,13 +128,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="../js/modais.js"></script>
     <script>
-        function avaliar(){
-            window.location.href = "telaAvaliacaoCliente.html";
+        
+        const typee = localStorage.getItem("varFuncao");
+        if (typee == "prestador") {
+            window.location.href = "listademandascandidato.html";
         }
-        $(document).ready(function () {
-        // Abrir o modal automaticamente quando a página carregar
-        $("#confirmarPagamentoModal").modal("show");
-        });
+        else if(typee == "contratante"){
+            
+            window.location.href = "listademandacliente.html";
+            
+        }
+        
 
     </script>
 

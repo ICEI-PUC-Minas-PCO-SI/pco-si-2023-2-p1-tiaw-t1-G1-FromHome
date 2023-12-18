@@ -144,7 +144,7 @@
                     <a class="nav-link" href="index.html">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="listademandacliente.html">Suas Demandas</a>
+                    <a class="nav-link" href="listademandascandidato.html">Suas Demandas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="registroservicos.html">Criar Demanda</a>
@@ -187,11 +187,39 @@
             <span class="starC-icon" data-value="5"></span>
              </div>
             <div>
-                <button type="button" class="btn button-primary"  id="enviarAvaliacaoCliente" onclick="perfilCliente()">Enviar</button>
-            </div>
+                <button type="button" class="btn button-primary" id="enviarAvaliacaoPrestador" onclick="enviarAvaliacaoCliente()">Enviar</button>
+    </div>
         </div>
     </div>
+    <div class="modal fade" id="confirmarPagamentoModal" tabindex="-1" role="dialog" aria-labelledby="confirmarPagamentoModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-lg" style="margin-top: 80px;">
+          <div class="modal-content"  style="width: 100%; height: 100%;">
+            <div class="modal-header">
+                <h1 class="text-center" style="font-size: 28px;"><b>Confirmar Pagamento</b></h1>
+                <button type="button" class="close d-md-block"  data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style=" display: flex;  align-items: center;
+            justify-content: center;
+            min-height: 20px; ">
+                
+              <button type="button" class="btn btn-primary mx-2" data-dismiss="modal" style="background-color: #801CEB; font-size: 16px;" onclick="avaliar()">Confirmar</button>
+                
+                
+              <button type="button" class="btn btn-secondary mx-2" data-dismiss="modal" style="background-color: transparent; color: #801CEB; border-color: #801CEB;
+                font-size: 16px;">Cancelar</button>   
+            
+            </div>
 
+            <div class="modal-footer  d-flex justify-content-center">
+              <h5 class="text-center" style="font-size: 16px;"><b>Teve algum problema com o pagamento? Entre em contato conosco através do nosso email</b></h5> 
+              <h6 class= "email"><a href="mailto:someone@example.com?subject=Questions" class="text-purple" style="text-decoration: none; color:#801CEB;font-size: 16px;" title=""><strong>contato@fromhome.com</strong></a></h6> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <footer class="text-light mt-1" style="background-color: rgb(58, 50, 77); position: fixed; bottom: 0; width: 100%;">
         <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e9e4ff !important;">
@@ -220,30 +248,56 @@
         <p class="text-center small">&copy; 2023 FromHome. Todos os direitos reservados.</p>
     </footer>
 
-    <script>
-       var starsC = document.querySelectorAll('.avaliacao .starC-icon');
-
-    document.addEventListener('click', function (e) {
-    var classStarC = e.target.classList;
-    if (classStarC.contains('starC-icon')) {
-        const clickedValue = parseInt(e.target.dataset.value);
-
-        starsC.forEach(starC => starC.classList.remove('ativo'));
-        e.target.classList.add('ativo');
-
-        console.log('Número clicado:', clickedValue);
-        }
-    });
-
-
-    </script>
-    
+  
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="../js/modais.js"></script>
     <script src="../js/perfil.js"></script>
-    <script src="../js/avaliacoes.js"></script>
+    <script>
+        var starsPre = document.querySelectorAll('.avaliacao .starPre-icon');
+  
+  document.addEventListener('click', function (e) {
+      var classStarPre = e.target.classList;
+      if (classStarPre.contains('starPre-icon')) {
+          const clickedValue = parseInt(e.target.dataset.value);
+  
+          starsPre.forEach(starPre => starPre.classList.remove('ativo'));
+          e.target.classList.add('ativo');
+  
+          console.log('Número clicado:', clickedValue);
+      }
+  });
+  
+  function enviarAvaliacaoCliente() {
+      var estrelasSelecionadas = document.querySelectorAll('.avaliacao .starC-icon.ativo');
+      if (estrelasSelecionadas.length === 0) {
+          console.log('Por favor, selecione uma avaliação antes de enviar.');
+          return;
+      }
+  
+      
+      var valorAvaliacao = estrelasSelecionadas[0].dataset.value;
+  
+      console.log('Avaliação enviada com sucesso! Valor: ' + valorAvaliacao);
+  }
+      function redirecionamento() {
+              window.location.href = "redirecionamento.html";
+          }
+  
+          $(document).ready(function () {
+              
+              $("#enviarAvaliacaoPrestador").click(function () {
+                 
+                  $("#confirmarPagamentoModal").modal("show");
+              });
+  
+              $("#confirmarPagamentoModal button.btn-primary").click(function () {
+               
+                  window.location.href = "redirecionamento.html";
+              });
+          });
+          </script>
 </body>
 </html>

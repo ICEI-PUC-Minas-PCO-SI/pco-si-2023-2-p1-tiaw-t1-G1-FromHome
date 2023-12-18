@@ -337,18 +337,7 @@
    
     <script>
 
-        $("#loginForm").submit(function (event) {
-            event.preventDefault();
-            let Funcao = localStorage.getItem("varFuncao");
-            `alert = "Funcao"`;
-            if (Funcao == "prestador") {
-                window.location.href = "buscarVagas.html";
-            }
-            else {
-                window.location.href = "tamplate.html";
-            }
-        });
-
+      
 
     </script>
     <div style="height: 100px;"></div>
@@ -468,6 +457,7 @@
                 data: JSON.stringify({service_id: selected_album.service_id}),
                 contentType: 'application/json', 
                 success: function(response) {
+                    window.location.href = "servicoEmAndamento.html";
                 //$('#cadastroConcluidoMessage').text('Login realizado com sucesso!');
                 //$('#confirmacaoModal').modal('show');
                 console.log(response);
@@ -479,10 +469,10 @@
         })
         document.getElementById("spaghetti1").addEventListener("click", felicidade)
     </script>
+    <script>
 
-
-
-
+    </script>
 </body>
-<script src="barradepesquisademanda.js"></script>
+
 </html>
+
