@@ -256,7 +256,7 @@
                             <div class="col-md-6 mt-3 ">
                                 <label for="inputFotos" class="form-label">Fotos(opcional)</label>
                                 <input name="foto" type="file" class="form-control" id="inputFotos" accept="image/*"
-                                    style="resize: vertical;" rows="4" required />
+                                    style="resize: vertical;" rows="4"  />
                             </div>
 
                             <div class="col-md-6 mt-3">
@@ -299,7 +299,7 @@
 
                                     <label for=" " class="form-label">Endereço</label>
                                     <label for="inputLocal" class="txt-s txt-bold color-gray mb-0 mt-0">(Rua)</label>
-                                    <input class="input mb-3 form-control required" placeholder="Escreva seu endereco"
+                                    <input class="input mb-3 form-control required" required placeholder="Escreva seu endereco"
                                         autocomplete="address-line1" id="inputLocal" style="resize: vertical;" rows="2"
                                         oninput="enderecoValidate()" onblur="enderecoValidate()">
                                     <span class="span-required" id="mensagemErroEndereco">
