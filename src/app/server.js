@@ -60,7 +60,7 @@ function ServiceFromIdentifier(Identifier) {
 
 Application.post("/api/account", (Request, Response) => {
   DBG(Request.body)
-  const [ UserType, Identifier, Password, Username, Phone, Birthdate, Gender, Address, City, State, Country ] = Request.body
+  const [ UserType, Identifier, Password, Username, Phone, Birthdate, Gender, Address, City, State] = Request.body
 
   // Hashear a senha é sempre uma boa pratica, apesar que seria altamente beneficial se tivesse um salt na hash.
   let SaltedPassword = crypto.createHash("sha256").update(Password).digest("hex")
@@ -77,7 +77,6 @@ Application.post("/api/account", (Request, Response) => {
       phone: Phone,
 
       address: Address,
-      country: Country,
       state: State,
       city: City,
       
@@ -194,7 +193,7 @@ Application.use("/api/user", (Request, Response) => {
 
 Application.use("/api", json_server.defaults())
 Application.use("/api", JSONRouter)
-/*
+
 Application.use((Request, Response, NextHandles) => {
   let Cookies = new cookies(Request, Response)
   if(["/", "/index.html", "/login.html", "/registroUsuario.html", "/escolhaFuncaoCadastro.html", "/escolhaFuncaoLogin.html"].find((V) => (V == Request.path))){
@@ -203,11 +202,11 @@ Application.use((Request, Response, NextHandles) => {
   let User = UserDataFromToken(Cookies.get("token"))
   if(!User) Send403(Response)
   DBG(Request.path)
-  if(User.user_type == "prestador" && ["/buscarVagas.html", "/confirmarpagamentocliente.html","/resultadopesquisa.html", "/servicoEmAndamento.html", "/telaAvaliacaoCliente.html","/listademandascandidato.html"].find((V) => (V == Request.path))) return NextHandles();
-  else if(User.user_type == "contratante" && ["/confirmarpagamentocliente.html","/listaperfil.html", "/registroservicos.html","/telapesquisacliente.html", "/telaAvaliacaoPrestador.html","/listademandacliente.html"].find((V) => (V == Request.path))) return NextHandles();
+  if(User.user_type == "prestador" && ["/buscarVagas.html", "/confirmarpagamentocliente.html","/resultadopesquisa.html", "/servicoEmAndamento.html", "/telaAvaliacaoCliente.html","/listademandascandidato.html","/redirecionamento.html"].find((V) => (V == Request.path))) return NextHandles();
+  else if(User.user_type == "contratante" && ["/confirmarpagamentocliente.html","/listaperfil.html", "/registroservicos.html","/telapesquisacliente.html", "/telaAvaliacaoPrestador.html","/listademandacliente.html","/redirecionamento.html"].find((V) => (V == Request.path))) return NextHandles();
   else return Send403(Response)
 })
-*/
+
 Application.use(express.static(path.join(__dirname, "../public/pages")))
 Application.use("/pages", express.static(path.join(__dirname, "../public/pages")))
 
