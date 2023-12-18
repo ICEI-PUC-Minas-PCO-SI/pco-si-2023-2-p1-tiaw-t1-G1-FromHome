@@ -703,55 +703,50 @@
         }
 
 
-        function dataValidate() {
-            console.log('Função dataValidate chamada.');
-            const inputData = document.getElementById('inputData');
-            const mensagemErroData = document.getElementById('mensagemErroData');
-            const valor = inputData.value;
+        
+            function dataValidate() {
+                console.log('Função dataValidate chamada.');
+                const inputData = document.getElementById('inputData');
+                const mensagemErroData = document.getElementById('mensagemErroData');
+                const valor = inputData.value;
 
-            // Verifica se a data selecionada foi preenchida
-            if (valor === '') {
-                console.log('Campo de data selecionada não preenchido');
-                setError(inputData, mensagemErroData, 'Campo obrigatório');
-                return false;
+                // Verifica se a data selecionada foi preenchida
+                if (valor === '') {
+                    console.log('Campo de data selecionada não preenchido');
+                    setError(inputData, mensagemErroData, 'Campo obrigatório');
+                    return false;
+                }
+
+                // Obtendo a data e hora atual
+                const dataAtual = new Date();
+
+                // Convertendo o valor para um objeto Date
+                const dataSelecionada = new Date(valor);
+
+                console.log('Data atual:', dataAtual);
+                console.log('Data selecionada:', dataSelecionada);
+
+                // Verificando se a data selecionada é posterior à data atual
+                if (dataSelecionada <= dataAtual) {
+                    console.log('A data selecionada deve ser posterior à data atual');
+                    setError(inputData, mensagemErroData, 'A data deve ser posterior à data atual');
+                    return false;
+                }
+
+                // Verificando se a diferença em anos é menor ou igual a 3
+                const diffAnos = Math.floor((dataSelecionada - dataAtual) / (365.25 * 24 * 60 * 60 * 1000));
+                if (diffAnos > 3) {
+                    console.log('A diferença em anos deve ser no máximo 3');
+                    setError(inputData, mensagemErroData, 'A diferença em anos deve ser no máximo 3');
+                    return false;
+                }
+
+                removeError(inputData, mensagemErroData);
+
+                console.log('A data selecionada é válida.');
+                // Se chegou até aqui, a data selecionada é válida.
+                return true;
             }
-
-            // Obtendo a data e hora atual
-            const dataAtual = new Date();
-
-            // Convertendo o valor para um objeto Date
-            const dataSelecionada = new Date(valor);
-
-            console.log('Data atual:', dataAtual);
-            console.log('Data selecionada:', dataSelecionada);
-
-            // Verificando se a data selecionada é posterior à data atual
-            if (dataSelecionada <= dataAtual) {
-                console.log('A data selecionada deve ser posterior à data atual');
-                setError(inputData, mensagemErroData, 'A data deve ser posterior à data atual');
-                return false;
-            }
-            removeError(inputData, mensagemErroData);
-
-            console.log('A data selecionada é válida.');
-            // Se chegou até aqui, a data selecionada é válida.
-            return true;
-        }
-
-        function removeError(element, errorMessageElement) {
-            element.classList.remove('error');  // Remova a classe de erro
-            errorMessageElement.style.display = 'none';
-            inputData.style.border = '1px solid #652b77'; // Oculte a mensagem de erro
-            console.log('Erro removido.');
-        }
-
-        function setError(element, errorMessageElement, errorMessage) {
-            element.classList.add('error');
-            errorMessageElement.style.display = 'block';
-            inputData.style.border = '2px solid #ff0000';
-            errorMessageElement.textContent = errorMessage;
-            console.log('Erro: Implemente a lógica para exibir um erro aqui.');
-        }
 
         function precoValidate() {
 
