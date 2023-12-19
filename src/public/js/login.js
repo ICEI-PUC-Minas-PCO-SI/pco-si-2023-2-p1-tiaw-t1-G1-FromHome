@@ -15,16 +15,7 @@ $(document).ready(function(){
         //$('#cadastroConcluidoMessage').text('Login realizado com sucesso!');
         //$('#confirmacaoModal').modal('show');
         console.log(response);
-        let funcao= localStorage.getItem("varFuncao")
-        if (funcao == "prestador") {
-          window.location.href = "listademandascandidato.html";
-      }
-      else if(funcao == "contratante"){
-          
-          window.location.href = "listademandacliente.html";
-          
-      }
-       // window.location = "/listademandascandidato.html"
+        window.location = "/listademandascandidato.html"
       },
       error: function(error) {
         console.error(error);

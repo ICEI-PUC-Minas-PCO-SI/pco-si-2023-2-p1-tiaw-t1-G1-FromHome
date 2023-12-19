@@ -262,34 +262,6 @@
       "city": "Belo Horizonte",
       "ratings": [],
       "id": 1702856575695
-    },
-    {
-      "user_type": "contratante",
-      "birthdate": "1998-12-22",
-      "password": "c71129e9171f6fcba20041684a5d4342526e51c1e61fef1a9e3a6ee5adb05b6e",
-      "username": "Joao",
-      "gender": "male",
-      "email": "jpgdasilva@gmail.com",
-      "phone": "9999999999",
-      "address": "Rua B ",
-      "state": "Minas Gerais",
-      "city": "Contagem",
-      "ratings": [],
-      "id": 1702949445716
-    },
-    {
-      "user_type": "prestador",
-      "birthdate": "1998-12-22",
-      "password": "c71129e9171f6fcba20041684a5d4342526e51c1e61fef1a9e3a6ee5adb05b6e",
-      "username": "Joao",
-      "gender": "male",
-      "email": "jpgdasilva@gmail.com",
-      "phone": "9999999999",
-      "address": "Rua Baltasar Abadal ",
-      "state": "São Paulo",
-      "city": "São Paulo",
-      "ratings": [],
-      "id": 1702982345135
     }
   ],
   "tokens": [
@@ -412,26 +384,6 @@
     {
       "token": "$2b$10$qAJg1FYb/rxyt2L3rn1ND.kfT6uGMkJLl3WlzD8xaVU30QsfDzW3u",
       "id": 1702856575695
-    },
-    {
-      "token": "$2b$10$YS3sWQBdPdLUdnu1zln9neqzPoLtuzHviPzf8mqilfjdiOUeHWaBu",
-      "id": 1702949445716
-    },
-    {
-      "token": "$2b$10$ATOYNeJpByNa7rN9urM6De55y9rcBDHW3C5esnKd/vy15Dba6sM.O",
-      "id": 1702949445716
-    },
-    {
-      "token": "$2b$10$J2GnAQm75J1IDOWtn9AEyeQ2vheXYnjuiyEnv0gSYBzkjW27YSWjK",
-      "id": 1702949445716
-    },
-    {
-      "token": "$2b$10$RBhDM8iCMbREqV8lASyHYeRLR3rgWptnqW1TXIxD2WTq4U3r.GRuu",
-      "id": 1702982345135
-    },
-    {
-      "token": "$2b$10$Ksba6y5YF44l6.rPfSCDkuzPMj/E7KDojuUA0DUekBalrmbYiYB5m",
-      "id": 1702949445716
     }
   ],
   "services": [
