@@ -8,7 +8,7 @@ const { request } = require("http")
 
 
 const Application = express()
-const JSONRouter = json_server.router("./data/db.json")
+const JSONRouter = json_server.router("./db.json")
 const Port = process.env.PORT || 621;
 
 let DBG = console.log
