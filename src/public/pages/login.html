@@ -156,12 +156,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Sobre</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="listademandacliente.html">Suas Demandas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="registroservicos.html">Criar Demanda</a>
-                </li>
+             
             </ul>
         </div>
         <div class="nav-item dropdown ml-2">
@@ -211,7 +206,7 @@
                 </form>
 
                 <!-- Adicione a opção de cadastro -->
-                <p class="text-center mt-3">Não tem login? <a href="registroUsuario.html">Cadastre-se aqui</a></p>
+                <p class="text-center mt-3">Não tem login? <a href="escolhaFuncaoCadastro.html">Cadastre-se aqui</a></p>
             </div>
         </div>
     </div>
@@ -249,79 +244,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="../js/login.js"></script>
     <script src="../js/modais.js"></script>
-
-
-    <script>
-
-        const campos = document.querySelectorAll('.required');
-        const span = document.querySelectorAll('.span-required');
-
-        function emailValidate() {
-            const emailInput = document.getElementById("emailOrPhone");
-            const emailValue = emailInput.value.trim();
-            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-
-            function setError(errorMessage) {
-                emailInput.style.border = '2px solid #ff0000';
-                document.getElementById("mensagemErroEmail").style.display = 'block';
-                document.getElementById("mensagemErroEmail").textContent = errorMessage;
-            }
-
-            function removeError() {
-                emailInput.style.border = '2px solid #652b77';
-                document.getElementById("mensagemErroEmail").style.display = 'none';
-            }
-
-            if (emailValue.length === 0) {
-                setError("Este campo é obrigatório.");
-                return false;
-            } else if (!emailRegex.test(emailValue)) {
-                setError("Por favor, forneça um e-mail válido.");
-                return false;
-            } else {
-                removeError();
-                return true;
-            }
-        }
-
-
-        function senhaValidate() {
-            const senhaInput = document.getElementById("password");
-            const senhaValue = senhaInput.value.trim();
-
-            const setError = (inputElement, errorMessage) => {
-                inputElement.style.border = '2px solid #ff0000';
-                const errorSpan = document.getElementById(inputElement.getAttribute('aria-describedby'));
-
-                if (errorSpan) {
-                    errorSpan.style.display = 'block';
-                    errorSpan.textContent = errorMessage;
-                }
-            };
-
-            const removeError = (inputElement) => {
-                inputElement.style.border = '2px solid #652b77';
-                const errorSpan = document.getElementById(inputElement.getAttribute('aria-describedby'));
-
-                if (errorSpan) {
-                    errorSpan.style.display = 'none';
-                }
-            };
-
-            if (senhaValue.length === 0) {
-                setError(senhaInput, "Este campo é obrigatório.");
-                return false;
-            } else {
-                removeError(senhaInput);
-                return true;
-            }
-        }
-
-
-
-    </script>
-
-
 
 
     <script>
